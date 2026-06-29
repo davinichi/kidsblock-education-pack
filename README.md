@@ -1,8 +1,8 @@
-# KidsBlock Education Pack SDK v0.2
+# KidsBlock Education Pack SDK v0.3
 
 This repository contains tools and draft Education Packs for extending KidsBlock.
 
-## v0.2 focus
+## v0.3 focus
 
 - Confirmed KidsBlock device loader structure.
 - Added Analyzer v5 for nested device-folder checks.
