@@ -1,13 +1,12 @@
-# KidsBlock SDK v0.5
+# KidsBlock SDK v0.6
 
-This version fixes the v0.8 boards.txt encoding issue and adds a safer EP001 v0.9 upload alias test.
+This release adds Analyzer v7 for diagnosing the ESP32-C3 upload path.
 
-## Important
+Current status for EP001 XIAO ESP32C3:
 
-If v0.8 caused `invalid line format` or `Invalid FQBN`, run the safe restore first:
+- Device list: success
+- Block editor: success
+- Compile: success
+- Upload: still uses ESP32 upload target, causing `Wrong --chip argument`
 
-`packs/EP001_XIAO_ESP32C3/installer/restore_ep001_xiao_esp32c3_v0_8_safe.bat`
-
-After normal ESP32 compile behavior is restored, test EP001 v0.9:
-
-`packs/EP001_XIAO_ESP32C3/installer/install_ep001_xiao_esp32c3_v0_9.bat`
+Before running further upload experiments, restore v0.9 if it was installed.
