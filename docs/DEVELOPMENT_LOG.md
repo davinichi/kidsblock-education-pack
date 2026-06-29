@@ -14,3 +14,9 @@
 - Code generation: OK.
 - Compile: OK.
 - Upload: failed because upload still used ESP32 instead of ESP32-C3.
+
+
+## v0.5
+
+- Added safe restore for EP001 v0.8 boards.txt corruption.
+- Added EP001 v0.9 upload alias test using UTF-8 without BOM.
