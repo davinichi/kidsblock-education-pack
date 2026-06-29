@@ -1,0 +1,16 @@
+﻿KidsBlock Analyzer v8
+Generated: 06/29/2026 16:32:12
+
+Purpose: collect upload engine files from app.asar.unpacked, especially openblock-link.
+
+Install root candidates:
+  C:\KidsBlock Desktop exists=True
+
+ROOT=C:\KidsBlock Desktop
+resources exists=True
+app.asar.unpacked exists=True
+node_modules exists=True
+module openblock-link exists=False
+module openblock-resource exists=False
+
+Active external resources: C:\Users\user\AppData\Roaming\KidsBlock\Data\external-resources exists=True

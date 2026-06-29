@@ -1,32 +1,36 @@
 # Upload Analysis
 
-## Current issue
+## Finding
 
-Upload fails with:
+The uploaded `2.bundle.js` contained ESP32 device configuration with:
 
-```text
-This chip is ESP32-C3, not ESP32. Wrong --chip argument?
+```js
+const DIVECE_OPT = {
+  type: 'arduino',
+  fqbn: 'esp32:esp32:esp32'
+};
 ```
 
-This means the final upload command still uses ESP32 parameters even though the selected device is XIAO ESP32C3.
+Analyzer v7 confirmed that the installed Arduino core already includes:
 
-## v0.9 result
+```text
+XIAO_ESP32C3    esp32:esp32:XIAO_ESP32C3
+```
 
-v0.9 did not resolve the upload path. Compile still succeeds, but upload still uses ESP32.
+Therefore the remaining upload error is caused by the XIAO kit still passing the generic ESP32 FQBN.
 
-## Next step
+## Error
 
-Analyzer v7 collects:
+```text
+A fatal error occurred: This chip is ESP32-C3, not ESP32. Wrong --chip argument?
+```
 
-- active device and kit files
-- bundled ESP32 `boards.txt`
-- bundled ESP32 `platform.txt`
-- Arduino15 ESP32 packages
-- upload-related JavaScript references
-- arduino-cli board list and config
+## Fix target
 
-No modification is performed by Analyzer v7.
+Change the kit-level `DIVECE_OPT.fqbn` to:
 
-## v0.7 analysis target
+```text
+esp32:esp32:XIAO_ESP32C3
+```
 
-The remaining issue is not device registration or compilation. The upload command still uses ESP32 settings. Analyzer v8 collects `openblock-link` and related upload command source files so that the FQBN mapping can be patched at the correct layer.
+This version does not edit `boards.txt`.
