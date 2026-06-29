@@ -1,12 +1,10 @@
-# KidsBlock SDK v0.6
+# KidsBlock Education SDK v0.7
 
-This release adds Analyzer v7 for diagnosing the ESP32-C3 upload path.
+This version adds Analyzer v8 for collecting the actual upload engine files from `app.asar.unpacked`, especially `openblock-link`.
 
-Current status for EP001 XIAO ESP32C3:
+EP001 XIAO ESP32C3 status:
 
-- Device list: success
-- Block editor: success
-- Compile: success
-- Upload: still uses ESP32 upload target, causing `Wrong --chip argument`
-
-Before running further upload experiments, restore v0.9 if it was installed.
+- Device list: OK
+- Block screen: OK
+- Compile: OK
+- Upload: FQBN / upload engine mapping under investigation

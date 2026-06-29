@@ -1,0 +1,823 @@
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\7zip-bin\package.json
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\@abandonware\bluetooth-hci-socket\node_modules\usb\libusb\.private\wbs.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\@abandonware\bluetooth-hci-socket\node_modules\usb\libusb\.private\wbs_wince.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\@abandonware\bluetooth-hci-socket\node_modules\usb\libusb\INSTALL_WIN.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\dist\enums.js
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\dist\nodegit.js
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\dist\remote.js
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\node_modules\@szmarczak\http-timer\dist\source\index.js
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\node_modules\got\dist\source\utils\timed-out.js
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\node_modules\got\dist\source\normalize-arguments.js
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\node_modules\got\dist\source\request-as-event-emitter.js
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\node_modules\node-pre-gyp\lib\build.js
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\node_modules\node-pre-gyp\lib\clean.js
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\node_modules\node-pre-gyp\lib\configure.js
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\node_modules\node-pre-gyp\lib\install.js
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\utils\acquireOpenSSL.js
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\utils\discoverOpenSSLDistros.js
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\vendor\libgit2\deps\pcre\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\vendor\libgit2\src\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\vendor\libgit2\tests\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\vendor\libgit2\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\vendor\libssh2\src\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\vendor\libssh2\tests\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\app.asar.unpacked\node_modules\nodegit\vendor\libssh2\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\drivers\Arduino\license\libusb0\installer_license.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\drivers\CP210x\SLAB_License_Agreement_VCP_Windows.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\37Sensor_kit\37Sensor_kit\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\4WDRobot\4wdrobot\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\AIbot\AIbot\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Beetlebot\beetlebot\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Beetlebot_ESP32\beetlebot_esp32\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Codingbox\codingbox\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\CodingRobot\CodingRobot\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\EasyCoding\EasyCoding\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Eco-friendly house\eco-friendly house\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP32plus\ESP32plus\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP32S\ESP32S\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP32S3mini\ESP32S3mini\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP32_Codingbox\ESP32_Codingbox\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP8266\ESP8266\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\FoxBit\FoxBit\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\FrogRobot\frogrobot\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Inventor_kit\Inventor_kit\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Inventor_kit_ESP32\Inventor_kit_ESP32\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Keybot\keybot\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\KeyesPlus\keyesplus\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\KeyesSTEM\keyesSTEM\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\kidsEsp\kidsEsp\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\kidsUno\kidsUno\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Leonardo\Leonardo\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\MecanumRobot\mecanum\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\MEGAPlus\megaplus\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\MotorPlus\MotorPlus\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\nanoPlus\nanoplus\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\RGBcube\RGBcube\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Smartfarm_ESP32\Smartfarm_ESP32\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Smarthome_ESP32\smarthome_esp32\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Smartschool_ESP32\Smartschool_ESP32\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Smart_home\smart_home\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Super_starter_kit\Super_starter_kit\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\TankRobot\tankrobot\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\TankRobot_v2\tankrobot_v2\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\TurtleRobot\turtlerobot\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\UnoMaker\unomaker\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\UnoMax\UnoMax\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\UnoPlus\unoplus\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\UnoV4.0\unov4.0\index.js
+contains upload
+contains deviceExtensionsCompatible
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB\lib\ArduinoJson\extras\fuzzing\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB\lib\ArduinoJson\extras\tests\catch\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB\lib\ArduinoJson\extras\tests\IntegrationTests\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB\lib\ArduinoJson\src\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB\lib\ArduinoJson\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB\lib\AsyncTCP\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB\lib\ESPAsyncWebServer\library.json
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\extras\fuzzing\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\extras\tests\catch\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\extras\tests\Cpp17\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\extras\tests\Cpp20\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\extras\tests\Deprecated\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\extras\tests\IntegrationTests\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\extras\tests\Misc\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\extras\tests\ResourceManager\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\src\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ArduinoJson-7.4.2\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\AsyncTCP-main\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\lib\ESPAsyncWebServer-main\library.json
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ir_module\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ir_send\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\SBlynk\lib\ArduinoJson\extras\fuzzing\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\SBlynk\lib\ArduinoJson\extras\tests\catch\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\SBlynk\lib\ArduinoJson\extras\tests\IntegrationTests\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\SBlynk\lib\ArduinoJson\src\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\SBlynk\lib\ArduinoJson\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\37Sensor_kit\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\4wdrobot\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\AIbot\lib\AI_BOT\libopus\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\AIbot\lib\AI_BOT\libopus\meson_options.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\AIbot\lib\lvgl\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\AIbot\lib\lvgl\CMakePresets.json
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Beetlebot\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Codingbox\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\CodingRobot\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Eco-friendly house\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Inventor_kit\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Inventor_kit_esp32\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\keybot\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\MecanumRobot\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Super_starter_kit\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Super_starter_kit\lib\MFRC522\changes.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\TankRobot\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\TankRobot_v2\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\TurtleRobot\lib\IRremote\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\mfrc522\lib\MFRC522\changes.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\pca9685\lib\PCA9685_16-Channel_PWM_Driver_Module_Library\license.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\bootloaders\optiboot\README.TXT
+contains upload
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\bootloaders\stk500v2\License.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\firmwares\atmegaxxu2\arduino-usbdfu\readme.txt
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\firmwares\atmegaxxu2\arduino-usbserial\readme.txt
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\firmwares\atmegaxxu2\README.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\boards.txt
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\installed.json
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\platform.txt
+contains upload
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\builtin\tools\dfu-discovery\0.1.2\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\builtin\tools\mdns-discovery\1.0.12\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\builtin\tools\serial-discovery\1.4.3\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\builtin\tools\serial-monitor\0.15.0\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\Beacon_Scanner\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\BLE5_extended_scan\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\BLE5_multi_advertising\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\BLE5_periodic_advertising\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\BLE5_periodic_sync\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\Client\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\EddystoneTLM_Beacon\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\EddystoneURL_Beacon\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\iBeacon\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\Notify\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\Scan\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\Server\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\Server_multiconnect\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\UART\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BLE\examples\Write\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BluetoothSerial\examples\bt_classic_device_discovery\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BluetoothSerial\examples\bt_remove_paired_devices\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BluetoothSerial\examples\DiscoverConnect\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BluetoothSerial\examples\GetLocalMAC\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BluetoothSerial\examples\SerialToSerialBT\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BluetoothSerial\examples\SerialToSerialBTM\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BluetoothSerial\examples\SerialToSerialBT_Legacy\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\BluetoothSerial\examples\SerialToSerialBT_SSP\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\ESP32\examples\Camera\CameraWebServer\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\ESP32\examples\HWCDC_Events\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\ESP_SR\examples\Basic\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\HTTPClient\examples\HTTPClientEnterprise\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\HTTPUpdate\examples\httpUpdateSecure\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterColorLight\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterCommissionTest\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterComposedLights\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterContactSensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterDimmableLight\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterEnhancedColorLight\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterFan\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterHumiditySensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterMinimum\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterOccupancySensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterOnIdentify\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterOnOffLight\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterOnOffPlugin\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterPressureSensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterSmartButon\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterTemperatureLight\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterTemperatureSensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\MatterThermostat\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Matter\examples\WiFiProvWithinMatter\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\NetworkClientSecure\examples\WiFiClientSecure\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\NetworkClientSecure\examples\WiFiClientSecureEnterprise\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\RainMaker\examples\RMakerCustom\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\RainMaker\examples\RMakerCustomAirCooler\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\RainMaker\examples\RMakerSonoffDualR3\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\RainMaker\examples\RMakerSwitch\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\WebServer\examples\PathArgServer\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\WebServer\examples\UploadHugeFile\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\WiFiProv\examples\WiFiProv\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Analog_Input_Output\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_CarbonDioxide_Sensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Color_Dimmable_Light\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Color_Dimmer_Switch\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Contact_Switch\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Dimmable_Light\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Gateway\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Illuminance_Sensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Occupancy_Sensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_On_Off_Light\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_On_Off_Switch\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_OTA_Client\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Pressure_Flow_Sensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Range_Extender\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Scan_Networks\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Temperature_Sensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Temp_Hum_Sensor_Sleepy\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Thermostat\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Vibration_Sensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Window_Covering\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\libraries\Zigbee\examples\Zigbee_Wind_Speed_Sensor\ci.json
+contains fqbn
+contains FQBN
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\boards.txt
+contains upload
+contains --chip
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\CMakeLists.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\installed.json
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\platform.local.txt
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\platform.txt
+contains upload
+contains compile
+contains fqbn
+contains FQBN
+contains --chip
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\programmers.txt
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\tools\esp-x32\2411\share\licenses\crosstool-ng\licenses.d\gpl.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\tools\esp-x32\2411\share\licenses\crosstool-ng\licenses.d\lgpl.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\tools\esp-x32\2411\share\licenses\gcc\libsanitizer\LICENSE.TXT
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\tools\esp-x32\2411\share\licenses\gcc\libstdc++-v3\include\pstl\LICENSE.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\tools\esp32-arduino-libs\idf-release_v5.4-2f7dcd86-v1\package.json
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\libraries\ESP8266WebServer\keywords.txt
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\tests\host\README.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\tools\sdk\ssl\bearssl\samples\README.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\tools\sdk\ssl\bearssl\README-esp8266.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\tools\sdk\ssl\bearssl\README.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\boards.txt
+contains upload
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\installed.json
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\platform.txt
+contains upload
+contains compile
+contains --chip
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\library_index.json
+contains upload
+contains compile
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\package_esp32_index.json
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\package_esp8266com_index.json
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\package_index.json
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\package_sparkfun_index.json
+contains esptool
+
+FILE=C:\KidsBlock Desktop\resources\tools\Python\Lib\lib2to3\Grammar.txt
+contains compile
+
+FILE=C:\KidsBlock Desktop\resources\tools\Python\Lib\site-packages\setuptools-56.0.0.dist-info\entry_points.txt
+contains upload
+
+FILE=C:\KidsBlock Desktop\resources\tools\Python\NEWS.txt
+contains upload
+contains compile

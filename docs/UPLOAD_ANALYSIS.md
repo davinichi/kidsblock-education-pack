@@ -26,3 +26,7 @@ Analyzer v7 collects:
 - arduino-cli board list and config
 
 No modification is performed by Analyzer v7.
+
+## v0.7 analysis target
+
+The remaining issue is not device registration or compilation. The upload command still uses ESP32 settings. Analyzer v8 collects `openblock-link` and related upload command source files so that the FQBN mapping can be patched at the correct layer.

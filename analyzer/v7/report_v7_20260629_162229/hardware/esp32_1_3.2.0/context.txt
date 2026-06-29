@@ -1,0 +1,2030 @@
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\boards.txt
+--- match line 1408 pattern=^esp32\.
+1407: 
+1408: esp32.name=ESP32 Dev Module
+1409: 
+1410: esp32.bootloader.tool=esptool_py
+--- match line 1410 pattern=^esp32\.
+1409: 
+1410: esp32.bootloader.tool=esptool_py
+1411: esp32.bootloader.tool.default=esptool_py
+1412: 
+--- match line 1411 pattern=^esp32\.
+1410: esp32.bootloader.tool=esptool_py
+1411: esp32.bootloader.tool.default=esptool_py
+1412: 
+1413: esp32.upload.tool=esptool_py
+--- match line 1413 pattern=^esp32\.
+1412: 
+1413: esp32.upload.tool=esptool_py
+1414: esp32.upload.tool.default=esptool_py
+1415: esp32.upload.tool.network=esp_ota
+--- match line 1414 pattern=^esp32\.
+1413: esp32.upload.tool=esptool_py
+1414: esp32.upload.tool.default=esptool_py
+1415: esp32.upload.tool.network=esp_ota
+1416: 
+--- match line 1415 pattern=^esp32\.
+1414: esp32.upload.tool.default=esptool_py
+1415: esp32.upload.tool.network=esp_ota
+1416: 
+1417: esp32.upload.maximum_size=1310720
+--- match line 1417 pattern=^esp32\.
+1416: 
+1417: esp32.upload.maximum_size=1310720
+1418: esp32.upload.maximum_data_size=327680
+1419: esp32.upload.flags=
+--- match line 1418 pattern=^esp32\.
+1417: esp32.upload.maximum_size=1310720
+1418: esp32.upload.maximum_data_size=327680
+1419: esp32.upload.flags=
+1420: esp32.upload.extra_flags=
+--- match line 1419 pattern=^esp32\.
+1418: esp32.upload.maximum_data_size=327680
+1419: esp32.upload.flags=
+1420: esp32.upload.extra_flags=
+1421: 
+--- match line 1420 pattern=^esp32\.
+1419: esp32.upload.flags=
+1420: esp32.upload.extra_flags=
+1421: 
+1422: esp32.serial.disableDTR=true
+--- match line 1422 pattern=^esp32\.
+1421: 
+1422: esp32.serial.disableDTR=true
+1423: esp32.serial.disableRTS=true
+1424: 
+--- match line 1423 pattern=^esp32\.
+1422: esp32.serial.disableDTR=true
+1423: esp32.serial.disableRTS=true
+1424: 
+1425: esp32.build.tarch=xtensa
+--- match line 1425 pattern=^esp32\.
+1424: 
+1425: esp32.build.tarch=xtensa
+1426: esp32.build.bootloader_addr=0x1000
+1427: esp32.build.target=esp32
+--- match line 1426 pattern=^esp32\.
+1425: esp32.build.tarch=xtensa
+1426: esp32.build.bootloader_addr=0x1000
+1427: esp32.build.target=esp32
+1428: esp32.build.mcu=esp32
+--- match line 1427 pattern=^esp32\.
+1426: esp32.build.bootloader_addr=0x1000
+1427: esp32.build.target=esp32
+1428: esp32.build.mcu=esp32
+1429: esp32.build.core=esp32
+--- match line 1428 pattern=^esp32\.
+1427: esp32.build.target=esp32
+1428: esp32.build.mcu=esp32
+1429: esp32.build.core=esp32
+1430: esp32.build.variant=esp32
+--- match line 1429 pattern=^esp32\.
+1428: esp32.build.mcu=esp32
+1429: esp32.build.core=esp32
+1430: esp32.build.variant=esp32
+1431: esp32.build.board=ESP32_DEV
+--- match line 1430 pattern=^esp32\.
+1429: esp32.build.core=esp32
+1430: esp32.build.variant=esp32
+1431: esp32.build.board=ESP32_DEV
+1432: 
+--- match line 1431 pattern=^esp32\.
+1430: esp32.build.variant=esp32
+1431: esp32.build.board=ESP32_DEV
+1432: 
+1433: esp32.build.f_cpu=240000000L
+--- match line 1433 pattern=^esp32\.
+1432: 
+1433: esp32.build.f_cpu=240000000L
+1434: esp32.build.flash_size=4MB
+1435: esp32.build.flash_freq=40m
+--- match line 1434 pattern=^esp32\.
+1433: esp32.build.f_cpu=240000000L
+1434: esp32.build.flash_size=4MB
+1435: esp32.build.flash_freq=40m
+1436: esp32.build.flash_mode=dio
+--- match line 1435 pattern=^esp32\.
+1434: esp32.build.flash_size=4MB
+1435: esp32.build.flash_freq=40m
+1436: esp32.build.flash_mode=dio
+1437: esp32.build.boot=dio
+--- match line 1436 pattern=^esp32\.
+1435: esp32.build.flash_freq=40m
+1436: esp32.build.flash_mode=dio
+1437: esp32.build.boot=dio
+1438: esp32.build.partitions=default
+--- match line 1437 pattern=^esp32\.
+1436: esp32.build.flash_mode=dio
+1437: esp32.build.boot=dio
+1438: esp32.build.partitions=default
+1439: esp32.build.defines=
+--- match line 1438 pattern=^esp32\.
+1437: esp32.build.boot=dio
+1438: esp32.build.partitions=default
+1439: esp32.build.defines=
+1440: esp32.build.loop_core=
+--- match line 1439 pattern=^esp32\.
+1438: esp32.build.partitions=default
+1439: esp32.build.defines=
+1440: esp32.build.loop_core=
+1441: esp32.build.event_core=
+--- match line 1440 pattern=^esp32\.
+1439: esp32.build.defines=
+1440: esp32.build.loop_core=
+1441: esp32.build.event_core=
+1442: 
+--- match line 1441 pattern=^esp32\.
+1440: esp32.build.loop_core=
+1441: esp32.build.event_core=
+1442: 
+1443: ## IDE 2.0 Seems to not update the value
+--- match line 1444 pattern=^esp32\.
+1443: ## IDE 2.0 Seems to not update the value
+1444: esp32.menu.JTAGAdapter.default=Disabled
+1445: esp32.menu.JTAGAdapter.default.build.copy_jtag_files=0
+1446: esp32.menu.JTAGAdapter.external=FTDI Adapter
+--- match line 1445 pattern=^esp32\.
+1444: esp32.menu.JTAGAdapter.default=Disabled
+1445: esp32.menu.JTAGAdapter.default.build.copy_jtag_files=0
+1446: esp32.menu.JTAGAdapter.external=FTDI Adapter
+1447: esp32.menu.JTAGAdapter.external.build.openocdscript=esp32-wrover-kit-3.3v.cfg
+--- match line 1446 pattern=^esp32\.
+1445: esp32.menu.JTAGAdapter.default.build.copy_jtag_files=0
+1446: esp32.menu.JTAGAdapter.external=FTDI Adapter
+1447: esp32.menu.JTAGAdapter.external.build.openocdscript=esp32-wrover-kit-3.3v.cfg
+1448: esp32.menu.JTAGAdapter.external.build.copy_jtag_files=1
+--- match line 1447 pattern=^esp32\.
+1446: esp32.menu.JTAGAdapter.external=FTDI Adapter
+1447: esp32.menu.JTAGAdapter.external.build.openocdscript=esp32-wrover-kit-3.3v.cfg
+1448: esp32.menu.JTAGAdapter.external.build.copy_jtag_files=1
+1449: esp32.menu.JTAGAdapter.bridge=ESP USB Bridge
+--- match line 1448 pattern=^esp32\.
+1447: esp32.menu.JTAGAdapter.external.build.openocdscript=esp32-wrover-kit-3.3v.cfg
+1448: esp32.menu.JTAGAdapter.external.build.copy_jtag_files=1
+1449: esp32.menu.JTAGAdapter.bridge=ESP USB Bridge
+1450: esp32.menu.JTAGAdapter.bridge.build.openocdscript=esp32-bridge.cfg
+--- match line 1449 pattern=^esp32\.
+1448: esp32.menu.JTAGAdapter.external.build.copy_jtag_files=1
+1449: esp32.menu.JTAGAdapter.bridge=ESP USB Bridge
+1450: esp32.menu.JTAGAdapter.bridge.build.openocdscript=esp32-bridge.cfg
+1451: esp32.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+--- match line 1450 pattern=^esp32\.
+1449: esp32.menu.JTAGAdapter.bridge=ESP USB Bridge
+1450: esp32.menu.JTAGAdapter.bridge.build.openocdscript=esp32-bridge.cfg
+1451: esp32.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+1452: 
+--- match line 1451 pattern=^esp32\.
+1450: esp32.menu.JTAGAdapter.bridge.build.openocdscript=esp32-bridge.cfg
+1451: esp32.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+1452: 
+1453: esp32.menu.PSRAM.disabled=Disabled
+--- match line 1453 pattern=^esp32\.
+1452: 
+1453: esp32.menu.PSRAM.disabled=Disabled
+1454: esp32.menu.PSRAM.disabled.build.defines=
+1455: esp32.menu.PSRAM.disabled.build.extra_libs=
+--- match line 1454 pattern=^esp32\.
+1453: esp32.menu.PSRAM.disabled=Disabled
+1454: esp32.menu.PSRAM.disabled.build.defines=
+1455: esp32.menu.PSRAM.disabled.build.extra_libs=
+1456: esp32.menu.PSRAM.enabled=Enabled
+--- match line 1455 pattern=^esp32\.
+1454: esp32.menu.PSRAM.disabled.build.defines=
+1455: esp32.menu.PSRAM.disabled.build.extra_libs=
+1456: esp32.menu.PSRAM.enabled=Enabled
+1457: esp32.menu.PSRAM.enabled.build.defines=-DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw
+--- match line 1456 pattern=^esp32\.
+1455: esp32.menu.PSRAM.disabled.build.extra_libs=
+1456: esp32.menu.PSRAM.enabled=Enabled
+1457: esp32.menu.PSRAM.enabled.build.defines=-DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw
+1458: esp32.menu.PSRAM.enabled.build.extra_libs=
+--- match line 1457 pattern=^esp32\.
+1456: esp32.menu.PSRAM.enabled=Enabled
+1457: esp32.menu.PSRAM.enabled.build.defines=-DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw
+1458: esp32.menu.PSRAM.enabled.build.extra_libs=
+1459: 
+--- match line 1458 pattern=^esp32\.
+1457: esp32.menu.PSRAM.enabled.build.defines=-DBOARD_HAS_PSRAM -mfix-esp32-psram-cache-issue -mfix-esp32-psram-cache-strategy=memw
+1458: esp32.menu.PSRAM.enabled.build.extra_libs=
+1459: 
+1460: esp32.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+--- match line 1460 pattern=^esp32\.
+1459: 
+1460: esp32.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+1461: esp32.menu.PartitionScheme.default.build.partitions=default
+1462: esp32.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+--- match line 1461 pattern=^esp32\.
+1460: esp32.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+1461: esp32.menu.PartitionScheme.default.build.partitions=default
+1462: esp32.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+1463: esp32.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+--- match line 1462 pattern=^esp32\.
+1461: esp32.menu.PartitionScheme.default.build.partitions=default
+1462: esp32.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+1463: esp32.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+1464: esp32.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+--- match line 1463 pattern=^esp32\.
+1462: esp32.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+1463: esp32.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+1464: esp32.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+1465: esp32.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+--- match line 1464 pattern=^esp32\.
+1463: esp32.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+1464: esp32.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+1465: esp32.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+1466: esp32.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+--- match line 1465 pattern=^esp32\.
+1464: esp32.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+1465: esp32.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+1466: esp32.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+1467: esp32.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+--- match line 1466 pattern=^esp32\.
+1465: esp32.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+1466: esp32.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+1467: esp32.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+1468: esp32.menu.PartitionScheme.minimal.build.partitions=minimal
+--- match line 1467 pattern=^esp32\.
+1466: esp32.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+1467: esp32.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+1468: esp32.menu.PartitionScheme.minimal.build.partitions=minimal
+1469: esp32.menu.PartitionScheme.no_fs=No FS 4MB (2MB APP x2)
+--- match line 1468 pattern=^esp32\.
+1467: esp32.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+1468: esp32.menu.PartitionScheme.minimal.build.partitions=minimal
+1469: esp32.menu.PartitionScheme.no_fs=No FS 4MB (2MB APP x2)
+1470: esp32.menu.PartitionScheme.no_fs.build.partitions=no_fs
+--- match line 1469 pattern=^esp32\.
+1468: esp32.menu.PartitionScheme.minimal.build.partitions=minimal
+1469: esp32.menu.PartitionScheme.no_fs=No FS 4MB (2MB APP x2)
+1470: esp32.menu.PartitionScheme.no_fs.build.partitions=no_fs
+1471: esp32.menu.PartitionScheme.no_fs.upload.maximum_size=2031616
+--- match line 1470 pattern=^esp32\.
+1469: esp32.menu.PartitionScheme.no_fs=No FS 4MB (2MB APP x2)
+1470: esp32.menu.PartitionScheme.no_fs.build.partitions=no_fs
+1471: esp32.menu.PartitionScheme.no_fs.upload.maximum_size=2031616
+1472: esp32.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+--- match line 1471 pattern=^esp32\.
+1470: esp32.menu.PartitionScheme.no_fs.build.partitions=no_fs
+1471: esp32.menu.PartitionScheme.no_fs.upload.maximum_size=2031616
+1472: esp32.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+1473: esp32.menu.PartitionScheme.no_ota.build.partitions=no_ota
+--- match line 1472 pattern=^esp32\.
+1471: esp32.menu.PartitionScheme.no_fs.upload.maximum_size=2031616
+1472: esp32.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+1473: esp32.menu.PartitionScheme.no_ota.build.partitions=no_ota
+1474: esp32.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+--- match line 1473 pattern=^esp32\.
+1472: esp32.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+1473: esp32.menu.PartitionScheme.no_ota.build.partitions=no_ota
+1474: esp32.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+1475: esp32.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+--- match line 1474 pattern=^esp32\.
+1473: esp32.menu.PartitionScheme.no_ota.build.partitions=no_ota
+1474: esp32.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+1475: esp32.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+1476: esp32.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+--- match line 1475 pattern=^esp32\.
+1474: esp32.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+1475: esp32.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+1476: esp32.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+1477: esp32.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+--- match line 1476 pattern=^esp32\.
+1475: esp32.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+1476: esp32.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+1477: esp32.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+1478: esp32.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+--- match line 1477 pattern=^esp32\.
+1476: esp32.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+1477: esp32.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+1478: esp32.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+1479: esp32.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+--- match line 1478 pattern=^esp32\.
+1477: esp32.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+1478: esp32.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+1479: esp32.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+1480: esp32.menu.PartitionScheme.noota_ffat.upload.maximum_size=2097152
+--- match line 1479 pattern=^esp32\.
+1478: esp32.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+1479: esp32.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+1480: esp32.menu.PartitionScheme.noota_ffat.upload.maximum_size=2097152
+1481: esp32.menu.PartitionScheme.noota_3gffat=No OTA (1MB APP/3MB FATFS)
+--- match line 1480 pattern=^esp32\.
+1479: esp32.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+1480: esp32.menu.PartitionScheme.noota_ffat.upload.maximum_size=2097152
+1481: esp32.menu.PartitionScheme.noota_3gffat=No OTA (1MB APP/3MB FATFS)
+1482: esp32.menu.PartitionScheme.noota_3gffat.build.partitions=noota_3gffat
+--- match line 1481 pattern=^esp32\.
+1480: esp32.menu.PartitionScheme.noota_ffat.upload.maximum_size=2097152
+1481: esp32.menu.PartitionScheme.noota_3gffat=No OTA (1MB APP/3MB FATFS)
+1482: esp32.menu.PartitionScheme.noota_3gffat.build.partitions=noota_3gffat
+1483: esp32.menu.PartitionScheme.noota_3gffat.upload.maximum_size=1048576
+--- match line 1482 pattern=^esp32\.
+1481: esp32.menu.PartitionScheme.noota_3gffat=No OTA (1MB APP/3MB FATFS)
+1482: esp32.menu.PartitionScheme.noota_3gffat.build.partitions=noota_3gffat
+1483: esp32.menu.PartitionScheme.noota_3gffat.upload.maximum_size=1048576
+1484: esp32.menu.PartitionScheme.huge_app=Huge APP (3MB No OTA/1MB SPIFFS)
+--- match line 1483 pattern=^esp32\.
+1482: esp32.menu.PartitionScheme.noota_3gffat.build.partitions=noota_3gffat
+1483: esp32.menu.PartitionScheme.noota_3gffat.upload.maximum_size=1048576
+1484: esp32.menu.PartitionScheme.huge_app=Huge APP (3MB No OTA/1MB SPIFFS)
+1485: esp32.menu.PartitionScheme.huge_app.build.partitions=huge_app
+--- match line 1484 pattern=^esp32\.
+1483: esp32.menu.PartitionScheme.noota_3gffat.upload.maximum_size=1048576
+1484: esp32.menu.PartitionScheme.huge_app=Huge APP (3MB No OTA/1MB SPIFFS)
+1485: esp32.menu.PartitionScheme.huge_app.build.partitions=huge_app
+1486: esp32.menu.PartitionScheme.huge_app.upload.maximum_size=3145728
+--- match line 1485 pattern=^esp32\.
+1484: esp32.menu.PartitionScheme.huge_app=Huge APP (3MB No OTA/1MB SPIFFS)
+1485: esp32.menu.PartitionScheme.huge_app.build.partitions=huge_app
+1486: esp32.menu.PartitionScheme.huge_app.upload.maximum_size=3145728
+1487: esp32.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+--- match line 1486 pattern=^esp32\.
+1485: esp32.menu.PartitionScheme.huge_app.build.partitions=huge_app
+1486: esp32.menu.PartitionScheme.huge_app.upload.maximum_size=3145728
+1487: esp32.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+1488: esp32.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+--- match line 1487 pattern=^esp32\.
+1486: esp32.menu.PartitionScheme.huge_app.upload.maximum_size=3145728
+1487: esp32.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+1488: esp32.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+1489: esp32.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+--- match line 1488 pattern=^esp32\.
+1487: esp32.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+1488: esp32.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+1489: esp32.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+1490: esp32.menu.PartitionScheme.fatflash=16M Flash (2MB APP/12.5MB FATFS)
+--- match line 1489 pattern=^esp32\.
+1488: esp32.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+1489: esp32.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+1490: esp32.menu.PartitionScheme.fatflash=16M Flash (2MB APP/12.5MB FATFS)
+1491: esp32.menu.PartitionScheme.fatflash.build.partitions=ffat
+--- match line 1490 pattern=^esp32\.
+1489: esp32.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+1490: esp32.menu.PartitionScheme.fatflash=16M Flash (2MB APP/12.5MB FATFS)
+1491: esp32.menu.PartitionScheme.fatflash.build.partitions=ffat
+1492: esp32.menu.PartitionScheme.fatflash.upload.maximum_size=2097152
+--- match line 1491 pattern=^esp32\.
+1490: esp32.menu.PartitionScheme.fatflash=16M Flash (2MB APP/12.5MB FATFS)
+1491: esp32.menu.PartitionScheme.fatflash.build.partitions=ffat
+1492: esp32.menu.PartitionScheme.fatflash.upload.maximum_size=2097152
+1493: esp32.menu.PartitionScheme.app3M_fat9M_16MB=16M Flash (3MB APP/9.9MB FATFS)
+--- match line 1492 pattern=^esp32\.
+1491: esp32.menu.PartitionScheme.fatflash.build.partitions=ffat
+1492: esp32.menu.PartitionScheme.fatflash.upload.maximum_size=2097152
+1493: esp32.menu.PartitionScheme.app3M_fat9M_16MB=16M Flash (3MB APP/9.9MB FATFS)
+1494: esp32.menu.PartitionScheme.app3M_fat9M_16MB.build.partitions=app3M_fat9M_16MB
+--- match line 1493 pattern=^esp32\.
+1492: esp32.menu.PartitionScheme.fatflash.upload.maximum_size=2097152
+1493: esp32.menu.PartitionScheme.app3M_fat9M_16MB=16M Flash (3MB APP/9.9MB FATFS)
+1494: esp32.menu.PartitionScheme.app3M_fat9M_16MB.build.partitions=app3M_fat9M_16MB
+1495: esp32.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
+--- match line 1494 pattern=^esp32\.
+1493: esp32.menu.PartitionScheme.app3M_fat9M_16MB=16M Flash (3MB APP/9.9MB FATFS)
+1494: esp32.menu.PartitionScheme.app3M_fat9M_16MB.build.partitions=app3M_fat9M_16MB
+1495: esp32.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
+1496: esp32.menu.PartitionScheme.rainmaker=RainMaker 4MB
+--- match line 1495 pattern=^esp32\.
+1494: esp32.menu.PartitionScheme.app3M_fat9M_16MB.build.partitions=app3M_fat9M_16MB
+1495: esp32.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
+1496: esp32.menu.PartitionScheme.rainmaker=RainMaker 4MB
+1497: esp32.menu.PartitionScheme.rainmaker.build.partitions=rainmaker
+--- match line 1496 pattern=^esp32\.
+1495: esp32.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
+1496: esp32.menu.PartitionScheme.rainmaker=RainMaker 4MB
+1497: esp32.menu.PartitionScheme.rainmaker.build.partitions=rainmaker
+1498: esp32.menu.PartitionScheme.rainmaker.upload.maximum_size=1966080
+--- match line 1497 pattern=^esp32\.
+1496: esp32.menu.PartitionScheme.rainmaker=RainMaker 4MB
+1497: esp32.menu.PartitionScheme.rainmaker.build.partitions=rainmaker
+1498: esp32.menu.PartitionScheme.rainmaker.upload.maximum_size=1966080
+1499: esp32.menu.PartitionScheme.rainmaker_4MB=RainMaker 4MB No OTA
+--- match line 1498 pattern=^esp32\.
+1497: esp32.menu.PartitionScheme.rainmaker.build.partitions=rainmaker
+1498: esp32.menu.PartitionScheme.rainmaker.upload.maximum_size=1966080
+1499: esp32.menu.PartitionScheme.rainmaker_4MB=RainMaker 4MB No OTA
+1500: esp32.menu.PartitionScheme.rainmaker_4MB.build.partitions=rainmaker_4MB_no_ota
+--- match line 1499 pattern=^esp32\.
+1498: esp32.menu.PartitionScheme.rainmaker.upload.maximum_size=1966080
+1499: esp32.menu.PartitionScheme.rainmaker_4MB=RainMaker 4MB No OTA
+1500: esp32.menu.PartitionScheme.rainmaker_4MB.build.partitions=rainmaker_4MB_no_ota
+1501: esp32.menu.PartitionScheme.rainmaker_4MB.upload.maximum_size=4038656
+--- match line 1500 pattern=^esp32\.
+1499: esp32.menu.PartitionScheme.rainmaker_4MB=RainMaker 4MB No OTA
+1500: esp32.menu.PartitionScheme.rainmaker_4MB.build.partitions=rainmaker_4MB_no_ota
+1501: esp32.menu.PartitionScheme.rainmaker_4MB.upload.maximum_size=4038656
+1502: esp32.menu.PartitionScheme.rainmaker_8MB=RainMaker 8MB
+--- match line 1501 pattern=^esp32\.
+1500: esp32.menu.PartitionScheme.rainmaker_4MB.build.partitions=rainmaker_4MB_no_ota
+1501: esp32.menu.PartitionScheme.rainmaker_4MB.upload.maximum_size=4038656
+1502: esp32.menu.PartitionScheme.rainmaker_8MB=RainMaker 8MB
+1503: esp32.menu.PartitionScheme.rainmaker_8MB.build.partitions=rainmaker_8MB
+--- match line 1502 pattern=^esp32\.
+1501: esp32.menu.PartitionScheme.rainmaker_4MB.upload.maximum_size=4038656
+1502: esp32.menu.PartitionScheme.rainmaker_8MB=RainMaker 8MB
+1503: esp32.menu.PartitionScheme.rainmaker_8MB.build.partitions=rainmaker_8MB
+1504: esp32.menu.PartitionScheme.rainmaker_8MB.upload.maximum_size=4116480
+--- match line 1503 pattern=^esp32\.
+1502: esp32.menu.PartitionScheme.rainmaker_8MB=RainMaker 8MB
+1503: esp32.menu.PartitionScheme.rainmaker_8MB.build.partitions=rainmaker_8MB
+1504: esp32.menu.PartitionScheme.rainmaker_8MB.upload.maximum_size=4116480
+1505: esp32.menu.PartitionScheme.zigbee_zczr=Zigbee ZCZR 4MB with spiffs
+--- match line 1504 pattern=^esp32\.
+1503: esp32.menu.PartitionScheme.rainmaker_8MB.build.partitions=rainmaker_8MB
+1504: esp32.menu.PartitionScheme.rainmaker_8MB.upload.maximum_size=4116480
+1505: esp32.menu.PartitionScheme.zigbee_zczr=Zigbee ZCZR 4MB with spiffs
+1506: esp32.menu.PartitionScheme.zigbee_zczr.build.partitions=zigbee_zczr
+--- match line 1505 pattern=^esp32\.
+1504: esp32.menu.PartitionScheme.rainmaker_8MB.upload.maximum_size=4116480
+1505: esp32.menu.PartitionScheme.zigbee_zczr=Zigbee ZCZR 4MB with spiffs
+1506: esp32.menu.PartitionScheme.zigbee_zczr.build.partitions=zigbee_zczr
+1507: esp32.menu.PartitionScheme.zigbee_zczr.upload.maximum_size=1310720
+--- match line 1506 pattern=^esp32\.
+1505: esp32.menu.PartitionScheme.zigbee_zczr=Zigbee ZCZR 4MB with spiffs
+1506: esp32.menu.PartitionScheme.zigbee_zczr.build.partitions=zigbee_zczr
+1507: esp32.menu.PartitionScheme.zigbee_zczr.upload.maximum_size=1310720
+1508: esp32.menu.PartitionScheme.zigbee_zczr_8MB=Zigbee ZCZR 8MB with spiffs
+--- match line 1507 pattern=^esp32\.
+1506: esp32.menu.PartitionScheme.zigbee_zczr.build.partitions=zigbee_zczr
+1507: esp32.menu.PartitionScheme.zigbee_zczr.upload.maximum_size=1310720
+1508: esp32.menu.PartitionScheme.zigbee_zczr_8MB=Zigbee ZCZR 8MB with spiffs
+1509: esp32.menu.PartitionScheme.zigbee_zczr_8MB.build.partitions=zigbee_zczr_8MB
+--- match line 1508 pattern=^esp32\.
+1507: esp32.menu.PartitionScheme.zigbee_zczr.upload.maximum_size=1310720
+1508: esp32.menu.PartitionScheme.zigbee_zczr_8MB=Zigbee ZCZR 8MB with spiffs
+1509: esp32.menu.PartitionScheme.zigbee_zczr_8MB.build.partitions=zigbee_zczr_8MB
+1510: esp32.menu.PartitionScheme.zigbee_zczr_8MB.upload.maximum_size=3407872
+--- match line 1509 pattern=^esp32\.
+1508: esp32.menu.PartitionScheme.zigbee_zczr_8MB=Zigbee ZCZR 8MB with spiffs
+1509: esp32.menu.PartitionScheme.zigbee_zczr_8MB.build.partitions=zigbee_zczr_8MB
+1510: esp32.menu.PartitionScheme.zigbee_zczr_8MB.upload.maximum_size=3407872
+1511: esp32.menu.PartitionScheme.custom=Custom
+--- match line 1510 pattern=^esp32\.
+1509: esp32.menu.PartitionScheme.zigbee_zczr_8MB.build.partitions=zigbee_zczr_8MB
+1510: esp32.menu.PartitionScheme.zigbee_zczr_8MB.upload.maximum_size=3407872
+1511: esp32.menu.PartitionScheme.custom=Custom
+1512: esp32.menu.PartitionScheme.custom.build.partitions=
+--- match line 1511 pattern=^esp32\.
+1510: esp32.menu.PartitionScheme.zigbee_zczr_8MB.upload.maximum_size=3407872
+1511: esp32.menu.PartitionScheme.custom=Custom
+1512: esp32.menu.PartitionScheme.custom.build.partitions=
+1513: esp32.menu.PartitionScheme.custom.upload.maximum_size=16777216
+--- match line 1512 pattern=^esp32\.
+1511: esp32.menu.PartitionScheme.custom=Custom
+1512: esp32.menu.PartitionScheme.custom.build.partitions=
+1513: esp32.menu.PartitionScheme.custom.upload.maximum_size=16777216
+1514: 
+--- match line 1513 pattern=^esp32\.
+1512: esp32.menu.PartitionScheme.custom.build.partitions=
+1513: esp32.menu.PartitionScheme.custom.upload.maximum_size=16777216
+1514: 
+1515: esp32.menu.CPUFreq.240=240MHz (WiFi/BT)
+--- match line 1515 pattern=^esp32\.
+1514: 
+1515: esp32.menu.CPUFreq.240=240MHz (WiFi/BT)
+1516: esp32.menu.CPUFreq.240.build.f_cpu=240000000L
+1517: esp32.menu.CPUFreq.160=160MHz (WiFi/BT)
+--- match line 1516 pattern=^esp32\.
+1515: esp32.menu.CPUFreq.240=240MHz (WiFi/BT)
+1516: esp32.menu.CPUFreq.240.build.f_cpu=240000000L
+1517: esp32.menu.CPUFreq.160=160MHz (WiFi/BT)
+1518: esp32.menu.CPUFreq.160.build.f_cpu=160000000L
+--- match line 1517 pattern=^esp32\.
+1516: esp32.menu.CPUFreq.240.build.f_cpu=240000000L
+1517: esp32.menu.CPUFreq.160=160MHz (WiFi/BT)
+1518: esp32.menu.CPUFreq.160.build.f_cpu=160000000L
+1519: esp32.menu.CPUFreq.80=80MHz (WiFi/BT)
+--- match line 1518 pattern=^esp32\.
+1517: esp32.menu.CPUFreq.160=160MHz (WiFi/BT)
+1518: esp32.menu.CPUFreq.160.build.f_cpu=160000000L
+1519: esp32.menu.CPUFreq.80=80MHz (WiFi/BT)
+1520: esp32.menu.CPUFreq.80.build.f_cpu=80000000L
+--- match line 1519 pattern=^esp32\.
+1518: esp32.menu.CPUFreq.160.build.f_cpu=160000000L
+1519: esp32.menu.CPUFreq.80=80MHz (WiFi/BT)
+1520: esp32.menu.CPUFreq.80.build.f_cpu=80000000L
+1521: esp32.menu.CPUFreq.40=40MHz (40MHz XTAL)
+--- match line 1520 pattern=^esp32\.
+1519: esp32.menu.CPUFreq.80=80MHz (WiFi/BT)
+1520: esp32.menu.CPUFreq.80.build.f_cpu=80000000L
+1521: esp32.menu.CPUFreq.40=40MHz (40MHz XTAL)
+1522: esp32.menu.CPUFreq.40.build.f_cpu=40000000L
+--- match line 1521 pattern=^esp32\.
+1520: esp32.menu.CPUFreq.80.build.f_cpu=80000000L
+1521: esp32.menu.CPUFreq.40=40MHz (40MHz XTAL)
+1522: esp32.menu.CPUFreq.40.build.f_cpu=40000000L
+1523: esp32.menu.CPUFreq.26=26MHz (26MHz XTAL)
+--- match line 1522 pattern=^esp32\.
+1521: esp32.menu.CPUFreq.40=40MHz (40MHz XTAL)
+1522: esp32.menu.CPUFreq.40.build.f_cpu=40000000L
+1523: esp32.menu.CPUFreq.26=26MHz (26MHz XTAL)
+1524: esp32.menu.CPUFreq.26.build.f_cpu=26000000L
+--- match line 1523 pattern=^esp32\.
+1522: esp32.menu.CPUFreq.40.build.f_cpu=40000000L
+1523: esp32.menu.CPUFreq.26=26MHz (26MHz XTAL)
+1524: esp32.menu.CPUFreq.26.build.f_cpu=26000000L
+1525: esp32.menu.CPUFreq.20=20MHz (40MHz XTAL)
+--- match line 1524 pattern=^esp32\.
+1523: esp32.menu.CPUFreq.26=26MHz (26MHz XTAL)
+1524: esp32.menu.CPUFreq.26.build.f_cpu=26000000L
+1525: esp32.menu.CPUFreq.20=20MHz (40MHz XTAL)
+1526: esp32.menu.CPUFreq.20.build.f_cpu=20000000L
+--- match line 1525 pattern=^esp32\.
+1524: esp32.menu.CPUFreq.26.build.f_cpu=26000000L
+1525: esp32.menu.CPUFreq.20=20MHz (40MHz XTAL)
+1526: esp32.menu.CPUFreq.20.build.f_cpu=20000000L
+1527: esp32.menu.CPUFreq.13=13MHz (26MHz XTAL)
+--- match line 1526 pattern=^esp32\.
+1525: esp32.menu.CPUFreq.20=20MHz (40MHz XTAL)
+1526: esp32.menu.CPUFreq.20.build.f_cpu=20000000L
+1527: esp32.menu.CPUFreq.13=13MHz (26MHz XTAL)
+1528: esp32.menu.CPUFreq.13.build.f_cpu=13000000L
+--- match line 1527 pattern=^esp32\.
+1526: esp32.menu.CPUFreq.20.build.f_cpu=20000000L
+1527: esp32.menu.CPUFreq.13=13MHz (26MHz XTAL)
+1528: esp32.menu.CPUFreq.13.build.f_cpu=13000000L
+1529: esp32.menu.CPUFreq.10=10MHz (40MHz XTAL)
+--- match line 1528 pattern=^esp32\.
+1527: esp32.menu.CPUFreq.13=13MHz (26MHz XTAL)
+1528: esp32.menu.CPUFreq.13.build.f_cpu=13000000L
+1529: esp32.menu.CPUFreq.10=10MHz (40MHz XTAL)
+1530: esp32.menu.CPUFreq.10.build.f_cpu=10000000L
+--- match line 1529 pattern=^esp32\.
+1528: esp32.menu.CPUFreq.13.build.f_cpu=13000000L
+1529: esp32.menu.CPUFreq.10=10MHz (40MHz XTAL)
+1530: esp32.menu.CPUFreq.10.build.f_cpu=10000000L
+1531: 
+--- match line 1530 pattern=^esp32\.
+1529: esp32.menu.CPUFreq.10=10MHz (40MHz XTAL)
+1530: esp32.menu.CPUFreq.10.build.f_cpu=10000000L
+1531: 
+1532: esp32.menu.FlashMode.qio=QIO
+--- match line 1532 pattern=^esp32\.
+1531: 
+1532: esp32.menu.FlashMode.qio=QIO
+1533: esp32.menu.FlashMode.qio.build.flash_mode=dio
+1534: esp32.menu.FlashMode.qio.build.boot=qio
+--- match line 1533 pattern=^esp32\.
+1532: esp32.menu.FlashMode.qio=QIO
+1533: esp32.menu.FlashMode.qio.build.flash_mode=dio
+1534: esp32.menu.FlashMode.qio.build.boot=qio
+1535: esp32.menu.FlashMode.dio=DIO
+--- match line 1534 pattern=^esp32\.
+1533: esp32.menu.FlashMode.qio.build.flash_mode=dio
+1534: esp32.menu.FlashMode.qio.build.boot=qio
+1535: esp32.menu.FlashMode.dio=DIO
+1536: esp32.menu.FlashMode.dio.build.flash_mode=dio
+--- match line 1535 pattern=^esp32\.
+1534: esp32.menu.FlashMode.qio.build.boot=qio
+1535: esp32.menu.FlashMode.dio=DIO
+1536: esp32.menu.FlashMode.dio.build.flash_mode=dio
+1537: esp32.menu.FlashMode.dio.build.boot=dio
+--- match line 1536 pattern=^esp32\.
+1535: esp32.menu.FlashMode.dio=DIO
+1536: esp32.menu.FlashMode.dio.build.flash_mode=dio
+1537: esp32.menu.FlashMode.dio.build.boot=dio
+1538: 
+--- match line 1537 pattern=^esp32\.
+1536: esp32.menu.FlashMode.dio.build.flash_mode=dio
+1537: esp32.menu.FlashMode.dio.build.boot=dio
+1538: 
+1539: esp32.menu.FlashFreq.80=80MHz
+--- match line 1539 pattern=^esp32\.
+1538: 
+1539: esp32.menu.FlashFreq.80=80MHz
+1540: esp32.menu.FlashFreq.80.build.flash_freq=80m
+1541: esp32.menu.FlashFreq.40=40MHz
+--- match line 1540 pattern=^esp32\.
+1539: esp32.menu.FlashFreq.80=80MHz
+1540: esp32.menu.FlashFreq.80.build.flash_freq=80m
+1541: esp32.menu.FlashFreq.40=40MHz
+1542: esp32.menu.FlashFreq.40.build.flash_freq=40m
+--- match line 1541 pattern=^esp32\.
+1540: esp32.menu.FlashFreq.80.build.flash_freq=80m
+1541: esp32.menu.FlashFreq.40=40MHz
+1542: esp32.menu.FlashFreq.40.build.flash_freq=40m
+1543: 
+--- match line 1542 pattern=^esp32\.
+1541: esp32.menu.FlashFreq.40=40MHz
+1542: esp32.menu.FlashFreq.40.build.flash_freq=40m
+1543: 
+1544: esp32.menu.FlashSize.4M=4MB (32Mb)
+--- match line 1544 pattern=^esp32\.
+1543: 
+1544: esp32.menu.FlashSize.4M=4MB (32Mb)
+1545: esp32.menu.FlashSize.4M.build.flash_size=4MB
+1546: esp32.menu.FlashSize.8M=8MB (64Mb)
+--- match line 1545 pattern=^esp32\.
+1544: esp32.menu.FlashSize.4M=4MB (32Mb)
+1545: esp32.menu.FlashSize.4M.build.flash_size=4MB
+1546: esp32.menu.FlashSize.8M=8MB (64Mb)
+1547: esp32.menu.FlashSize.8M.build.flash_size=8MB
+--- match line 1546 pattern=^esp32\.
+1545: esp32.menu.FlashSize.4M.build.flash_size=4MB
+1546: esp32.menu.FlashSize.8M=8MB (64Mb)
+1547: esp32.menu.FlashSize.8M.build.flash_size=8MB
+1548: esp32.menu.FlashSize.2M=2MB (16Mb)
+--- match line 1547 pattern=^esp32\.
+1546: esp32.menu.FlashSize.8M=8MB (64Mb)
+1547: esp32.menu.FlashSize.8M.build.flash_size=8MB
+1548: esp32.menu.FlashSize.2M=2MB (16Mb)
+1549: esp32.menu.FlashSize.2M.build.flash_size=2MB
+--- match line 1548 pattern=^esp32\.
+1547: esp32.menu.FlashSize.8M.build.flash_size=8MB
+1548: esp32.menu.FlashSize.2M=2MB (16Mb)
+1549: esp32.menu.FlashSize.2M.build.flash_size=2MB
+1550: esp32.menu.FlashSize.16M=16MB (128Mb)
+--- match line 1549 pattern=^esp32\.
+1548: esp32.menu.FlashSize.2M=2MB (16Mb)
+1549: esp32.menu.FlashSize.2M.build.flash_size=2MB
+1550: esp32.menu.FlashSize.16M=16MB (128Mb)
+1551: esp32.menu.FlashSize.16M.build.flash_size=16MB
+--- match line 1550 pattern=^esp32\.
+1549: esp32.menu.FlashSize.2M.build.flash_size=2MB
+1550: esp32.menu.FlashSize.16M=16MB (128Mb)
+1551: esp32.menu.FlashSize.16M.build.flash_size=16MB
+1552: 
+--- match line 1551 pattern=^esp32\.
+1550: esp32.menu.FlashSize.16M=16MB (128Mb)
+1551: esp32.menu.FlashSize.16M.build.flash_size=16MB
+1552: 
+1553: esp32.menu.UploadSpeed.921600=921600
+--- match line 1553 pattern=^esp32\.
+1552: 
+1553: esp32.menu.UploadSpeed.921600=921600
+1554: esp32.menu.UploadSpeed.921600.upload.speed=921600
+1555: esp32.menu.UploadSpeed.115200=115200
+--- match line 1554 pattern=^esp32\.
+1553: esp32.menu.UploadSpeed.921600=921600
+1554: esp32.menu.UploadSpeed.921600.upload.speed=921600
+1555: esp32.menu.UploadSpeed.115200=115200
+1556: esp32.menu.UploadSpeed.115200.upload.speed=115200
+--- match line 1555 pattern=^esp32\.
+1554: esp32.menu.UploadSpeed.921600.upload.speed=921600
+1555: esp32.menu.UploadSpeed.115200=115200
+1556: esp32.menu.UploadSpeed.115200.upload.speed=115200
+1557: esp32.menu.UploadSpeed.256000.windows=256000
+--- match line 1556 pattern=^esp32\.
+1555: esp32.menu.UploadSpeed.115200=115200
+1556: esp32.menu.UploadSpeed.115200.upload.speed=115200
+1557: esp32.menu.UploadSpeed.256000.windows=256000
+1558: esp32.menu.UploadSpeed.256000.upload.speed=256000
+--- match line 1557 pattern=^esp32\.
+1556: esp32.menu.UploadSpeed.115200.upload.speed=115200
+1557: esp32.menu.UploadSpeed.256000.windows=256000
+1558: esp32.menu.UploadSpeed.256000.upload.speed=256000
+1559: esp32.menu.UploadSpeed.230400.windows.upload.speed=256000
+--- match line 1558 pattern=^esp32\.
+1557: esp32.menu.UploadSpeed.256000.windows=256000
+1558: esp32.menu.UploadSpeed.256000.upload.speed=256000
+1559: esp32.menu.UploadSpeed.230400.windows.upload.speed=256000
+1560: esp32.menu.UploadSpeed.230400=230400
+--- match line 1559 pattern=^esp32\.
+1558: esp32.menu.UploadSpeed.256000.upload.speed=256000
+1559: esp32.menu.UploadSpeed.230400.windows.upload.speed=256000
+1560: esp32.menu.UploadSpeed.230400=230400
+1561: esp32.menu.UploadSpeed.230400.upload.speed=230400
+--- match line 1560 pattern=^esp32\.
+1559: esp32.menu.UploadSpeed.230400.windows.upload.speed=256000
+1560: esp32.menu.UploadSpeed.230400=230400
+1561: esp32.menu.UploadSpeed.230400.upload.speed=230400
+1562: esp32.menu.UploadSpeed.460800.linux=460800
+--- match line 1561 pattern=^esp32\.
+1560: esp32.menu.UploadSpeed.230400=230400
+1561: esp32.menu.UploadSpeed.230400.upload.speed=230400
+1562: esp32.menu.UploadSpeed.460800.linux=460800
+1563: esp32.menu.UploadSpeed.460800.macosx=460800
+--- match line 1562 pattern=^esp32\.
+1561: esp32.menu.UploadSpeed.230400.upload.speed=230400
+1562: esp32.menu.UploadSpeed.460800.linux=460800
+1563: esp32.menu.UploadSpeed.460800.macosx=460800
+1564: esp32.menu.UploadSpeed.460800.upload.speed=460800
+--- match line 1563 pattern=^esp32\.
+1562: esp32.menu.UploadSpeed.460800.linux=460800
+1563: esp32.menu.UploadSpeed.460800.macosx=460800
+1564: esp32.menu.UploadSpeed.460800.upload.speed=460800
+1565: esp32.menu.UploadSpeed.512000.windows=512000
+--- match line 1564 pattern=^esp32\.
+1563: esp32.menu.UploadSpeed.460800.macosx=460800
+1564: esp32.menu.UploadSpeed.460800.upload.speed=460800
+1565: esp32.menu.UploadSpeed.512000.windows=512000
+1566: esp32.menu.UploadSpeed.512000.upload.speed=512000
+--- match line 1565 pattern=^esp32\.
+1564: esp32.menu.UploadSpeed.460800.upload.speed=460800
+1565: esp32.menu.UploadSpeed.512000.windows=512000
+1566: esp32.menu.UploadSpeed.512000.upload.speed=512000
+1567: 
+--- match line 1566 pattern=^esp32\.
+1565: esp32.menu.UploadSpeed.512000.windows=512000
+1566: esp32.menu.UploadSpeed.512000.upload.speed=512000
+1567: 
+1568: esp32.menu.LoopCore.1=Core 1
+--- match line 1568 pattern=^esp32\.
+1567: 
+1568: esp32.menu.LoopCore.1=Core 1
+1569: esp32.menu.LoopCore.1.build.loop_core=-DARDUINO_RUNNING_CORE=1
+1570: esp32.menu.LoopCore.0=Core 0
+--- match line 1569 pattern=^esp32\.
+1568: esp32.menu.LoopCore.1=Core 1
+1569: esp32.menu.LoopCore.1.build.loop_core=-DARDUINO_RUNNING_CORE=1
+1570: esp32.menu.LoopCore.0=Core 0
+1571: esp32.menu.LoopCore.0.build.loop_core=-DARDUINO_RUNNING_CORE=0
+--- match line 1570 pattern=^esp32\.
+1569: esp32.menu.LoopCore.1.build.loop_core=-DARDUINO_RUNNING_CORE=1
+1570: esp32.menu.LoopCore.0=Core 0
+1571: esp32.menu.LoopCore.0.build.loop_core=-DARDUINO_RUNNING_CORE=0
+1572: 
+--- match line 1571 pattern=^esp32\.
+1570: esp32.menu.LoopCore.0=Core 0
+1571: esp32.menu.LoopCore.0.build.loop_core=-DARDUINO_RUNNING_CORE=0
+1572: 
+1573: esp32.menu.EventsCore.1=Core 1
+--- match line 1573 pattern=^esp32\.
+1572: 
+1573: esp32.menu.EventsCore.1=Core 1
+1574: esp32.menu.EventsCore.1.build.event_core=-DARDUINO_EVENT_RUNNING_CORE=1
+1575: esp32.menu.EventsCore.0=Core 0
+--- match line 1574 pattern=^esp32\.
+1573: esp32.menu.EventsCore.1=Core 1
+1574: esp32.menu.EventsCore.1.build.event_core=-DARDUINO_EVENT_RUNNING_CORE=1
+1575: esp32.menu.EventsCore.0=Core 0
+1576: esp32.menu.EventsCore.0.build.event_core=-DARDUINO_EVENT_RUNNING_CORE=0
+--- match line 1575 pattern=^esp32\.
+1574: esp32.menu.EventsCore.1.build.event_core=-DARDUINO_EVENT_RUNNING_CORE=1
+1575: esp32.menu.EventsCore.0=Core 0
+1576: esp32.menu.EventsCore.0.build.event_core=-DARDUINO_EVENT_RUNNING_CORE=0
+1577: 
+--- match line 1576 pattern=^esp32\.
+1575: esp32.menu.EventsCore.0=Core 0
+1576: esp32.menu.EventsCore.0.build.event_core=-DARDUINO_EVENT_RUNNING_CORE=0
+1577: 
+1578: esp32.menu.DebugLevel.none=None
+--- match line 1578 pattern=^esp32\.
+1577: 
+1578: esp32.menu.DebugLevel.none=None
+1579: esp32.menu.DebugLevel.none.build.code_debug=0
+1580: esp32.menu.DebugLevel.error=Error
+--- match line 1579 pattern=^esp32\.
+1578: esp32.menu.DebugLevel.none=None
+1579: esp32.menu.DebugLevel.none.build.code_debug=0
+1580: esp32.menu.DebugLevel.error=Error
+1581: esp32.menu.DebugLevel.error.build.code_debug=1
+--- match line 1580 pattern=^esp32\.
+1579: esp32.menu.DebugLevel.none.build.code_debug=0
+1580: esp32.menu.DebugLevel.error=Error
+1581: esp32.menu.DebugLevel.error.build.code_debug=1
+1582: esp32.menu.DebugLevel.warn=Warn
+--- match line 1581 pattern=^esp32\.
+1580: esp32.menu.DebugLevel.error=Error
+1581: esp32.menu.DebugLevel.error.build.code_debug=1
+1582: esp32.menu.DebugLevel.warn=Warn
+1583: esp32.menu.DebugLevel.warn.build.code_debug=2
+--- match line 1582 pattern=^esp32\.
+1581: esp32.menu.DebugLevel.error.build.code_debug=1
+1582: esp32.menu.DebugLevel.warn=Warn
+1583: esp32.menu.DebugLevel.warn.build.code_debug=2
+1584: esp32.menu.DebugLevel.info=Info
+--- match line 1583 pattern=^esp32\.
+1582: esp32.menu.DebugLevel.warn=Warn
+1583: esp32.menu.DebugLevel.warn.build.code_debug=2
+1584: esp32.menu.DebugLevel.info=Info
+1585: esp32.menu.DebugLevel.info.build.code_debug=3
+--- match line 1584 pattern=^esp32\.
+1583: esp32.menu.DebugLevel.warn.build.code_debug=2
+1584: esp32.menu.DebugLevel.info=Info
+1585: esp32.menu.DebugLevel.info.build.code_debug=3
+1586: esp32.menu.DebugLevel.debug=Debug
+--- match line 1585 pattern=^esp32\.
+1584: esp32.menu.DebugLevel.info=Info
+1585: esp32.menu.DebugLevel.info.build.code_debug=3
+1586: esp32.menu.DebugLevel.debug=Debug
+1587: esp32.menu.DebugLevel.debug.build.code_debug=4
+--- match line 1586 pattern=^esp32\.
+1585: esp32.menu.DebugLevel.info.build.code_debug=3
+1586: esp32.menu.DebugLevel.debug=Debug
+1587: esp32.menu.DebugLevel.debug.build.code_debug=4
+1588: esp32.menu.DebugLevel.verbose=Verbose
+--- match line 1587 pattern=^esp32\.
+1586: esp32.menu.DebugLevel.debug=Debug
+1587: esp32.menu.DebugLevel.debug.build.code_debug=4
+1588: esp32.menu.DebugLevel.verbose=Verbose
+1589: esp32.menu.DebugLevel.verbose.build.code_debug=5
+--- match line 1588 pattern=^esp32\.
+1587: esp32.menu.DebugLevel.debug.build.code_debug=4
+1588: esp32.menu.DebugLevel.verbose=Verbose
+1589: esp32.menu.DebugLevel.verbose.build.code_debug=5
+1590: 
+--- match line 1589 pattern=^esp32\.
+1588: esp32.menu.DebugLevel.verbose=Verbose
+1589: esp32.menu.DebugLevel.verbose.build.code_debug=5
+1590: 
+1591: esp32.menu.EraseFlash.none=Disabled
+--- match line 1591 pattern=^esp32\.
+1590: 
+1591: esp32.menu.EraseFlash.none=Disabled
+1592: esp32.menu.EraseFlash.none.upload.erase_cmd=
+1593: esp32.menu.EraseFlash.all=Enabled
+--- match line 1592 pattern=^esp32\.
+1591: esp32.menu.EraseFlash.none=Disabled
+1592: esp32.menu.EraseFlash.none.upload.erase_cmd=
+1593: esp32.menu.EraseFlash.all=Enabled
+1594: esp32.menu.EraseFlash.all.upload.erase_cmd=-e
+--- match line 1593 pattern=^esp32\.
+1592: esp32.menu.EraseFlash.none.upload.erase_cmd=
+1593: esp32.menu.EraseFlash.all=Enabled
+1594: esp32.menu.EraseFlash.all.upload.erase_cmd=-e
+1595: 
+--- match line 1594 pattern=^esp32\.
+1593: esp32.menu.EraseFlash.all=Enabled
+1594: esp32.menu.EraseFlash.all.upload.erase_cmd=-e
+1595: 
+1596: esp32.menu.ZigbeeMode.default=Disabled
+--- match line 1596 pattern=^esp32\.
+1595: 
+1596: esp32.menu.ZigbeeMode.default=Disabled
+1597: esp32.menu.ZigbeeMode.default.build.zigbee_mode=
+1598: esp32.menu.ZigbeeMode.default.build.zigbee_libs=
+--- match line 1597 pattern=^esp32\.
+1596: esp32.menu.ZigbeeMode.default=Disabled
+1597: esp32.menu.ZigbeeMode.default.build.zigbee_mode=
+1598: esp32.menu.ZigbeeMode.default.build.zigbee_libs=
+1599: esp32.menu.ZigbeeMode.zczr=Zigbee ZCZR (coordinator/router)
+--- match line 1598 pattern=^esp32\.
+1597: esp32.menu.ZigbeeMode.default.build.zigbee_mode=
+1598: esp32.menu.ZigbeeMode.default.build.zigbee_libs=
+1599: esp32.menu.ZigbeeMode.zczr=Zigbee ZCZR (coordinator/router)
+1600: esp32.menu.ZigbeeMode.zczr.build.zigbee_mode=-DZIGBEE_MODE_ZCZR
+--- match line 1599 pattern=^esp32\.
+1598: esp32.menu.ZigbeeMode.default.build.zigbee_libs=
+1599: esp32.menu.ZigbeeMode.zczr=Zigbee ZCZR (coordinator/router)
+1600: esp32.menu.ZigbeeMode.zczr.build.zigbee_mode=-DZIGBEE_MODE_ZCZR
+1601: esp32.menu.ZigbeeMode.zczr.build.zigbee_libs=-lesp_zb_api.zczr -lzboss_stack.zczr -lzboss_port.remote
+--- match line 1600 pattern=^esp32\.
+1599: esp32.menu.ZigbeeMode.zczr=Zigbee ZCZR (coordinator/router)
+1600: esp32.menu.ZigbeeMode.zczr.build.zigbee_mode=-DZIGBEE_MODE_ZCZR
+1601: esp32.menu.ZigbeeMode.zczr.build.zigbee_libs=-lesp_zb_api.zczr -lzboss_stack.zczr -lzboss_port.remote
+1602: 
+--- match line 1601 pattern=^esp32\.
+1600: esp32.menu.ZigbeeMode.zczr.build.zigbee_mode=-DZIGBEE_MODE_ZCZR
+1601: esp32.menu.ZigbeeMode.zczr.build.zigbee_libs=-lesp_zb_api.zczr -lzboss_stack.zczr -lzboss_port.remote
+1602: 
+1603: ##############################################################
+--- match line 34870 pattern=^XIAO_ESP32C3\.
+34869: 
+34870: XIAO_ESP32C3.name=XIAO_ESP32C3
+34871: XIAO_ESP32C3.vid.0=0x2886
+34872: XIAO_ESP32C3.pid.0=0x0046
+--- match line 34871 pattern=^XIAO_ESP32C3\.
+34870: XIAO_ESP32C3.name=XIAO_ESP32C3
+34871: XIAO_ESP32C3.vid.0=0x2886
+34872: XIAO_ESP32C3.pid.0=0x0046
+34873: 
+--- match line 34872 pattern=^XIAO_ESP32C3\.
+34871: XIAO_ESP32C3.vid.0=0x2886
+34872: XIAO_ESP32C3.pid.0=0x0046
+34873: 
+34874: XIAO_ESP32C3.bootloader.tool=esptool_py
+--- match line 34874 pattern=^XIAO_ESP32C3\.
+34873: 
+34874: XIAO_ESP32C3.bootloader.tool=esptool_py
+34875: XIAO_ESP32C3.bootloader.tool.default=esptool_py
+34876: 
+--- match line 34875 pattern=^XIAO_ESP32C3\.
+34874: XIAO_ESP32C3.bootloader.tool=esptool_py
+34875: XIAO_ESP32C3.bootloader.tool.default=esptool_py
+34876: 
+34877: XIAO_ESP32C3.upload.tool=esptool_py
+--- match line 34877 pattern=^XIAO_ESP32C3\.
+34876: 
+34877: XIAO_ESP32C3.upload.tool=esptool_py
+34878: XIAO_ESP32C3.upload.tool.default=esptool_py
+34879: XIAO_ESP32C3.upload.tool.network=esp_ota
+--- match line 34878 pattern=^XIAO_ESP32C3\.
+34877: XIAO_ESP32C3.upload.tool=esptool_py
+34878: XIAO_ESP32C3.upload.tool.default=esptool_py
+34879: XIAO_ESP32C3.upload.tool.network=esp_ota
+34880: 
+--- match line 34879 pattern=^XIAO_ESP32C3\.
+34878: XIAO_ESP32C3.upload.tool.default=esptool_py
+34879: XIAO_ESP32C3.upload.tool.network=esp_ota
+34880: 
+34881: XIAO_ESP32C3.upload.maximum_size=1310720
+--- match line 34881 pattern=^XIAO_ESP32C3\.
+34880: 
+34881: XIAO_ESP32C3.upload.maximum_size=1310720
+34882: XIAO_ESP32C3.upload.maximum_data_size=327680
+34883: XIAO_ESP32C3.upload.flags=
+--- match line 34882 pattern=^XIAO_ESP32C3\.
+34881: XIAO_ESP32C3.upload.maximum_size=1310720
+34882: XIAO_ESP32C3.upload.maximum_data_size=327680
+34883: XIAO_ESP32C3.upload.flags=
+34884: XIAO_ESP32C3.upload.extra_flags=
+--- match line 34883 pattern=^XIAO_ESP32C3\.
+34882: XIAO_ESP32C3.upload.maximum_data_size=327680
+34883: XIAO_ESP32C3.upload.flags=
+34884: XIAO_ESP32C3.upload.extra_flags=
+34885: XIAO_ESP32C3.upload.use_1200bps_touch=false
+--- match line 34884 pattern=^XIAO_ESP32C3\.
+34883: XIAO_ESP32C3.upload.flags=
+34884: XIAO_ESP32C3.upload.extra_flags=
+34885: XIAO_ESP32C3.upload.use_1200bps_touch=false
+34886: XIAO_ESP32C3.upload.wait_for_upload_port=false
+--- match line 34885 pattern=^XIAO_ESP32C3\.
+34884: XIAO_ESP32C3.upload.extra_flags=
+34885: XIAO_ESP32C3.upload.use_1200bps_touch=false
+34886: XIAO_ESP32C3.upload.wait_for_upload_port=false
+34887: 
+--- match line 34886 pattern=^XIAO_ESP32C3\.
+34885: XIAO_ESP32C3.upload.use_1200bps_touch=false
+34886: XIAO_ESP32C3.upload.wait_for_upload_port=false
+34887: 
+34888: XIAO_ESP32C3.serial.disableDTR=false
+--- match line 34888 pattern=^XIAO_ESP32C3\.
+34887: 
+34888: XIAO_ESP32C3.serial.disableDTR=false
+34889: XIAO_ESP32C3.serial.disableRTS=false
+34890: 
+--- match line 34889 pattern=^XIAO_ESP32C3\.
+34888: XIAO_ESP32C3.serial.disableDTR=false
+34889: XIAO_ESP32C3.serial.disableRTS=false
+34890: 
+34891: XIAO_ESP32C3.build.tarch=riscv32
+--- match line 34891 pattern=^XIAO_ESP32C3\.
+34890: 
+34891: XIAO_ESP32C3.build.tarch=riscv32
+34892: XIAO_ESP32C3.build.target=esp
+34893: XIAO_ESP32C3.build.mcu=esp32c3
+--- match line 34892 pattern=^XIAO_ESP32C3\.
+34891: XIAO_ESP32C3.build.tarch=riscv32
+34892: XIAO_ESP32C3.build.target=esp
+34893: XIAO_ESP32C3.build.mcu=esp32c3
+34894: XIAO_ESP32C3.build.core=esp32
+--- match line 34893 pattern=^XIAO_ESP32C3\.
+34892: XIAO_ESP32C3.build.target=esp
+34893: XIAO_ESP32C3.build.mcu=esp32c3
+34894: XIAO_ESP32C3.build.core=esp32
+34895: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+--- match line 34894 pattern=^XIAO_ESP32C3\.
+34893: XIAO_ESP32C3.build.mcu=esp32c3
+34894: XIAO_ESP32C3.build.core=esp32
+34895: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+34896: XIAO_ESP32C3.build.board=XIAO_ESP32C3
+--- match line 34895 pattern=^XIAO_ESP32C3\.
+34894: XIAO_ESP32C3.build.core=esp32
+34895: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+34896: XIAO_ESP32C3.build.board=XIAO_ESP32C3
+34897: XIAO_ESP32C3.build.bootloader_addr=0x0
+--- match line 34896 pattern=^XIAO_ESP32C3\.
+34895: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+34896: XIAO_ESP32C3.build.board=XIAO_ESP32C3
+34897: XIAO_ESP32C3.build.bootloader_addr=0x0
+34898: 
+--- match line 34897 pattern=^XIAO_ESP32C3\.
+34896: XIAO_ESP32C3.build.board=XIAO_ESP32C3
+34897: XIAO_ESP32C3.build.bootloader_addr=0x0
+34898: 
+34899: XIAO_ESP32C3.build.cdc_on_boot=1
+--- match line 34899 pattern=^XIAO_ESP32C3\.
+34898: 
+34899: XIAO_ESP32C3.build.cdc_on_boot=1
+34900: XIAO_ESP32C3.build.f_cpu=160000000L
+34901: XIAO_ESP32C3.build.flash_size=4MB
+--- match line 34900 pattern=^XIAO_ESP32C3\.
+34899: XIAO_ESP32C3.build.cdc_on_boot=1
+34900: XIAO_ESP32C3.build.f_cpu=160000000L
+34901: XIAO_ESP32C3.build.flash_size=4MB
+34902: XIAO_ESP32C3.build.flash_freq=80m
+--- match line 34901 pattern=^XIAO_ESP32C3\.
+34900: XIAO_ESP32C3.build.f_cpu=160000000L
+34901: XIAO_ESP32C3.build.flash_size=4MB
+34902: XIAO_ESP32C3.build.flash_freq=80m
+34903: XIAO_ESP32C3.build.flash_mode=qio
+--- match line 34902 pattern=^XIAO_ESP32C3\.
+34901: XIAO_ESP32C3.build.flash_size=4MB
+34902: XIAO_ESP32C3.build.flash_freq=80m
+34903: XIAO_ESP32C3.build.flash_mode=qio
+34904: XIAO_ESP32C3.build.boot=qio
+--- match line 34903 pattern=^XIAO_ESP32C3\.
+34902: XIAO_ESP32C3.build.flash_freq=80m
+34903: XIAO_ESP32C3.build.flash_mode=qio
+34904: XIAO_ESP32C3.build.boot=qio
+34905: XIAO_ESP32C3.build.partitions=default
+--- match line 34904 pattern=^XIAO_ESP32C3\.
+34903: XIAO_ESP32C3.build.flash_mode=qio
+34904: XIAO_ESP32C3.build.boot=qio
+34905: XIAO_ESP32C3.build.partitions=default
+34906: XIAO_ESP32C3.build.defines=
+--- match line 34905 pattern=^XIAO_ESP32C3\.
+34904: XIAO_ESP32C3.build.boot=qio
+34905: XIAO_ESP32C3.build.partitions=default
+34906: XIAO_ESP32C3.build.defines=
+34907: 
+--- match line 34906 pattern=^XIAO_ESP32C3\.
+34905: XIAO_ESP32C3.build.partitions=default
+34906: XIAO_ESP32C3.build.defines=
+34907: 
+34908: XIAO_ESP32C3.menu.CDCOnBoot.default=Enabled
+--- match line 34908 pattern=^XIAO_ESP32C3\.
+34907: 
+34908: XIAO_ESP32C3.menu.CDCOnBoot.default=Enabled
+34909: XIAO_ESP32C3.menu.CDCOnBoot.default.build.cdc_on_boot=1
+34910: XIAO_ESP32C3.menu.CDCOnBoot.cdc=Disabled
+--- match line 34909 pattern=^XIAO_ESP32C3\.
+34908: XIAO_ESP32C3.menu.CDCOnBoot.default=Enabled
+34909: XIAO_ESP32C3.menu.CDCOnBoot.default.build.cdc_on_boot=1
+34910: XIAO_ESP32C3.menu.CDCOnBoot.cdc=Disabled
+34911: XIAO_ESP32C3.menu.CDCOnBoot.cdc.build.cdc_on_boot=0
+--- match line 34910 pattern=^XIAO_ESP32C3\.
+34909: XIAO_ESP32C3.menu.CDCOnBoot.default.build.cdc_on_boot=1
+34910: XIAO_ESP32C3.menu.CDCOnBoot.cdc=Disabled
+34911: XIAO_ESP32C3.menu.CDCOnBoot.cdc.build.cdc_on_boot=0
+34912: 
+--- match line 34911 pattern=^XIAO_ESP32C3\.
+34910: XIAO_ESP32C3.menu.CDCOnBoot.cdc=Disabled
+34911: XIAO_ESP32C3.menu.CDCOnBoot.cdc.build.cdc_on_boot=0
+34912: 
+34913: XIAO_ESP32C3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+--- match line 34913 pattern=^XIAO_ESP32C3\.
+34912: 
+34913: XIAO_ESP32C3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+34914: XIAO_ESP32C3.menu.PartitionScheme.default.build.partitions=default
+34915: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+--- match line 34914 pattern=^XIAO_ESP32C3\.
+34913: XIAO_ESP32C3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+34914: XIAO_ESP32C3.menu.PartitionScheme.default.build.partitions=default
+34915: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+34916: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+--- match line 34915 pattern=^XIAO_ESP32C3\.
+34914: XIAO_ESP32C3.menu.PartitionScheme.default.build.partitions=default
+34915: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+34916: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+34917: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+--- match line 34916 pattern=^XIAO_ESP32C3\.
+34915: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+34916: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+34917: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+34918: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+--- match line 34917 pattern=^XIAO_ESP32C3\.
+34916: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+34917: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+34918: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+34919: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+--- match line 34918 pattern=^XIAO_ESP32C3\.
+34917: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+34918: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+34919: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+34920: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+--- match line 34919 pattern=^XIAO_ESP32C3\.
+34918: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+34919: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+34920: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+34921: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+--- match line 34920 pattern=^XIAO_ESP32C3\.
+34919: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+34920: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+34921: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+34922: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+--- match line 34921 pattern=^XIAO_ESP32C3\.
+34920: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+34921: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+34922: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+34923: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+--- match line 34922 pattern=^XIAO_ESP32C3\.
+34921: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+34922: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+34923: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+34924: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+--- match line 34923 pattern=^XIAO_ESP32C3\.
+34922: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+34923: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+34924: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+34925: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+--- match line 34924 pattern=^XIAO_ESP32C3\.
+34923: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+34924: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+34925: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+34926: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+--- match line 34925 pattern=^XIAO_ESP32C3\.
+34924: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+34925: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+34926: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+34927: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+--- match line 34926 pattern=^XIAO_ESP32C3\.
+34925: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+34926: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+34927: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+34928: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+--- match line 34927 pattern=^XIAO_ESP32C3\.
+34926: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+34927: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+34928: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+34929: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+--- match line 34928 pattern=^XIAO_ESP32C3\.
+34927: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+34928: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+34929: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+34930: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.upload.maximum_size=2097152
+--- match line 34929 pattern=^XIAO_ESP32C3\.
+34928: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+34929: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+34930: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.upload.maximum_size=2097152
+34931: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat=No OTA (1MB APP/3MB FATFS)
+--- match line 34930 pattern=^XIAO_ESP32C3\.
+34929: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+34930: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.upload.maximum_size=2097152
+34931: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat=No OTA (1MB APP/3MB FATFS)
+34932: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat.build.partitions=noota_3gffat
+--- match line 34931 pattern=^XIAO_ESP32C3\.
+34930: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.upload.maximum_size=2097152
+34931: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat=No OTA (1MB APP/3MB FATFS)
+34932: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat.build.partitions=noota_3gffat
+34933: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat.upload.maximum_size=1048576
+--- match line 34932 pattern=^XIAO_ESP32C3\.
+34931: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat=No OTA (1MB APP/3MB FATFS)
+34932: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat.build.partitions=noota_3gffat
+34933: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat.upload.maximum_size=1048576
+34934: XIAO_ESP32C3.menu.PartitionScheme.huge_app=Huge APP (3MB No OTA/1MB SPIFFS)
+--- match line 34933 pattern=^XIAO_ESP32C3\.
+34932: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat.build.partitions=noota_3gffat
+34933: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat.upload.maximum_size=1048576
+34934: XIAO_ESP32C3.menu.PartitionScheme.huge_app=Huge APP (3MB No OTA/1MB SPIFFS)
+34935: XIAO_ESP32C3.menu.PartitionScheme.huge_app.build.partitions=huge_app
+--- match line 34934 pattern=^XIAO_ESP32C3\.
+34933: XIAO_ESP32C3.menu.PartitionScheme.noota_3gffat.upload.maximum_size=1048576
+34934: XIAO_ESP32C3.menu.PartitionScheme.huge_app=Huge APP (3MB No OTA/1MB SPIFFS)
+34935: XIAO_ESP32C3.menu.PartitionScheme.huge_app.build.partitions=huge_app
+34936: XIAO_ESP32C3.menu.PartitionScheme.huge_app.upload.maximum_size=3145728
+--- match line 34935 pattern=^XIAO_ESP32C3\.
+34934: XIAO_ESP32C3.menu.PartitionScheme.huge_app=Huge APP (3MB No OTA/1MB SPIFFS)
+34935: XIAO_ESP32C3.menu.PartitionScheme.huge_app.build.partitions=huge_app
+34936: XIAO_ESP32C3.menu.PartitionScheme.huge_app.upload.maximum_size=3145728
+34937: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+--- match line 34936 pattern=^XIAO_ESP32C3\.
+34935: XIAO_ESP32C3.menu.PartitionScheme.huge_app.build.partitions=huge_app
+34936: XIAO_ESP32C3.menu.PartitionScheme.huge_app.upload.maximum_size=3145728
+34937: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+34938: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+--- match line 34937 pattern=^XIAO_ESP32C3\.
+34936: XIAO_ESP32C3.menu.PartitionScheme.huge_app.upload.maximum_size=3145728
+34937: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+34938: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+34939: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+--- match line 34938 pattern=^XIAO_ESP32C3\.
+34937: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs=Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)
+34938: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+34939: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+34940: XIAO_ESP32C3.menu.PartitionScheme.fatflash=16M Flash (2MB APP/12.5MB FATFS)
+--- match line 34939 pattern=^XIAO_ESP32C3\.
+34938: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs.build.partitions=min_spiffs
+34939: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+34940: XIAO_ESP32C3.menu.PartitionScheme.fatflash=16M Flash (2MB APP/12.5MB FATFS)
+34941: XIAO_ESP32C3.menu.PartitionScheme.fatflash.build.partitions=ffat
+--- match line 34940 pattern=^XIAO_ESP32C3\.
+34939: XIAO_ESP32C3.menu.PartitionScheme.min_spiffs.upload.maximum_size=1966080
+34940: XIAO_ESP32C3.menu.PartitionScheme.fatflash=16M Flash (2MB APP/12.5MB FATFS)
+34941: XIAO_ESP32C3.menu.PartitionScheme.fatflash.build.partitions=ffat
+34942: XIAO_ESP32C3.menu.PartitionScheme.fatflash.upload.maximum_size=2097152
+--- match line 34941 pattern=^XIAO_ESP32C3\.
+34940: XIAO_ESP32C3.menu.PartitionScheme.fatflash=16M Flash (2MB APP/12.5MB FATFS)
+34941: XIAO_ESP32C3.menu.PartitionScheme.fatflash.build.partitions=ffat
+34942: XIAO_ESP32C3.menu.PartitionScheme.fatflash.upload.maximum_size=2097152
+34943: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB=16M Flash (3MB APP/9.9MB FATFS)
+--- match line 34942 pattern=^XIAO_ESP32C3\.
+34941: XIAO_ESP32C3.menu.PartitionScheme.fatflash.build.partitions=ffat
+34942: XIAO_ESP32C3.menu.PartitionScheme.fatflash.upload.maximum_size=2097152
+34943: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB=16M Flash (3MB APP/9.9MB FATFS)
+34944: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB.build.partitions=app3M_fat9M_16MB
+--- match line 34943 pattern=^XIAO_ESP32C3\.
+34942: XIAO_ESP32C3.menu.PartitionScheme.fatflash.upload.maximum_size=2097152
+34943: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB=16M Flash (3MB APP/9.9MB FATFS)
+34944: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB.build.partitions=app3M_fat9M_16MB
+34945: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
+--- match line 34944 pattern=^XIAO_ESP32C3\.
+34943: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB=16M Flash (3MB APP/9.9MB FATFS)
+34944: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB.build.partitions=app3M_fat9M_16MB
+34945: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
+34946: XIAO_ESP32C3.menu.PartitionScheme.rainmaker=RainMaker 4MB
+--- match line 34945 pattern=^XIAO_ESP32C3\.
+34944: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB.build.partitions=app3M_fat9M_16MB
+34945: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
+34946: XIAO_ESP32C3.menu.PartitionScheme.rainmaker=RainMaker 4MB
+34947: XIAO_ESP32C3.menu.PartitionScheme.rainmaker.build.partitions=rainmaker
+--- match line 34946 pattern=^XIAO_ESP32C3\.
+34945: XIAO_ESP32C3.menu.PartitionScheme.app3M_fat9M_16MB.upload.maximum_size=3145728
+34946: XIAO_ESP32C3.menu.PartitionScheme.rainmaker=RainMaker 4MB
+34947: XIAO_ESP32C3.menu.PartitionScheme.rainmaker.build.partitions=rainmaker
+34948: XIAO_ESP32C3.menu.PartitionScheme.rainmaker.upload.maximum_size=1966080
+--- match line 34947 pattern=^XIAO_ESP32C3\.
+34946: XIAO_ESP32C3.menu.PartitionScheme.rainmaker=RainMaker 4MB
+34947: XIAO_ESP32C3.menu.PartitionScheme.rainmaker.build.partitions=rainmaker
+34948: XIAO_ESP32C3.menu.PartitionScheme.rainmaker.upload.maximum_size=1966080
+34949: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB=RainMaker 4MB No OTA
+--- match line 34948 pattern=^XIAO_ESP32C3\.
+34947: XIAO_ESP32C3.menu.PartitionScheme.rainmaker.build.partitions=rainmaker
+34948: XIAO_ESP32C3.menu.PartitionScheme.rainmaker.upload.maximum_size=1966080
+34949: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB=RainMaker 4MB No OTA
+34950: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB.build.partitions=rainmaker_4MB_no_ota
+--- match line 34949 pattern=^XIAO_ESP32C3\.
+34948: XIAO_ESP32C3.menu.PartitionScheme.rainmaker.upload.maximum_size=1966080
+34949: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB=RainMaker 4MB No OTA
+34950: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB.build.partitions=rainmaker_4MB_no_ota
+34951: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB.upload.maximum_size=4038656
+--- match line 34950 pattern=^XIAO_ESP32C3\.
+34949: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB=RainMaker 4MB No OTA
+34950: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB.build.partitions=rainmaker_4MB_no_ota
+34951: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB.upload.maximum_size=4038656
+34952: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB=RainMaker 8MB
+--- match line 34951 pattern=^XIAO_ESP32C3\.
+34950: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB.build.partitions=rainmaker_4MB_no_ota
+34951: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB.upload.maximum_size=4038656
+34952: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB=RainMaker 8MB
+34953: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB.build.partitions=rainmaker_8MB
+--- match line 34952 pattern=^XIAO_ESP32C3\.
+34951: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_4MB.upload.maximum_size=4038656
+34952: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB=RainMaker 8MB
+34953: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB.build.partitions=rainmaker_8MB
+34954: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB.upload.maximum_size=4116480
+--- match line 34953 pattern=^XIAO_ESP32C3\.
+34952: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB=RainMaker 8MB
+34953: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB.build.partitions=rainmaker_8MB
+34954: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB.upload.maximum_size=4116480
+34955: 
+--- match line 34954 pattern=^XIAO_ESP32C3\.
+34953: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB.build.partitions=rainmaker_8MB
+34954: XIAO_ESP32C3.menu.PartitionScheme.rainmaker_8MB.upload.maximum_size=4116480
+34955: 
+34956: XIAO_ESP32C3.menu.CPUFreq.160=160MHz (WiFi)
+--- match line 34956 pattern=^XIAO_ESP32C3\.
+34955: 
+34956: XIAO_ESP32C3.menu.CPUFreq.160=160MHz (WiFi)
+34957: XIAO_ESP32C3.menu.CPUFreq.160.build.f_cpu=160000000L
+34958: XIAO_ESP32C3.menu.CPUFreq.80=80MHz (WiFi)
+--- match line 34957 pattern=^XIAO_ESP32C3\.
+34956: XIAO_ESP32C3.menu.CPUFreq.160=160MHz (WiFi)
+34957: XIAO_ESP32C3.menu.CPUFreq.160.build.f_cpu=160000000L
+34958: XIAO_ESP32C3.menu.CPUFreq.80=80MHz (WiFi)
+34959: XIAO_ESP32C3.menu.CPUFreq.80.build.f_cpu=80000000L
+--- match line 34958 pattern=^XIAO_ESP32C3\.
+34957: XIAO_ESP32C3.menu.CPUFreq.160.build.f_cpu=160000000L
+34958: XIAO_ESP32C3.menu.CPUFreq.80=80MHz (WiFi)
+34959: XIAO_ESP32C3.menu.CPUFreq.80.build.f_cpu=80000000L
+34960: XIAO_ESP32C3.menu.CPUFreq.40=40MHz
+--- match line 34959 pattern=^XIAO_ESP32C3\.
+34958: XIAO_ESP32C3.menu.CPUFreq.80=80MHz (WiFi)
+34959: XIAO_ESP32C3.menu.CPUFreq.80.build.f_cpu=80000000L
+34960: XIAO_ESP32C3.menu.CPUFreq.40=40MHz
+34961: XIAO_ESP32C3.menu.CPUFreq.40.build.f_cpu=40000000L
+--- match line 34960 pattern=^XIAO_ESP32C3\.
+34959: XIAO_ESP32C3.menu.CPUFreq.80.build.f_cpu=80000000L
+34960: XIAO_ESP32C3.menu.CPUFreq.40=40MHz
+34961: XIAO_ESP32C3.menu.CPUFreq.40.build.f_cpu=40000000L
+34962: XIAO_ESP32C3.menu.CPUFreq.20=20MHz
+--- match line 34961 pattern=^XIAO_ESP32C3\.
+34960: XIAO_ESP32C3.menu.CPUFreq.40=40MHz
+34961: XIAO_ESP32C3.menu.CPUFreq.40.build.f_cpu=40000000L
+34962: XIAO_ESP32C3.menu.CPUFreq.20=20MHz
+34963: XIAO_ESP32C3.menu.CPUFreq.20.build.f_cpu=20000000L
+--- match line 34962 pattern=^XIAO_ESP32C3\.
+34961: XIAO_ESP32C3.menu.CPUFreq.40.build.f_cpu=40000000L
+34962: XIAO_ESP32C3.menu.CPUFreq.20=20MHz
+34963: XIAO_ESP32C3.menu.CPUFreq.20.build.f_cpu=20000000L
+34964: XIAO_ESP32C3.menu.CPUFreq.10=10MHz
+--- match line 34963 pattern=^XIAO_ESP32C3\.
+34962: XIAO_ESP32C3.menu.CPUFreq.20=20MHz
+34963: XIAO_ESP32C3.menu.CPUFreq.20.build.f_cpu=20000000L
+34964: XIAO_ESP32C3.menu.CPUFreq.10=10MHz
+34965: XIAO_ESP32C3.menu.CPUFreq.10.build.f_cpu=10000000L
+--- match line 34964 pattern=^XIAO_ESP32C3\.
+34963: XIAO_ESP32C3.menu.CPUFreq.20.build.f_cpu=20000000L
+34964: XIAO_ESP32C3.menu.CPUFreq.10=10MHz
+34965: XIAO_ESP32C3.menu.CPUFreq.10.build.f_cpu=10000000L
+34966: 
+--- match line 34965 pattern=^XIAO_ESP32C3\.
+34964: XIAO_ESP32C3.menu.CPUFreq.10=10MHz
+34965: XIAO_ESP32C3.menu.CPUFreq.10.build.f_cpu=10000000L
+34966: 
+34967: XIAO_ESP32C3.menu.FlashMode.qio=QIO
+--- match line 34967 pattern=^XIAO_ESP32C3\.
+34966: 
+34967: XIAO_ESP32C3.menu.FlashMode.qio=QIO
+34968: XIAO_ESP32C3.menu.FlashMode.qio.build.flash_mode=dio
+34969: XIAO_ESP32C3.menu.FlashMode.qio.build.boot=qio
+--- match line 34968 pattern=^XIAO_ESP32C3\.
+34967: XIAO_ESP32C3.menu.FlashMode.qio=QIO
+34968: XIAO_ESP32C3.menu.FlashMode.qio.build.flash_mode=dio
+34969: XIAO_ESP32C3.menu.FlashMode.qio.build.boot=qio
+34970: XIAO_ESP32C3.menu.FlashMode.dio=DIO
+--- match line 34969 pattern=^XIAO_ESP32C3\.
+34968: XIAO_ESP32C3.menu.FlashMode.qio.build.flash_mode=dio
+34969: XIAO_ESP32C3.menu.FlashMode.qio.build.boot=qio
+34970: XIAO_ESP32C3.menu.FlashMode.dio=DIO
+34971: XIAO_ESP32C3.menu.FlashMode.dio.build.flash_mode=dio
+--- match line 34970 pattern=^XIAO_ESP32C3\.
+34969: XIAO_ESP32C3.menu.FlashMode.qio.build.boot=qio
+34970: XIAO_ESP32C3.menu.FlashMode.dio=DIO
+34971: XIAO_ESP32C3.menu.FlashMode.dio.build.flash_mode=dio
+34972: XIAO_ESP32C3.menu.FlashMode.dio.build.boot=dio
+--- match line 34971 pattern=^XIAO_ESP32C3\.
+34970: XIAO_ESP32C3.menu.FlashMode.dio=DIO
+34971: XIAO_ESP32C3.menu.FlashMode.dio.build.flash_mode=dio
+34972: XIAO_ESP32C3.menu.FlashMode.dio.build.boot=dio
+34973: 
+--- match line 34972 pattern=^XIAO_ESP32C3\.
+34971: XIAO_ESP32C3.menu.FlashMode.dio.build.flash_mode=dio
+34972: XIAO_ESP32C3.menu.FlashMode.dio.build.boot=dio
+34973: 
+34974: XIAO_ESP32C3.menu.FlashFreq.80=80MHz
+--- match line 34974 pattern=^XIAO_ESP32C3\.
+34973: 
+34974: XIAO_ESP32C3.menu.FlashFreq.80=80MHz
+34975: XIAO_ESP32C3.menu.FlashFreq.80.build.flash_freq=80m
+34976: XIAO_ESP32C3.menu.FlashFreq.40=40MHz
+--- match line 34975 pattern=^XIAO_ESP32C3\.
+34974: XIAO_ESP32C3.menu.FlashFreq.80=80MHz
+34975: XIAO_ESP32C3.menu.FlashFreq.80.build.flash_freq=80m
+34976: XIAO_ESP32C3.menu.FlashFreq.40=40MHz
+34977: XIAO_ESP32C3.menu.FlashFreq.40.build.flash_freq=40m
+--- match line 34976 pattern=^XIAO_ESP32C3\.
+34975: XIAO_ESP32C3.menu.FlashFreq.80.build.flash_freq=80m
+34976: XIAO_ESP32C3.menu.FlashFreq.40=40MHz
+34977: XIAO_ESP32C3.menu.FlashFreq.40.build.flash_freq=40m
+34978: 
+--- match line 34977 pattern=^XIAO_ESP32C3\.
+34976: XIAO_ESP32C3.menu.FlashFreq.40=40MHz
+34977: XIAO_ESP32C3.menu.FlashFreq.40.build.flash_freq=40m
+34978: 
+34979: XIAO_ESP32C3.menu.FlashSize.4M=4MB (32Mb)
+--- match line 34979 pattern=^XIAO_ESP32C3\.
+34978: 
+34979: XIAO_ESP32C3.menu.FlashSize.4M=4MB (32Mb)
+34980: XIAO_ESP32C3.menu.FlashSize.4M.build.flash_size=4MB
+34981: XIAO_ESP32C3.menu.FlashSize.8M=8MB (64Mb)
+--- match line 34980 pattern=^XIAO_ESP32C3\.
+34979: XIAO_ESP32C3.menu.FlashSize.4M=4MB (32Mb)
+34980: XIAO_ESP32C3.menu.FlashSize.4M.build.flash_size=4MB
+34981: XIAO_ESP32C3.menu.FlashSize.8M=8MB (64Mb)
+34982: XIAO_ESP32C3.menu.FlashSize.8M.build.flash_size=8MB
+--- match line 34981 pattern=^XIAO_ESP32C3\.
+34980: XIAO_ESP32C3.menu.FlashSize.4M.build.flash_size=4MB
+34981: XIAO_ESP32C3.menu.FlashSize.8M=8MB (64Mb)
+34982: XIAO_ESP32C3.menu.FlashSize.8M.build.flash_size=8MB
+34983: XIAO_ESP32C3.menu.FlashSize.2M=2MB (16Mb)
+--- match line 34982 pattern=^XIAO_ESP32C3\.
+34981: XIAO_ESP32C3.menu.FlashSize.8M=8MB (64Mb)
+34982: XIAO_ESP32C3.menu.FlashSize.8M.build.flash_size=8MB
+34983: XIAO_ESP32C3.menu.FlashSize.2M=2MB (16Mb)
+34984: XIAO_ESP32C3.menu.FlashSize.2M.build.flash_size=2MB
+--- match line 34983 pattern=^XIAO_ESP32C3\.
+34982: XIAO_ESP32C3.menu.FlashSize.8M.build.flash_size=8MB
+34983: XIAO_ESP32C3.menu.FlashSize.2M=2MB (16Mb)
+34984: XIAO_ESP32C3.menu.FlashSize.2M.build.flash_size=2MB
+34985: XIAO_ESP32C3.menu.FlashSize.16M=16MB (128Mb)
+--- match line 34984 pattern=^XIAO_ESP32C3\.
+34983: XIAO_ESP32C3.menu.FlashSize.2M=2MB (16Mb)
+34984: XIAO_ESP32C3.menu.FlashSize.2M.build.flash_size=2MB
+34985: XIAO_ESP32C3.menu.FlashSize.16M=16MB (128Mb)
+34986: XIAO_ESP32C3.menu.FlashSize.16M.build.flash_size=16MB
+--- match line 34985 pattern=^XIAO_ESP32C3\.
+34984: XIAO_ESP32C3.menu.FlashSize.2M.build.flash_size=2MB
+34985: XIAO_ESP32C3.menu.FlashSize.16M=16MB (128Mb)
+34986: XIAO_ESP32C3.menu.FlashSize.16M.build.flash_size=16MB
+34987: 
+--- match line 34986 pattern=^XIAO_ESP32C3\.
+34985: XIAO_ESP32C3.menu.FlashSize.16M=16MB (128Mb)
+34986: XIAO_ESP32C3.menu.FlashSize.16M.build.flash_size=16MB
+34987: 
+34988: XIAO_ESP32C3.menu.UploadSpeed.921600=921600
+--- match line 34988 pattern=^XIAO_ESP32C3\.
+34987: 
+34988: XIAO_ESP32C3.menu.UploadSpeed.921600=921600
+34989: XIAO_ESP32C3.menu.UploadSpeed.921600.upload.speed=921600
+34990: XIAO_ESP32C3.menu.UploadSpeed.115200=115200
+--- match line 34989 pattern=^XIAO_ESP32C3\.
+34988: XIAO_ESP32C3.menu.UploadSpeed.921600=921600
+34989: XIAO_ESP32C3.menu.UploadSpeed.921600.upload.speed=921600
+34990: XIAO_ESP32C3.menu.UploadSpeed.115200=115200
+34991: XIAO_ESP32C3.menu.UploadSpeed.115200.upload.speed=115200
+--- match line 34990 pattern=^XIAO_ESP32C3\.
+34989: XIAO_ESP32C3.menu.UploadSpeed.921600.upload.speed=921600
+34990: XIAO_ESP32C3.menu.UploadSpeed.115200=115200
+34991: XIAO_ESP32C3.menu.UploadSpeed.115200.upload.speed=115200
+34992: XIAO_ESP32C3.menu.UploadSpeed.256000.windows=256000
+--- match line 34991 pattern=^XIAO_ESP32C3\.
+34990: XIAO_ESP32C3.menu.UploadSpeed.115200=115200
+34991: XIAO_ESP32C3.menu.UploadSpeed.115200.upload.speed=115200
+34992: XIAO_ESP32C3.menu.UploadSpeed.256000.windows=256000
+34993: XIAO_ESP32C3.menu.UploadSpeed.256000.upload.speed=256000
+--- match line 34992 pattern=^XIAO_ESP32C3\.
+34991: XIAO_ESP32C3.menu.UploadSpeed.115200.upload.speed=115200
+34992: XIAO_ESP32C3.menu.UploadSpeed.256000.windows=256000
+34993: XIAO_ESP32C3.menu.UploadSpeed.256000.upload.speed=256000
+34994: XIAO_ESP32C3.menu.UploadSpeed.230400.windows.upload.speed=256000
+--- match line 34993 pattern=^XIAO_ESP32C3\.
+34992: XIAO_ESP32C3.menu.UploadSpeed.256000.windows=256000
+34993: XIAO_ESP32C3.menu.UploadSpeed.256000.upload.speed=256000
+34994: XIAO_ESP32C3.menu.UploadSpeed.230400.windows.upload.speed=256000
+34995: XIAO_ESP32C3.menu.UploadSpeed.230400=230400
+--- match line 34994 pattern=^XIAO_ESP32C3\.
+34993: XIAO_ESP32C3.menu.UploadSpeed.256000.upload.speed=256000
+34994: XIAO_ESP32C3.menu.UploadSpeed.230400.windows.upload.speed=256000
+34995: XIAO_ESP32C3.menu.UploadSpeed.230400=230400
+34996: XIAO_ESP32C3.menu.UploadSpeed.230400.upload.speed=230400
+--- match line 34995 pattern=^XIAO_ESP32C3\.
+34994: XIAO_ESP32C3.menu.UploadSpeed.230400.windows.upload.speed=256000
+34995: XIAO_ESP32C3.menu.UploadSpeed.230400=230400
+34996: XIAO_ESP32C3.menu.UploadSpeed.230400.upload.speed=230400
+34997: XIAO_ESP32C3.menu.UploadSpeed.460800.linux=460800
+--- match line 34996 pattern=^XIAO_ESP32C3\.
+34995: XIAO_ESP32C3.menu.UploadSpeed.230400=230400
+34996: XIAO_ESP32C3.menu.UploadSpeed.230400.upload.speed=230400
+34997: XIAO_ESP32C3.menu.UploadSpeed.460800.linux=460800
+34998: XIAO_ESP32C3.menu.UploadSpeed.460800.macosx=460800
+--- match line 34997 pattern=^XIAO_ESP32C3\.
+34996: XIAO_ESP32C3.menu.UploadSpeed.230400.upload.speed=230400
+34997: XIAO_ESP32C3.menu.UploadSpeed.460800.linux=460800
+34998: XIAO_ESP32C3.menu.UploadSpeed.460800.macosx=460800
+34999: XIAO_ESP32C3.menu.UploadSpeed.460800.upload.speed=460800
+--- match line 34998 pattern=^XIAO_ESP32C3\.
+34997: XIAO_ESP32C3.menu.UploadSpeed.460800.linux=460800
+34998: XIAO_ESP32C3.menu.UploadSpeed.460800.macosx=460800
+34999: XIAO_ESP32C3.menu.UploadSpeed.460800.upload.speed=460800
+35000: XIAO_ESP32C3.menu.UploadSpeed.512000.windows=512000
+--- match line 34999 pattern=^XIAO_ESP32C3\.
+34998: XIAO_ESP32C3.menu.UploadSpeed.460800.macosx=460800
+34999: XIAO_ESP32C3.menu.UploadSpeed.460800.upload.speed=460800
+35000: XIAO_ESP32C3.menu.UploadSpeed.512000.windows=512000
+35001: XIAO_ESP32C3.menu.UploadSpeed.512000.upload.speed=512000
+--- match line 35000 pattern=^XIAO_ESP32C3\.
+34999: XIAO_ESP32C3.menu.UploadSpeed.460800.upload.speed=460800
+35000: XIAO_ESP32C3.menu.UploadSpeed.512000.windows=512000
+35001: XIAO_ESP32C3.menu.UploadSpeed.512000.upload.speed=512000
+35002: 
+--- match line 35001 pattern=^XIAO_ESP32C3\.
+35000: XIAO_ESP32C3.menu.UploadSpeed.512000.windows=512000
+35001: XIAO_ESP32C3.menu.UploadSpeed.512000.upload.speed=512000
+35002: 
+35003: XIAO_ESP32C3.menu.DebugLevel.none=None
+--- match line 35003 pattern=^XIAO_ESP32C3\.
+35002: 
+35003: XIAO_ESP32C3.menu.DebugLevel.none=None
+35004: XIAO_ESP32C3.menu.DebugLevel.none.build.code_debug=0
+35005: XIAO_ESP32C3.menu.DebugLevel.error=Error
+--- match line 35004 pattern=^XIAO_ESP32C3\.
+35003: XIAO_ESP32C3.menu.DebugLevel.none=None
+35004: XIAO_ESP32C3.menu.DebugLevel.none.build.code_debug=0
+35005: XIAO_ESP32C3.menu.DebugLevel.error=Error
+35006: XIAO_ESP32C3.menu.DebugLevel.error.build.code_debug=1
+--- match line 35005 pattern=^XIAO_ESP32C3\.
+35004: XIAO_ESP32C3.menu.DebugLevel.none.build.code_debug=0
+35005: XIAO_ESP32C3.menu.DebugLevel.error=Error
+35006: XIAO_ESP32C3.menu.DebugLevel.error.build.code_debug=1
+35007: XIAO_ESP32C3.menu.DebugLevel.warn=Warn
+--- match line 35006 pattern=^XIAO_ESP32C3\.
+35005: XIAO_ESP32C3.menu.DebugLevel.error=Error
+35006: XIAO_ESP32C3.menu.DebugLevel.error.build.code_debug=1
+35007: XIAO_ESP32C3.menu.DebugLevel.warn=Warn
+35008: XIAO_ESP32C3.menu.DebugLevel.warn.build.code_debug=2
+--- match line 35007 pattern=^XIAO_ESP32C3\.
+35006: XIAO_ESP32C3.menu.DebugLevel.error.build.code_debug=1
+35007: XIAO_ESP32C3.menu.DebugLevel.warn=Warn
+35008: XIAO_ESP32C3.menu.DebugLevel.warn.build.code_debug=2
+35009: XIAO_ESP32C3.menu.DebugLevel.info=Info
+--- match line 35008 pattern=^XIAO_ESP32C3\.
+35007: XIAO_ESP32C3.menu.DebugLevel.warn=Warn
+35008: XIAO_ESP32C3.menu.DebugLevel.warn.build.code_debug=2
+35009: XIAO_ESP32C3.menu.DebugLevel.info=Info
+35010: XIAO_ESP32C3.menu.DebugLevel.info.build.code_debug=3
+--- match line 35009 pattern=^XIAO_ESP32C3\.
+35008: XIAO_ESP32C3.menu.DebugLevel.warn.build.code_debug=2
+35009: XIAO_ESP32C3.menu.DebugLevel.info=Info
+35010: XIAO_ESP32C3.menu.DebugLevel.info.build.code_debug=3
+35011: XIAO_ESP32C3.menu.DebugLevel.debug=Debug
+--- match line 35010 pattern=^XIAO_ESP32C3\.
+35009: XIAO_ESP32C3.menu.DebugLevel.info=Info
+35010: XIAO_ESP32C3.menu.DebugLevel.info.build.code_debug=3
+35011: XIAO_ESP32C3.menu.DebugLevel.debug=Debug
+35012: XIAO_ESP32C3.menu.DebugLevel.debug.build.code_debug=4
+--- match line 35011 pattern=^XIAO_ESP32C3\.
+35010: XIAO_ESP32C3.menu.DebugLevel.info.build.code_debug=3
+35011: XIAO_ESP32C3.menu.DebugLevel.debug=Debug
+35012: XIAO_ESP32C3.menu.DebugLevel.debug.build.code_debug=4
+35013: XIAO_ESP32C3.menu.DebugLevel.verbose=Verbose
+--- match line 35012 pattern=^XIAO_ESP32C3\.
+35011: XIAO_ESP32C3.menu.DebugLevel.debug=Debug
+35012: XIAO_ESP32C3.menu.DebugLevel.debug.build.code_debug=4
+35013: XIAO_ESP32C3.menu.DebugLevel.verbose=Verbose
+35014: XIAO_ESP32C3.menu.DebugLevel.verbose.build.code_debug=5
+--- match line 35013 pattern=^XIAO_ESP32C3\.
+35012: XIAO_ESP32C3.menu.DebugLevel.debug.build.code_debug=4
+35013: XIAO_ESP32C3.menu.DebugLevel.verbose=Verbose
+35014: XIAO_ESP32C3.menu.DebugLevel.verbose.build.code_debug=5
+35015: 
+--- match line 35014 pattern=^XIAO_ESP32C3\.
+35013: XIAO_ESP32C3.menu.DebugLevel.verbose=Verbose
+35014: XIAO_ESP32C3.menu.DebugLevel.verbose.build.code_debug=5
+35015: 
+35016: XIAO_ESP32C3.menu.EraseFlash.none=Disabled
+--- match line 35016 pattern=^XIAO_ESP32C3\.
+35015: 
+35016: XIAO_ESP32C3.menu.EraseFlash.none=Disabled
+35017: XIAO_ESP32C3.menu.EraseFlash.none.upload.erase_cmd=
+35018: XIAO_ESP32C3.menu.EraseFlash.all=Enabled
+--- match line 35017 pattern=^XIAO_ESP32C3\.
+35016: XIAO_ESP32C3.menu.EraseFlash.none=Disabled
+35017: XIAO_ESP32C3.menu.EraseFlash.none.upload.erase_cmd=
+35018: XIAO_ESP32C3.menu.EraseFlash.all=Enabled
+35019: XIAO_ESP32C3.menu.EraseFlash.all.upload.erase_cmd=-e
+--- match line 35018 pattern=^XIAO_ESP32C3\.
+35017: XIAO_ESP32C3.menu.EraseFlash.none.upload.erase_cmd=
+35018: XIAO_ESP32C3.menu.EraseFlash.all=Enabled
+35019: XIAO_ESP32C3.menu.EraseFlash.all.upload.erase_cmd=-e
+35020: 
+--- match line 35019 pattern=^XIAO_ESP32C3\.
+35018: XIAO_ESP32C3.menu.EraseFlash.all=Enabled
+35019: XIAO_ESP32C3.menu.EraseFlash.all.upload.erase_cmd=-e
+35020: 
+35021: ##############################################################
+
+--- PLATFORM UPLOAD CONTEXT ---
+FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\platform.txt
+--- match line 11 pattern=esptool
+9: tools.riscv32-esp-elf-gdb.path={runtime.tools.riscv32-esp-elf-gdb.path}
+10: 
+11: tools.esptool_py.path={runtime.tools.esptool_py.path}
+12: tools.esptool_py.cmd=esptool
+13: tools.esptool_py.cmd.windows=esptool.exe
+14: 
+15: tools.esptool_py.network_cmd=python3 "{runtime.platform.path}/tools/espota.py" -r
+16: tools.esptool_py.network_cmd.windows="{runtime.platform.path}\tools\espota.exe" -r
+--- match line 12 pattern=esptool
+10: 
+11: tools.esptool_py.path={runtime.tools.esptool_py.path}
+12: tools.esptool_py.cmd=esptool
+13: tools.esptool_py.cmd.windows=esptool.exe
+14: 
+15: tools.esptool_py.network_cmd=python3 "{runtime.platform.path}/tools/espota.py" -r
+16: tools.esptool_py.network_cmd.windows="{runtime.platform.path}\tools\espota.exe" -r
+17: 
+--- match line 13 pattern=esptool
+11: tools.esptool_py.path={runtime.tools.esptool_py.path}
+12: tools.esptool_py.cmd=esptool
+13: tools.esptool_py.cmd.windows=esptool.exe
+14: 
+15: tools.esptool_py.network_cmd=python3 "{runtime.platform.path}/tools/espota.py" -r
+16: tools.esptool_py.network_cmd.windows="{runtime.platform.path}\tools\espota.exe" -r
+17: 
+18: tools.esp_ota.cmd=python3 "{runtime.platform.path}/tools/espota.py" -r
+--- match line 15 pattern=esptool
+13: tools.esptool_py.cmd.windows=esptool.exe
+14: 
+15: tools.esptool_py.network_cmd=python3 "{runtime.platform.path}/tools/espota.py" -r
+16: tools.esptool_py.network_cmd.windows="{runtime.platform.path}\tools\espota.exe" -r
+17: 
+18: tools.esp_ota.cmd=python3 "{runtime.platform.path}/tools/espota.py" -r
+19: tools.esp_ota.cmd.windows="{runtime.platform.path}\tools\espota.exe" -r
+20: 
+--- match line 16 pattern=esptool
+14: 
+15: tools.esptool_py.network_cmd=python3 "{runtime.platform.path}/tools/espota.py" -r
+16: tools.esptool_py.network_cmd.windows="{runtime.platform.path}\tools\espota.exe" -r
+17: 
+18: tools.esp_ota.cmd=python3 "{runtime.platform.path}/tools/espota.py" -r
+19: tools.esp_ota.cmd.windows="{runtime.platform.path}\tools\espota.exe" -r
+20: 
+21: tools.gen_esp32part.cmd=python3 "{runtime.platform.path}/tools/gen_esp32part.py"
+--- match line 30 pattern=build\.mcu
+28: compiler.prefix={build.tarch}-{build.target}-elf-
+29: 
+30: compiler.sdk.path={tools.esp32-arduino-libs.path}/{build.mcu}
+31: compiler.sdk.path.windows={tools.esp32-arduino-libs.path}\{build.mcu}
+32: 
+33: # EXPERIMENTAL feature: optimization flags
+34: #  - this is alpha and may be subject to change without notice
+35: compiler.optimization_flags=-Os
+--- match line 31 pattern=build\.mcu
+29: 
+30: compiler.sdk.path={tools.esp32-arduino-libs.path}/{build.mcu}
+31: compiler.sdk.path.windows={tools.esp32-arduino-libs.path}\{build.mcu}
+32: 
+33: # EXPERIMENTAL feature: optimization flags
+34: #  - this is alpha and may be subject to change without notice
+35: compiler.optimization_flags=-Os
+36: compiler.optimization_flags.release=-Os
+--- match line 104 pattern=build\.mcu
+102: build.loop_core=
+103: build.event_core=
+104: build.extra_flags=-DARDUINO_HOST_OS="{runtime.os}" -DARDUINO_FQBN="{build.fqbn}" -DESP32=ESP32 -DCORE_DEBUG_LEVEL={build.code_debug} {build.loop_core} {build.event_core} {build.defines} {build.extra_flags.{build.mcu}} {build.zigbee_mode}
+105: build.extra_libs=
+106: build.memory_type={build.boot}_qspi
+107: 
+108: # Custom build options
+109: build.opt.name=build_opt.h
+--- match line 122 pattern=--chip
+120: 
+121: # Check if custom bootloader exist: source > variant > build.boot
+122: recipe.hooks.prebuild.4.pattern_args=--chip {build.mcu} elf2image --flash_mode {build.flash_mode} --flash_freq {build.img_freq} --flash_size {build.flash_size} -o
+123: recipe.hooks.prebuild.4.pattern=/usr/bin/env bash -c "[ -f "{build.source.path}"/bootloader.bin ] && cp -f "{build.source.path}"/bootloader.bin "{build.path}"/{build.project_name}.bootloader.bin || ( [ -f "{build.variant.path}"/{build.custom_bootloader}.bin ] && cp "{build.variant.path}"/{build.custom_bootloader}.bin "{build.path}"/{build.project_name}.bootloader.bin || "{tools.esptool_py.path}"/{tools.esptool_py.cmd} {recipe.hooks.prebuild.4.pattern_args} "{build.path}"/{build.project_name}.bootloader.bin "{compiler.sdk.path}"/bin/bootloader_{build.boot}_{build.boot_freq}.elf )"
+124: recipe.hooks.prebuild.4.pattern.windows=cmd /c IF EXIST "{build.source.path}\bootloader.bin" ( COPY /y "{build.source.path}\bootloader.bin" "{build.path}\{build.project_name}.bootloader.bin" ) ELSE ( IF EXIST "{build.variant.path}\{build.custom_bootloader}.bin" ( COPY "{build.variant.path}\{build.custom_bootloader}.bin" "{build.path}\{build.project_name}.bootloader.bin" ) ELSE ( "{tools.esptool_py.path}\{tools.esptool_py.cmd}" {recipe.hooks.prebuild.4.pattern_args} "{build.path}\{build.project_name}.bootloader.bin" "{compiler.sdk.path}\bin\bootloader_{build.boot}_{build.boot_freq}.elf" ) )
+125: 
+126: # Check if custom build options exist in the sketch folder
+127: recipe.hooks.prebuild.5.pattern=/usr/bin/env bash -c "[ ! -f "{build.source.path}"/build_opt.h ] || cp -f "{build.source.path}"/build_opt.h "{build.path}"/build_opt.h"
+--- match line 122 pattern=build\.mcu
+120: 
+121: # Check if custom bootloader exist: source > variant > build.boot
+122: recipe.hooks.prebuild.4.pattern_args=--chip {build.mcu} elf2image --flash_mode {build.flash_mode} --flash_freq {build.img_freq} --flash_size {build.flash_size} -o
+123: recipe.hooks.prebuild.4.pattern=/usr/bin/env bash -c "[ -f "{build.source.path}"/bootloader.bin ] && cp -f "{build.source.path}"/bootloader.bin "{build.path}"/{build.project_name}.bootloader.bin || ( [ -f "{build.variant.path}"/{build.custom_bootloader}.bin ] && cp "{build.variant.path}"/{build.custom_bootloader}.bin "{build.path}"/{build.project_name}.bootloader.bin || "{tools.esptool_py.path}"/{tools.esptool_py.cmd} {recipe.hooks.prebuild.4.pattern_args} "{build.path}"/{build.project_name}.bootloader.bin "{compiler.sdk.path}"/bin/bootloader_{build.boot}_{build.boot_freq}.elf )"
+124: recipe.hooks.prebuild.4.pattern.windows=cmd /c IF EXIST "{build.source.path}\bootloader.bin" ( COPY /y "{build.source.path}\bootloader.bin" "{build.path}\{build.project_name}.bootloader.bin" ) ELSE ( IF EXIST "{build.variant.path}\{build.custom_bootloader}.bin" ( COPY "{build.variant.path}\{build.custom_bootloader}.bin" "{build.path}\{build.project_name}.bootloader.bin" ) ELSE ( "{tools.esptool_py.path}\{tools.esptool_py.cmd}" {recipe.hooks.prebuild.4.pattern_args} "{build.path}\{build.project_name}.bootloader.bin" "{compiler.sdk.path}\bin\bootloader_{build.boot}_{build.boot_freq}.elf" ) )
+125: 
+126: # Check if custom build options exist in the sketch folder
+127: recipe.hooks.prebuild.5.pattern=/usr/bin/env bash -c "[ ! -f "{build.source.path}"/build_opt.h ] || cp -f "{build.source.path}"/build_opt.h "{build.path}"/build_opt.h"
+--- match line 123 pattern=esptool
+121: # Check if custom bootloader exist: source > variant > build.boot
+122: recipe.hooks.prebuild.4.pattern_args=--chip {build.mcu} elf2image --flash_mode {build.flash_mode} --flash_freq {build.img_freq} --flash_size {build.flash_size} -o
+123: recipe.hooks.prebuild.4.pattern=/usr/bin/env bash -c "[ -f "{build.source.path}"/bootloader.bin ] && cp -f "{build.source.path}"/bootloader.bin "{build.path}"/{build.project_name}.bootloader.bin || ( [ -f "{build.variant.path}"/{build.custom_bootloader}.bin ] && cp "{build.variant.path}"/{build.custom_bootloader}.bin "{build.path}"/{build.project_name}.bootloader.bin || "{tools.esptool_py.path}"/{tools.esptool_py.cmd} {recipe.hooks.prebuild.4.pattern_args} "{build.path}"/{build.project_name}.bootloader.bin "{compiler.sdk.path}"/bin/bootloader_{build.boot}_{build.boot_freq}.elf )"
+124: recipe.hooks.prebuild.4.pattern.windows=cmd /c IF EXIST "{build.source.path}\bootloader.bin" ( COPY /y "{build.source.path}\bootloader.bin" "{build.path}\{build.project_name}.bootloader.bin" ) ELSE ( IF EXIST "{build.variant.path}\{build.custom_bootloader}.bin" ( COPY "{build.variant.path}\{build.custom_bootloader}.bin" "{build.path}\{build.project_name}.bootloader.bin" ) ELSE ( "{tools.esptool_py.path}\{tools.esptool_py.cmd}" {recipe.hooks.prebuild.4.pattern_args} "{build.path}\{build.project_name}.bootloader.bin" "{compiler.sdk.path}\bin\bootloader_{build.boot}_{build.boot_freq}.elf" ) )
+125: 
+126: # Check if custom build options exist in the sketch folder
+127: recipe.hooks.prebuild.5.pattern=/usr/bin/env bash -c "[ ! -f "{build.source.path}"/build_opt.h ] || cp -f "{build.source.path}"/build_opt.h "{build.path}"/build_opt.h"
+128: recipe.hooks.prebuild.6.pattern=/usr/bin/env bash -c "[ -f "{build.path}"/build_opt.h ] || : > "{build.path}"/build_opt.h"
+--- match line 124 pattern=esptool
+122: recipe.hooks.prebuild.4.pattern_args=--chip {build.mcu} elf2image --flash_mode {build.flash_mode} --flash_freq {build.img_freq} --flash_size {build.flash_size} -o
+123: recipe.hooks.prebuild.4.pattern=/usr/bin/env bash -c "[ -f "{build.source.path}"/bootloader.bin ] && cp -f "{build.source.path}"/bootloader.bin "{build.path}"/{build.project_name}.bootloader.bin || ( [ -f "{build.variant.path}"/{build.custom_bootloader}.bin ] && cp "{build.variant.path}"/{build.custom_bootloader}.bin "{build.path}"/{build.project_name}.bootloader.bin || "{tools.esptool_py.path}"/{tools.esptool_py.cmd} {recipe.hooks.prebuild.4.pattern_args} "{build.path}"/{build.project_name}.bootloader.bin "{compiler.sdk.path}"/bin/bootloader_{build.boot}_{build.boot_freq}.elf )"
+124: recipe.hooks.prebuild.4.pattern.windows=cmd /c IF EXIST "{build.source.path}\bootloader.bin" ( COPY /y "{build.source.path}\bootloader.bin" "{build.path}\{build.project_name}.bootloader.bin" ) ELSE ( IF EXIST "{build.variant.path}\{build.custom_bootloader}.bin" ( COPY "{build.variant.path}\{build.custom_bootloader}.bin" "{build.path}\{build.project_name}.bootloader.bin" ) ELSE ( "{tools.esptool_py.path}\{tools.esptool_py.cmd}" {recipe.hooks.prebuild.4.pattern_args} "{build.path}\{build.project_name}.bootloader.bin" "{compiler.sdk.path}\bin\bootloader_{build.boot}_{build.boot_freq}.elf" ) )
+125: 
+126: # Check if custom build options exist in the sketch folder
+127: recipe.hooks.prebuild.5.pattern=/usr/bin/env bash -c "[ ! -f "{build.source.path}"/build_opt.h ] || cp -f "{build.source.path}"/build_opt.h "{build.path}"/build_opt.h"
+128: recipe.hooks.prebuild.6.pattern=/usr/bin/env bash -c "[ -f "{build.path}"/build_opt.h ] || : > "{build.path}"/build_opt.h"
+129: 
+--- match line 163 pattern=recipe\.objcopy
+161: 
+162: ## Create partitions.bin
+163: recipe.objcopy.partitions.bin.pattern={tools.gen_esp32part.cmd} -q "{build.path}/partitions.csv" "{build.path}/{build.project_name}.partitions.bin"
+164: 
+165: ## Create bin
+166: recipe.objcopy.bin.pattern_args=--chip {build.mcu} elf2image --flash_mode "{build.flash_mode}" --flash_freq "{build.img_freq}" --flash_size "{build.flash_size}" --elf-sha256-offset 0xb0 -o "{build.path}/{build.project_name}.bin" "{build.path}/{build.project_name}.elf"
+167: recipe.objcopy.bin.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.objcopy.bin.pattern_args}
+168: 
+--- match line 166 pattern=--chip
+164: 
+165: ## Create bin
+166: recipe.objcopy.bin.pattern_args=--chip {build.mcu} elf2image --flash_mode "{build.flash_mode}" --flash_freq "{build.img_freq}" --flash_size "{build.flash_size}" --elf-sha256-offset 0xb0 -o "{build.path}/{build.project_name}.bin" "{build.path}/{build.project_name}.elf"
+167: recipe.objcopy.bin.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.objcopy.bin.pattern_args}
+168: 
+169: ## Create Insights Firmware Package
+170: recipe.hooks.objcopy.postobjcopy.1.pattern_args={build.path} {build.project_name} "{build.source.path}"
+171: recipe.hooks.objcopy.postobjcopy.1.pattern=/usr/bin/env bash -c "[ ! -d "{build.path}"/libraries/Insights ] || {tools.gen_insights_pkg.cmd} {recipe.hooks.objcopy.postobjcopy.1.pattern_args}"
+--- match line 166 pattern=build\.mcu
+164: 
+165: ## Create bin
+166: recipe.objcopy.bin.pattern_args=--chip {build.mcu} elf2image --flash_mode "{build.flash_mode}" --flash_freq "{build.img_freq}" --flash_size "{build.flash_size}" --elf-sha256-offset 0xb0 -o "{build.path}/{build.project_name}.bin" "{build.path}/{build.project_name}.elf"
+167: recipe.objcopy.bin.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.objcopy.bin.pattern_args}
+168: 
+169: ## Create Insights Firmware Package
+170: recipe.hooks.objcopy.postobjcopy.1.pattern_args={build.path} {build.project_name} "{build.source.path}"
+171: recipe.hooks.objcopy.postobjcopy.1.pattern=/usr/bin/env bash -c "[ ! -d "{build.path}"/libraries/Insights ] || {tools.gen_insights_pkg.cmd} {recipe.hooks.objcopy.postobjcopy.1.pattern_args}"
+--- match line 166 pattern=recipe\.objcopy
+164: 
+165: ## Create bin
+166: recipe.objcopy.bin.pattern_args=--chip {build.mcu} elf2image --flash_mode "{build.flash_mode}" --flash_freq "{build.img_freq}" --flash_size "{build.flash_size}" --elf-sha256-offset 0xb0 -o "{build.path}/{build.project_name}.bin" "{build.path}/{build.project_name}.elf"
+167: recipe.objcopy.bin.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.objcopy.bin.pattern_args}
+168: 
+169: ## Create Insights Firmware Package
+170: recipe.hooks.objcopy.postobjcopy.1.pattern_args={build.path} {build.project_name} "{build.source.path}"
+171: recipe.hooks.objcopy.postobjcopy.1.pattern=/usr/bin/env bash -c "[ ! -d "{build.path}"/libraries/Insights ] || {tools.gen_insights_pkg.cmd} {recipe.hooks.objcopy.postobjcopy.1.pattern_args}"
+--- match line 167 pattern=esptool
+165: ## Create bin
+166: recipe.objcopy.bin.pattern_args=--chip {build.mcu} elf2image --flash_mode "{build.flash_mode}" --flash_freq "{build.img_freq}" --flash_size "{build.flash_size}" --elf-sha256-offset 0xb0 -o "{build.path}/{build.project_name}.bin" "{build.path}/{build.project_name}.elf"
+167: recipe.objcopy.bin.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.objcopy.bin.pattern_args}
+168: 
+169: ## Create Insights Firmware Package
+170: recipe.hooks.objcopy.postobjcopy.1.pattern_args={build.path} {build.project_name} "{build.source.path}"
+171: recipe.hooks.objcopy.postobjcopy.1.pattern=/usr/bin/env bash -c "[ ! -d "{build.path}"/libraries/Insights ] || {tools.gen_insights_pkg.cmd} {recipe.hooks.objcopy.postobjcopy.1.pattern_args}"
+172: recipe.hooks.objcopy.postobjcopy.1.pattern.windows=cmd /c if exist "{build.path}\libraries\Insights" {tools.gen_insights_pkg.cmd} {recipe.hooks.objcopy.postobjcopy.1.pattern_args}
+--- match line 167 pattern=recipe\.objcopy
+165: ## Create bin
+166: recipe.objcopy.bin.pattern_args=--chip {build.mcu} elf2image --flash_mode "{build.flash_mode}" --flash_freq "{build.img_freq}" --flash_size "{build.flash_size}" --elf-sha256-offset 0xb0 -o "{build.path}/{build.project_name}.bin" "{build.path}/{build.project_name}.elf"
+167: recipe.objcopy.bin.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.objcopy.bin.pattern_args}
+168: 
+169: ## Create Insights Firmware Package
+170: recipe.hooks.objcopy.postobjcopy.1.pattern_args={build.path} {build.project_name} "{build.source.path}"
+171: recipe.hooks.objcopy.postobjcopy.1.pattern=/usr/bin/env bash -c "[ ! -d "{build.path}"/libraries/Insights ] || {tools.gen_insights_pkg.cmd} {recipe.hooks.objcopy.postobjcopy.1.pattern_args}"
+172: recipe.hooks.objcopy.postobjcopy.1.pattern.windows=cmd /c if exist "{build.path}\libraries\Insights" {tools.gen_insights_pkg.cmd} {recipe.hooks.objcopy.postobjcopy.1.pattern_args}
+--- match line 179 pattern=--chip
+177: 
+178: # Create merged binary
+179: recipe.hooks.objcopy.postobjcopy.3.pattern_args=--chip {build.mcu} merge_bin -o "{build.path}/{build.project_name}.merged.bin" --fill-flash-size {build.flash_size} --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin"
+180: recipe.hooks.objcopy.postobjcopy.3.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.hooks.objcopy.postobjcopy.3.pattern_args}
+181: 
+182: ## Save bin
+183: recipe.output.tmp_file={build.project_name}.bin
+184: recipe.output.save_file={build.project_name}.{build.variant}.bin
+--- match line 179 pattern=build\.mcu
+177: 
+178: # Create merged binary
+179: recipe.hooks.objcopy.postobjcopy.3.pattern_args=--chip {build.mcu} merge_bin -o "{build.path}/{build.project_name}.merged.bin" --fill-flash-size {build.flash_size} --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin"
+180: recipe.hooks.objcopy.postobjcopy.3.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.hooks.objcopy.postobjcopy.3.pattern_args}
+181: 
+182: ## Save bin
+183: recipe.output.tmp_file={build.project_name}.bin
+184: recipe.output.save_file={build.project_name}.{build.variant}.bin
+--- match line 180 pattern=esptool
+178: # Create merged binary
+179: recipe.hooks.objcopy.postobjcopy.3.pattern_args=--chip {build.mcu} merge_bin -o "{build.path}/{build.project_name}.merged.bin" --fill-flash-size {build.flash_size} --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin"
+180: recipe.hooks.objcopy.postobjcopy.3.pattern="{tools.esptool_py.path}/{tools.esptool_py.cmd}" {recipe.hooks.objcopy.postobjcopy.3.pattern_args}
+181: 
+182: ## Save bin
+183: recipe.output.tmp_file={build.project_name}.bin
+184: recipe.output.save_file={build.project_name}.{build.variant}.bin
+185: 
+--- match line 272 pattern=build\.mcu
+270: debug.server.openocd.scripts_dir={runtime.tools.openocd-esp32.path}/share/openocd/scripts/
+271: debug.server.openocd.scripts_dir.windows={runtime.tools.openocd-esp32.path}\share\openocd\scripts\
+272: debug.server.openocd.scripts.0=board/{debug_script.{build.mcu}}
+273: debug.svd_file={runtime.platform.path}/tools/ide-debug/svd/{build.mcu}.svd
+274: 
+275: debug.cortex-debug.custom.objdumpPath={compiler.path}{compiler.prefix}objdump
+276: debug.cortex-debug.custom.request=attach
+277: debug.additional_config=debug_config.{build.mcu}
+--- match line 273 pattern=build\.mcu
+271: debug.server.openocd.scripts_dir.windows={runtime.tools.openocd-esp32.path}\share\openocd\scripts\
+272: debug.server.openocd.scripts.0=board/{debug_script.{build.mcu}}
+273: debug.svd_file={runtime.platform.path}/tools/ide-debug/svd/{build.mcu}.svd
+274: 
+275: debug.cortex-debug.custom.objdumpPath={compiler.path}{compiler.prefix}objdump
+276: debug.cortex-debug.custom.request=attach
+277: debug.additional_config=debug_config.{build.mcu}
+278: 
+--- match line 277 pattern=build\.mcu
+275: debug.cortex-debug.custom.objdumpPath={compiler.path}{compiler.prefix}objdump
+276: debug.cortex-debug.custom.request=attach
+277: debug.additional_config=debug_config.{build.mcu}
+278: 
+279: ##
+280: ## ESPTool
+281: ##
+282: 
+--- match line 280 pattern=esptool
+278: 
+279: ##
+280: ## ESPTool
+281: ##
+282: 
+283: ## Upload Sketch
+284: ## -------------
+285: tools.esptool_py.upload.protocol=serial
+--- match line 285 pattern=esptool
+283: ## Upload Sketch
+284: ## -------------
+285: tools.esptool_py.upload.protocol=serial
+286: tools.esptool_py.upload.params.verbose=
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+--- match line 286 pattern=esptool
+284: ## -------------
+285: tools.esptool_py.upload.protocol=serial
+286: tools.esptool_py.upload.params.verbose=
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+291: ## Program Application
+--- match line 287 pattern=esptool
+285: tools.esptool_py.upload.protocol=serial
+286: tools.esptool_py.upload.params.verbose=
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+291: ## Program Application
+292: ## -------------------
+--- match line 288 pattern=upload\.pattern
+286: tools.esptool_py.upload.params.verbose=
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+291: ## Program Application
+292: ## -------------------
+293: tools.esptool_py.program.params.verbose=
+--- match line 288 pattern=--chip
+286: tools.esptool_py.upload.params.verbose=
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+291: ## Program Application
+292: ## -------------------
+293: tools.esptool_py.program.params.verbose=
+--- match line 288 pattern=build\.mcu
+286: tools.esptool_py.upload.params.verbose=
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+291: ## Program Application
+292: ## -------------------
+293: tools.esptool_py.program.params.verbose=
+--- match line 288 pattern=esptool
+286: tools.esptool_py.upload.params.verbose=
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+291: ## Program Application
+292: ## -------------------
+293: tools.esptool_py.program.params.verbose=
+--- match line 289 pattern=upload\.pattern
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+291: ## Program Application
+292: ## -------------------
+293: tools.esptool_py.program.params.verbose=
+294: tools.esptool_py.program.params.quiet=
+--- match line 289 pattern=esptool
+287: tools.esptool_py.upload.params.quiet=
+288: tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash {upload.erase_cmd} -z --flash_mode keep --flash_freq keep --flash_size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
+289: tools.esptool_py.upload.pattern="{path}/{cmd}" {upload.pattern_args}
+290: 
+291: ## Program Application
+292: ## -------------------
+293: tools.esptool_py.program.params.verbose=
+294: tools.esptool_py.program.params.quiet=
+--- match line 293 pattern=esptool
+291: ## Program Application
+292: ## -------------------
+293: tools.esptool_py.program.params.verbose=
+294: tools.esptool_py.program.params.quiet=
+295: tools.esptool_py.program.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash -z --flash_mode keep --flash_freq keep --flash_size keep 0x10000 "{build.path}/{build.project_name}.bin"
+296: tools.esptool_py.program.pattern="{path}/{cmd}" {program.pattern_args}
+297: 
+298: ## Erase Chip (before burning the bootloader)
+--- match line 294 pattern=esptool
+292: ## -------------------
+293: tools.esptool_py.program.params.verbose=
+294: tools.esptool_py.program.params.quiet=
+295: tools.esptool_py.program.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash -z --flash_mode keep --flash_freq keep --flash_size keep 0x10000 "{build.path}/{build.project_name}.bin"
+296: tools.esptool_py.program.pattern="{path}/{cmd}" {program.pattern_args}
+297: 
+298: ## Erase Chip (before burning the bootloader)
+299: ## ------------------------------------------
+--- match line 295 pattern=--chip
+293: tools.esptool_py.program.params.verbose=
+294: tools.esptool_py.program.params.quiet=
+295: tools.esptool_py.program.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash -z --flash_mode keep --flash_freq keep --flash_size keep 0x10000 "{build.path}/{build.project_name}.bin"
+296: tools.esptool_py.program.pattern="{path}/{cmd}" {program.pattern_args}
+297: 
+298: ## Erase Chip (before burning the bootloader)
+299: ## ------------------------------------------
+300: tools.esptool_py.erase.protocol=serial
+--- match line 295 pattern=build\.mcu
+293: tools.esptool_py.program.params.verbose=
+294: tools.esptool_py.program.params.quiet=
+295: tools.esptool_py.program.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash -z --flash_mode keep --flash_freq keep --flash_size keep 0x10000 "{build.path}/{build.project_name}.bin"
+296: tools.esptool_py.program.pattern="{path}/{cmd}" {program.pattern_args}
+297: 
+298: ## Erase Chip (before burning the bootloader)
+299: ## ------------------------------------------
+300: tools.esptool_py.erase.protocol=serial
+--- match line 295 pattern=esptool
+293: tools.esptool_py.program.params.verbose=
+294: tools.esptool_py.program.params.quiet=
+295: tools.esptool_py.program.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash -z --flash_mode keep --flash_freq keep --flash_size keep 0x10000 "{build.path}/{build.project_name}.bin"
+296: tools.esptool_py.program.pattern="{path}/{cmd}" {program.pattern_args}
+297: 
+298: ## Erase Chip (before burning the bootloader)
+299: ## ------------------------------------------
+300: tools.esptool_py.erase.protocol=serial
+--- match line 296 pattern=esptool
+294: tools.esptool_py.program.params.quiet=
+295: tools.esptool_py.program.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset write_flash -z --flash_mode keep --flash_freq keep --flash_size keep 0x10000 "{build.path}/{build.project_name}.bin"
+296: tools.esptool_py.program.pattern="{path}/{cmd}" {program.pattern_args}
+297: 
+298: ## Erase Chip (before burning the bootloader)
+299: ## ------------------------------------------
+300: tools.esptool_py.erase.protocol=serial
+301: tools.esptool_py.erase.params.verbose=
+--- match line 300 pattern=esptool
+298: ## Erase Chip (before burning the bootloader)
+299: ## ------------------------------------------
+300: tools.esptool_py.erase.protocol=serial
+301: tools.esptool_py.erase.params.verbose=
+302: tools.esptool_py.erase.params.quiet=
+303: tools.esptool_py.erase.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset erase_flash
+304: tools.esptool_py.erase.pattern="{path}/{cmd}" {erase.pattern_args}
+305: 
+--- match line 301 pattern=esptool
+299: ## ------------------------------------------
+300: tools.esptool_py.erase.protocol=serial
+301: tools.esptool_py.erase.params.verbose=
+302: tools.esptool_py.erase.params.quiet=
+303: tools.esptool_py.erase.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset erase_flash
+304: tools.esptool_py.erase.pattern="{path}/{cmd}" {erase.pattern_args}
+305: 
+306: ## Burn Bootloader
+--- match line 302 pattern=esptool
+300: tools.esptool_py.erase.protocol=serial
+301: tools.esptool_py.erase.params.verbose=
+302: tools.esptool_py.erase.params.quiet=
+303: tools.esptool_py.erase.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset erase_flash
+304: tools.esptool_py.erase.pattern="{path}/{cmd}" {erase.pattern_args}
+305: 
+306: ## Burn Bootloader
+307: ## ---------------
+--- match line 303 pattern=--chip
+301: tools.esptool_py.erase.params.verbose=
+302: tools.esptool_py.erase.params.quiet=
+303: tools.esptool_py.erase.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset erase_flash
+304: tools.esptool_py.erase.pattern="{path}/{cmd}" {erase.pattern_args}
+305: 
+306: ## Burn Bootloader
+307: ## ---------------
+308: tools.esptool_py.bootloader.protocol=serial
+--- match line 303 pattern=build\.mcu
+301: tools.esptool_py.erase.params.verbose=
+302: tools.esptool_py.erase.params.quiet=
+303: tools.esptool_py.erase.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset erase_flash
+304: tools.esptool_py.erase.pattern="{path}/{cmd}" {erase.pattern_args}
+305: 
+306: ## Burn Bootloader
+307: ## ---------------
+308: tools.esptool_py.bootloader.protocol=serial
+--- match line 303 pattern=esptool
+301: tools.esptool_py.erase.params.verbose=
+302: tools.esptool_py.erase.params.quiet=
+303: tools.esptool_py.erase.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset erase_flash
+304: tools.esptool_py.erase.pattern="{path}/{cmd}" {erase.pattern_args}
+305: 
+306: ## Burn Bootloader
+307: ## ---------------
+308: tools.esptool_py.bootloader.protocol=serial
+--- match line 304 pattern=esptool
+302: tools.esptool_py.erase.params.quiet=
+303: tools.esptool_py.erase.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default_reset --after hard_reset erase_flash
+304: tools.esptool_py.erase.pattern="{path}/{cmd}" {erase.pattern_args}
+305: 
+306: ## Burn Bootloader
+307: ## ---------------
+308: tools.esptool_py.bootloader.protocol=serial
+309: tools.esptool_py.bootloader.params.verbose=
+--- match line 308 pattern=esptool
+306: ## Burn Bootloader
+307: ## ---------------
+308: tools.esptool_py.bootloader.protocol=serial
+309: tools.esptool_py.bootloader.params.verbose=
+310: tools.esptool_py.bootloader.params.quiet=
+311: tools.esptool_py.bootloader.pattern=
+312: 
+313: ## Upload Sketch Through OTA (Arduino IDE 1.x)
+--- match line 309 pattern=esptool
+307: ## ---------------
+308: tools.esptool_py.bootloader.protocol=serial
+309: tools.esptool_py.bootloader.params.verbose=
+310: tools.esptool_py.bootloader.params.quiet=
+311: tools.esptool_py.bootloader.pattern=
+312: 
+313: ## Upload Sketch Through OTA (Arduino IDE 1.x)
+314: ## -------------------------------------------
+--- match line 310 pattern=esptool
+308: tools.esptool_py.bootloader.protocol=serial
+309: tools.esptool_py.bootloader.params.verbose=
+310: tools.esptool_py.bootloader.params.quiet=
+311: tools.esptool_py.bootloader.pattern=
+312: 
+313: ## Upload Sketch Through OTA (Arduino IDE 1.x)
+314: ## -------------------------------------------
+315: ## The following rule is deprecated by pluggable discovery.
+--- match line 311 pattern=esptool
+309: tools.esptool_py.bootloader.params.verbose=
+310: tools.esptool_py.bootloader.params.quiet=
+311: tools.esptool_py.bootloader.pattern=
+312: 
+313: ## Upload Sketch Through OTA (Arduino IDE 1.x)
+314: ## -------------------------------------------
+315: ## The following rule is deprecated by pluggable discovery.
+316: ## We keep it to avoid breaking compatibility with the Arduino Java IDE.
+--- match line 317 pattern=esptool
+315: ## The following rule is deprecated by pluggable discovery.
+316: ## We keep it to avoid breaking compatibility with the Arduino Java IDE.
+317: tools.esptool_py.upload.network_pattern={network_cmd} -i "{serial.port}" -p "{network.port}" "--auth={network.password}" -f "{build.path}/{build.project_name}.bin"
+318: 
+319: ## Upload Sketch Through OTA (Arduino IDE 2.x)
+320: ## -------------------------------------------
+321: tools.esp_ota.upload.protocol=network
+322: tools.esp_ota.upload.field.password=Password
+--- match line 324 pattern=upload\.pattern
+322: tools.esp_ota.upload.field.password=Password
+323: tools.esp_ota.upload.field.password.secret=true
+324: tools.esp_ota.upload.pattern={cmd} -i {upload.port.address} -p {upload.port.properties.port} "--auth={upload.field.password}" -f "{build.path}/{build.project_name}.bin"
+325: 
+326: ## Upload Sketch Through DFU OTA
+327: ## -------------------------------------------
+328: tools.dfu-util.path={runtime.tools.dfu-util-0.11.0-arduino5.path}
+329: tools.dfu-util.cmd=dfu-util
+--- match line 332 pattern=upload\.pattern
+330: tools.dfu-util.upload.params.verbose=-d
+331: tools.dfu-util.upload.params.quiet=
+332: tools.dfu-util.upload.pattern="{path}/{cmd}" --device {vid.0}:{pid.0} -D "{build.path}/{build.project_name}.bin" -Q

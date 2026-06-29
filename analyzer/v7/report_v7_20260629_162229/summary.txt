@@ -1,0 +1,12 @@
+KidsBlock Analyzer v7
+Generated: 06/29/2026 16:22:29
+
+Environment
+APPDATA=C:\Users\user\AppData\Roaming
+LOCALAPPDATA=C:\Users\user\AppData\Local
+USERPROFILE=C:\Users\user
+
+Install roots
+C:\KidsBlock Desktop
+
+Active external resources: C:\Users\user\AppData\Roaming\KidsBlock\Data\external-resources exists=True
