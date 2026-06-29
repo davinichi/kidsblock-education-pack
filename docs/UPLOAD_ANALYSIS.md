@@ -1,24 +1,11 @@
-# Upload Analysis v1.0 RC2
+# Upload Analysis v1.0 RC3
 
-The resent `bundle.zip` was inspected.
+The supplied `2.bundle.js` contains three relevant occurrences:
 
-It contains `bundle.txt`, and the relevant section is:
+- generic ESP32 device definition
+- ESP32S3 FQBN prefix inside a template string
+- duplicate generic ESP32 device definition
 
-```js
-const DIVECE_OPT = {
-  type: 'arduino',
-  fqbn: 'esp32:esp32:esp32'
-};
-```
+RC2 targeted only an exact block. RC3 replaces all exact `esp32:esp32:esp32` strings in all bundle JavaScript files inside `app.asar`.
 
-This confirms that the upload problem is caused by the bundled ESP32 device definition still using the generic ESP32 FQBN.
-
-RC2 patches the extracted `app.asar` bundle by replacing only this device-option block with the XIAO ESP32C3 FQBN.
-
-Target replacement:
-
-```text
-esp32:esp32:esp32
-↓
-esp32:esp32:XIAO_ESP32C3
-```
+This is still a validation patch and may temporarily affect normal ESP32 upload.

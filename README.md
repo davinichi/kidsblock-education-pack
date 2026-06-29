@@ -1,27 +1,11 @@
-# KidsBlock SDK v1.0 RC2
+# KidsBlock SDK v1.0 RC3
 
-## Purpose
+RC3 is a broader verification patch.
 
-Patch the confirmed bundled ESP32 device definition that contains:
-
-```js
-const DIVECE_OPT = {
-  type: 'arduino',
-  fqbn: 'esp32:esp32:esp32'
-};
-```
-
-to use the ESP32-C3 FQBN:
+It replaces all `esp32:esp32:esp32` occurrences in bundled JavaScript files inside `app.asar` with:
 
 ```text
 esp32:esp32:XIAO_ESP32C3
 ```
 
-This is a functional test for EP001 XIAO ESP32C3 upload.
-
-## Important
-
-- Close KidsBlock before running the installer.
-- This test may temporarily affect the normal ESP32 device, because it patches the bundled ESP32 definition.
-- A restore script is included.
-- Node.js / npx is required because the script uses `npx asar`.
+It also provides Analyzer v13 to verify the active `app.asar` after patching.
