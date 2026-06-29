@@ -1,0 +1,20 @@
+{
+  "name": "kidsblock",
+  "productName": "KidsBlock",
+  "description": "KidsBlock as a self-contained desktop application",
+  "author": "Kidsblock.cc Team",
+  "version": "2.0.5",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/openblockcc/openblock-desktop.git"
+  },
+  "dependencies": {
+    "7zip-bin": "^5.2.0",
+    "nodegit": "^0.27.0",
+    "openblock-link": "0.1.0-prerelease.20211006073349",
+    "openblock-resource": "0.1.0-prerelease.20210918043733",
+    "source-map-support": "^0.5.19"
+  },
+  "main": "main.js"
+}

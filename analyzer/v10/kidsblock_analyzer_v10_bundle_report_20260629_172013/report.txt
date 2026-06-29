@@ -1,0 +1,16 @@
+KidsBlock Analyzer v10 - bundle locator
+Generated: 06/29/2026 17:20:13
+
+Search roots:
+  C:\KidsBlock Desktop exists=True
+  C:\Users\user\AppData\Roaming\KidsBlock exists=True
+  C:\Users\user\AppData\Local\Programs exists=True
+  C:\Users\user\AppData\Local\KidsBlock exists=False
+  D:\KidsBlock_EducationPack\GitHub\analyzer\v10 exists=True
+
+Found 2.bundle.js count: 0
+
+
+app.asar candidates:
+  C:\KidsBlock Desktop\resources\app.asar exists=True
+  C:\Users\user\AppData\Roaming\KidsBlock\app.asar exists=False

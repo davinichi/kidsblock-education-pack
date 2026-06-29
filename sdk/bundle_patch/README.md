@@ -1,8 +1,5 @@
-# Bundle Patch
+# Bundle Patch RC2
 
-This folder will contain the safe bundle patcher after v10 identifies the real active `2.bundle.js` path.
+RC2 performs a targeted replacement of the confirmed `DIVECE_OPT` block in bundled JavaScript.
 
-Rule:
-- never patch without backup
-- never patch `app.asar` directly until bundle path is confirmed
-- patch only a confirmed active bundle
+This is still a validation patch, not the final clean architecture.

@@ -1,15 +1,8 @@
-# Upload Analysis v0.9
+# Upload Analysis v1.0 RC2
 
-## Current status
+The resent `bundle.zip` was inspected.
 
-- Device list: OK
-- Block screen: OK
-- Compile: OK
-- Upload: still uses ESP32, not ESP32-C3
-
-## Key finding
-
-The uploaded `2.bundle.js` contains:
+It contains `bundle.txt`, and the relevant section is:
 
 ```js
 const DIVECE_OPT = {
@@ -18,9 +11,14 @@ const DIVECE_OPT = {
 };
 ```
 
-This likely overrides or bypasses the kit-level FQBN settings.
+This confirms that the upload problem is caused by the bundled ESP32 device definition still using the generic ESP32 FQBN.
 
-## Next step
+RC2 patches the extracted `app.asar` bundle by replacing only this device-option block with the XIAO ESP32C3 FQBN.
 
-Find the real active `2.bundle.js` file used by KidsBlock.  
-Do not patch the file until its full path is confirmed.
+Target replacement:
+
+```text
+esp32:esp32:esp32
+↓
+esp32:esp32:XIAO_ESP32C3
+```

@@ -1,0 +1,52 @@
+module.exports=function(e){function n(n){for(var r,o,t=n[0],i=n[1],c=0,u=[];c<t.length;c++)o=t[c],Object.prototype.hasOwnProperty.call(s,o)&&s[o]&&u.push(s[o][0]),s[o]=0;for(r in i)Object.prototype.hasOwnProperty.call(i,r)&&(e[r]=i[r]);for(a&&a(n);u.length;)u.shift()()}var r={},s={renderer:0};function o(n){if(r[n])return r[n].exports;var s=r[n]={i:n,l:!1,exports:{}};return e[n].call(s.exports,s,s.exports,o),s.l=!0,s.exports}o.e=function(e){var n=[],r=s[e];if(0!==r)if(r)n.push(r[2]);else{var t=new Promise((function(n,o){r=s[e]=[n,o]}));n.push(r[2]=t);var i,c=document.createElement("script");c.charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.src=function(e){return o.p+""+({"vendors~am-steps":"vendors~am-steps","vendors~ar-steps":"vendors~ar-steps","vendors~es-steps":"vendors~es-steps","vendors~fr-steps":"vendors~fr-steps","vendors~ja-steps":"vendors~ja-steps","vendors~pt_BR-steps":"vendors~pt_BR-steps","vendors~sw-steps":"vendors~sw-steps","vendors~tr-steps":"vendors~tr-steps","vendors~uk-steps":"vendors~uk-steps","vendors~zh_CN-steps":"vendors~zh_CN-steps","vendors~zh_TW-steps":"vendors~zh_TW-steps","vendors~zu-steps":"vendors~zu-steps"}[e]||e)+".bundle.js"}(e);var a=new Error;i=function(n){c.onerror=c.onload=null,clearTimeout(u);var r=s[e];if(0!==r){if(r){var o=n&&("load"===n.type?"missing":n.type),t=n&&n.target&&n.target.src;a.message="Loading chunk "+e+" failed.\n("+o+": "+t+")",a.name="ChunkLoadError",a.type=o,a.request=t,r[1](a)}s[e]=void 0}};var u=setTimeout((function(){i({type:"timeout",target:c})}),12e4);c.onerror=c.onload=i,document.head.appendChild(c)}return Promise.all(n)},o.m=e,o.c=r,o.d=function(e,n,r){o.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:r})},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o.t=function(e,n){if(1&n&&(e=o(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(o.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var s in e)o.d(r,s,function(n){return e[n]}.bind(null,s));return r},o.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(n,"a",n),n},o.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},o.p="",o.oe=function(e){throw console.error(e),e};var t=window.webpackJsonp=window.webpackJsonp||[],i=t.push.bind(t);t.push=n,t=t.slice();for(var c=0;c<t.length;c++)n(t[c]);var a=i;return o(o.s=0)}({"./src/renderer/index.js":
+/*!*******************************!*\
+  !*** ./src/renderer/index.js ***!
+  \*******************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports,__webpack_require__){eval("// this is an async import so that it doesn't block the first render\n// index.html contains a loading/splash screen which will display while this import loads\nconst route = new URLSearchParams(window.location.search).get('route') || 'app';\n\nswitch (route) {\n  case 'app':\n    Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2), __webpack_require__.e(3)]).then(__webpack_require__.bind(null, /*! ./app.jsx */ \"./src/renderer/app.jsx\")); // eslint-disable-line no-unused-expressions\n\n    break;\n\n  case 'about':\n    Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ./about.jsx */ \"./src/renderer/about.jsx\")); // eslint-disable-line no-unused-expressions\n\n    break;\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcmVuZGVyZXIvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvcmVuZGVyZXIvaW5kZXguanM/Y2U5MSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyB0aGlzIGlzIGFuIGFzeW5jIGltcG9ydCBzbyB0aGF0IGl0IGRvZXNuJ3QgYmxvY2sgdGhlIGZpcnN0IHJlbmRlclxuLy8gaW5kZXguaHRtbCBjb250YWlucyBhIGxvYWRpbmcvc3BsYXNoIHNjcmVlbiB3aGljaCB3aWxsIGRpc3BsYXkgd2hpbGUgdGhpcyBpbXBvcnQgbG9hZHNcblxuY29uc3Qgcm91dGUgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKHdpbmRvdy5sb2NhdGlvbi5zZWFyY2gpLmdldCgncm91dGUnKSB8fCAnYXBwJztcbnN3aXRjaCAocm91dGUpIHtcbmNhc2UgJ2FwcCc6XG4gICAgaW1wb3J0KCcuL2FwcC5qc3gnKTsgLy8gZXNsaW50LWRpc2FibGUtbGluZSBuby11bnVzZWQtZXhwcmVzc2lvbnNcbiAgICBicmVhaztcbmNhc2UgJ2Fib3V0JzpcbiAgICBpbXBvcnQoJy4vYWJvdXQuanN4Jyk7IC8vIGVzbGludC1kaXNhYmxlLWxpbmUgbm8tdW51c2VkLWV4cHJlc3Npb25zXG4gICAgYnJlYWs7XG59XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFFQTtBQUNBO0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFBQTtBQUNBO0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFOQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/renderer/index.js\n")},0:
+/*!*************************************!*\
+  !*** multi ./src/renderer/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(e,n,r){e.exports=r(/*! E:\kidsblock\openblock-desktop\src\renderer\index.js */"./src/renderer/index.js")},buffer:
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports){eval('module.exports = require("buffer");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnVmZmVyLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2V4dGVybmFsIFwiYnVmZmVyXCI/YmZmYSJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJidWZmZXJcIik7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///buffer\n')},electron:
+/*!***************************!*\
+  !*** external "electron" ***!
+  \***************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports){eval('module.exports = require("electron");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZWxlY3Ryb24uanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJlbGVjdHJvblwiPzA0ZjMiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwiZWxlY3Ryb25cIik7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///electron\n')},events:
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports){eval('module.exports = require("events");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZXZlbnRzLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2V4dGVybmFsIFwiZXZlbnRzXCI/N2E3ZSJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJldmVudHNcIik7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///events\n')},fs:
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports){eval('module.exports = require("fs");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZnMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJmc1wiP2E0MGQiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwiZnNcIik7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///fs\n')},path:
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports){eval('module.exports = require("path");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGF0aC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9leHRlcm5hbCBcInBhdGhcIj83NGJiIl0sInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcInBhdGhcIik7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///path\n')},stream:
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports){eval('module.exports = require("stream");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3RyZWFtLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2V4dGVybmFsIFwic3RyZWFtXCI/NzU3ZiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJzdHJlYW1cIik7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///stream\n')},string_decoder:
+/*!*********************************!*\
+  !*** external "string_decoder" ***!
+  \*********************************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports){eval('module.exports = require("string_decoder");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3RyaW5nX2RlY29kZXIuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJzdHJpbmdfZGVjb2RlclwiPzAxNmYiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwic3RyaW5nX2RlY29kZXJcIik7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///string_decoder\n')},url:
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/*! no static exports found */
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(module,exports){eval('module.exports = require("url");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXJsLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2V4dGVybmFsIFwidXJsXCI/NjFlOCJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJ1cmxcIik7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///url\n')}});
+//# sourceMappingURL=renderer.js.map

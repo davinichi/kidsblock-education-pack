@@ -1,9 +1,8 @@
 # Development Log
 
-## v0.8
+## v1.0 RC2
 
-- Confirmed the exact XIAO ESP32C3 FQBN from Arduino CLI / boards.txt:
-  `esp32:esp32:XIAO_ESP32C3`
-- Added upload-test installer.
-- Installer updates only the XIAOESP32C3 kit `index.js`.
-- No `boards.txt` modification.
+- Rechecked the resent bundle file.
+- Confirmed the same `DIVECE_OPT` block with generic ESP32 FQBN.
+- Added a more targeted app.asar patcher.
+- Added Analyzer v12 to verify patched app.asar.
