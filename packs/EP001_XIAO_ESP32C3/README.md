@@ -2,15 +2,16 @@
 
 Education Pack 001 for Seeed Studio XIAO ESP32C3.
 
-## v0.7 scope
+## Current version: v0.8
 
-Display-only test.
+v0.8 is an upload-test version.
 
-This version tests whether KidsBlock can display the device when installed with the confirmed nested device structure:
+It keeps the successful v0.7 device registration and adds a temporary upload workaround:
 
-```text
-devices/XIAOESP32C3/XIAOESP32C3/index.js
-```
+- KidsBlock built-in `arduinoEsp32` uses `esp32:esp32:esp32`.
+- v0.8 temporarily aliases that board to XIAO ESP32C3 in bundled `boards.txt`.
 
-Compile and upload are not guaranteed in this version.
+## Caution
 
+While v0.8 is installed, normal ESP32 board behavior may be affected.
+Use the restore script after testing.

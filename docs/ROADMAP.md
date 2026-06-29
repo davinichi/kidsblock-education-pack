@@ -1,22 +1,12 @@
 # Roadmap
 
-## M1 Device display
+## EP001 XIAO ESP32C3
 
-- Analyzer v5 verifies nested device structure.
-- EP001 v0.7 installs XIAO ESP32C3 as a display-only device.
-
-## M2 Compile
-
-- Identify Arduino board profile and compile settings.
-- Add or reuse appropriate ESP32-C3 build target.
-
-## M3 Upload
-
-- Fix esptool chip argument to ESP32-C3.
-- Verify XIAO ESP32C3 boot/upload sequence.
-
-## M4 GPIO and samples
-
-- Add pin map.
-- Add LED, serial, DHT, LCD, BMP/BME samples.
-
+- v0.7: Device display and compile test - DONE
+- v0.8: Upload workaround test - CURRENT
+- v0.9: Dedicated ESP32-C3 FQBN route
+- v1.0: First stable installer
+- v1.1: XIAO pin menu cleanup
+- v1.2: DHT11/DHT22 sample
+- v1.3: BMP280/BME280 sample
+- v1.4: LCD1602 sample

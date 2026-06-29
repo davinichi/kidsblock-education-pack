@@ -1,15 +1,16 @@
 # Development Log
 
-## SDK v0.2
+## SDK v0.4 / EP001 v0.8
 
-- Analyzed `openblock-resource/src/device.js` from `app.asar`.
-- Confirmed device files are loaded from nested folder structure.
-- Previous installers likely failed because the device was installed too shallow.
-- Added Analyzer v5 and EP001 display-only installer v0.7.
+- Added experimental upload workaround for XIAO ESP32C3.
+- Confirmed cause: KidsBlock built-in `arduinoEsp32` VM extension uses `esp32:esp32:esp32`.
+- Workaround: append a controlled alias block to KidsBlock's bundled ESP32 `boards.txt` so `esp32.*` inherits the `XIAO_ESP32C3.*` board settings.
+- Added restore script to revert `boards.txt` to the original backup.
 
+## SDK v0.3 / EP001 v0.7
 
-## 2026-06-29 EP001 v0.7 test
-
-XIAO ESP32C3 appears in the KidsBlock device list and the block editor opens.
-Compilation succeeds, but upload fails because the upload tool still targets ESP32 instead of ESP32-C3.
-Analyzer v6 was added to locate board definitions and upload/FQBN settings.
+- Device list display: OK.
+- Block editor opens: OK.
+- Code generation: OK.
+- Compile: OK.
+- Upload: failed because upload still used ESP32 instead of ESP32-C3.

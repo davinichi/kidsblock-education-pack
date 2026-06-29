@@ -1,0 +1,383 @@
+﻿FILE=C:\KidsBlock Desktop\resources\external-resources\devices\AIbot\AIbot\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Beetlebot_ESP32\beetlebot_esp32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\EasyCoding\EasyCoding\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP32plus\ESP32plus\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP32S\ESP32S\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP32S3mini\ESP32S3mini\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\ESP32_Codingbox\ESP32_Codingbox\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\FoxBit\FoxBit\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Inventor_kit_ESP32\Inventor_kit_ESP32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\kidsEsp\kidsEsp\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Smartfarm_ESP32\Smartfarm_ESP32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Smarthome_ESP32\smarthome_esp32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\Smartschool_ESP32\Smartschool_ESP32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\devices\device.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\74HC595\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\8833 motor dirver\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\esp32 servo270\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\esp32_buzzer\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\esp32_motor\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\LED\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\Speaker\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\SpeechRecognition\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\actuator\stepper\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\BEMFA\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\BleKeyboard\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\BleMouse\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\Blynk\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\esp-01\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ESP_WEB_PRO\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ir_module\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\MQTT\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\nrf24l01\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\ps2\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\SBlynk\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\communication\TinyWebDB\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\eightDigitDisplay\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\eitghtTimesEightMatirxDisplay\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\fourDigitClockDisplay\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\four_digital_tube\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\iic_matrix8\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\lcd\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\LCD128_32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\lcd_pin\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\matrix8_16\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\oled\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\one_digital_tube\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\rgbLedStrip\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\display\shiftDigitDisplay\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\AIbot\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Beetlebot_esp32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\EasyCoding\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\ESP32plus\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\ESP32S\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\ESP32S3mini\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\ESP32_Codingbox\lib\esp32_motor\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\ESP32_Codingbox\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\FoxBit\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Inventor_kit_esp32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\kidsEsp32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Smartfarm_esp32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Smarthome_esp32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\kit\Smartschool_esp32\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\AI_2wd_Car\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\AI_4wd_Car\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\AI_Analog\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\AI_LED\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\AI_Motor\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\AI_RGB\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\AI_Servo\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\AI_Ultrasonic\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\cooperativeScheduler\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\insertSourceCode\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\sengo1\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\sengo2\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\Sentry1\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\Sentry2\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\other\softwareSerialport\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\18b20\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\adxl345\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\aht20\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\ak8975\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\analogVoice\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\barometric_pressure\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\bh1750\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\Button\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\digital_compass\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\ds1307\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\encoder\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\esp32dht\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\hc-sr04\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\heart_rate\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\joyStick\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\joyStick_i2c\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\lightSensor\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\lm35\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\lps331ap\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\magneticSensor\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\max6675\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\mfrc522\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\mlx90614\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\mpu6050\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\paj7620\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\pca9685\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\PIR\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\probe_single\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\rc522_i2c\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\sd_card\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\sharpIR\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\SoilSensor\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\tcs34725\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\tilt\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\touchSwitch\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\external-resources\extensions\arduino\sensor\WaterSensor\index.js
+contains arduinoEsp32
+
+FILE=C:\KidsBlock Desktop\resources\app.asar
+fqbn: 'esp32:esp32:esp32'\n};\nconst Pins = {\n  IO0: '0',\n  IO1: '1',\n  IO2: '2',
+fqbn: `esp32:esp32:esp32s3:JTAGAdapter=default,PSRAM=opi,FlashMode=qio,FlashSize=16M
+fqbn: 'esp8266:esp8266:generic:baud=921600'\n};\nconst Pins = {\n  GPIO0: '0',\n  GP
+fqbn: 'arduino:avr:leonardo'\n};\nconst Pins = {\n  D0: '0',\n  D1: '1',\n  D2: '2',
+fqbn: 'arduino:avr:mega:cpu=atmega2560',\n  firmware: 'arduinoMega2560.standardFirma
+fqbn: 'arduino:avr:nano:cpu=atmega328',\n  firmware: 'arduinoUno.standardFirmata.ino
+fqbn: 'arduino:avr:uno',\n  firmware: 'arduinoUno.standardFirmata.ino.hex'\n};\ncons
+fqbn: 'SparkFun:avr:makeymakey'\n};\nconst Pins = {\n  D0: 'PD0',\n  D1: 'PD1',\n  D
+fqbn: 'esp32:esp32:esp32'\n};\nconst Pins = {\n  IO0: '0',\n  IO1: '1',\n  IO2: '2',
+fqbn: 'esp8266:esp8266:generic:baud=921600'\n};\nconst Pins = {\n  GPIO0: '0',\n  GP
+fqbn: 'arduino:avr:leonardo'\n};\nconst Pins = {\n  D0: '0',\n  D1: '1',\n  D2: '2',
+fqbn: 'arduino:avr:mega:cpu=atmega2560',\n  firmware: 'arduinoMega2560.standardFirma
+fqbn: 'arduino:avr:uno',\n  firmware: 'arduinoUno.standardFirmata.ino.hex'\n};\ncons
+fqbn: 'arduino:avr:uno',\n  firmware: 'arduinoUnoUltra.standardFirmata.ino.hex'\n};\
+fqbn: 'SparkFun:avr:makeymakey'\n};\nconst Pins = {\n  D0: 'PD0',\n  D1: 'PD1',\n  D
+fqbn
+fqbn) {
+fqbn.split(':');
+fqbn;
+fqbn - Fully qualified board name
+fqbn) {
+fqbn);
+fqbn);
+fqbn', this._config.fqbn,
+fqbn);
+fqbn', this._config.fqbn,
+fqbn === 'arduino:avr:leonardo' ||
+fqbn === 'SparkFun:avr:makeymakey') {
+fqbn = peripheralConfig && peripheralConfig.config && peripheralConfig.config.fqbn;
+fqbn && !afterUpload) {
+fqbn);
+fqbn (e.g. 'esp32:esp32:esp32s3:...' -> 'esp32:esp32s3')
+fqbn
+fqbn) {
+fqbn=${fqbn}\n`);
+fqbn format: 'vendor:arch:board[:options]'
+fqbn.split(':');
+contains esp32:esp32:esp32
+contains arduinoEsp32
+

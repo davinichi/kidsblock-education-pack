@@ -1,0 +1,268 @@
+﻿FILE=C:\Users\user\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\4.4.4\boards.txt
+HAS_XIAO_ESP32C3=False
+HAS_ESP32_BOARD=False
+
+--- matches: XIAO_ESP32C3
+
+--- matches: Seeed
+Line 28338: # Seeed INDICATOR RP2040
+  pre: 
+  pre: # -----------------------------------
+  post: # -----------------------------------
+  post: seeed_indicator_rp2040.name=Seeed INDICATOR RP2040
+Line 28340: seeed_indicator_rp2040.name=Seeed INDICATOR RP2040
+  pre: # Seeed INDICATOR RP2040
+  pre: # -----------------------------------
+  post: seeed_indicator_rp2040.vid.0=0x2886
+  post: seeed_indicator_rp2040.pid.0=0x0050
+Line 28341: seeed_indicator_rp2040.vid.0=0x2886
+  pre: # -----------------------------------
+  pre: seeed_indicator_rp2040.name=Seeed INDICATOR RP2040
+  post: seeed_indicator_rp2040.pid.0=0x0050
+  post: seeed_indicator_rp2040.vid.1=0x2886
+Line 28342: seeed_indicator_rp2040.pid.0=0x0050
+  pre: seeed_indicator_rp2040.name=Seeed INDICATOR RP2040
+  pre: seeed_indicator_rp2040.vid.0=0x2886
+  post: seeed_indicator_rp2040.vid.1=0x2886
+  post: seeed_indicator_rp2040.pid.1=0x0150
+Line 28343: seeed_indicator_rp2040.vid.1=0x2886
+  pre: seeed_indicator_rp2040.vid.0=0x2886
+  pre: seeed_indicator_rp2040.pid.0=0x0050
+  post: seeed_indicator_rp2040.pid.1=0x0150
+  post: seeed_indicator_rp2040.vid.2=0x2886
+Line 28344: seeed_indicator_rp2040.pid.1=0x0150
+  pre: seeed_indicator_rp2040.pid.0=0x0050
+  pre: seeed_indicator_rp2040.vid.1=0x2886
+  post: seeed_indicator_rp2040.vid.2=0x2886
+  post: seeed_indicator_rp2040.pid.2=0x4050
+Line 28345: seeed_indicator_rp2040.vid.2=0x2886
+  pre: seeed_indicator_rp2040.vid.1=0x2886
+  pre: seeed_indicator_rp2040.pid.1=0x0150
+  post: seeed_indicator_rp2040.pid.2=0x4050
+  post: seeed_indicator_rp2040.vid.3=0x2886
+Line 28346: seeed_indicator_rp2040.pid.2=0x4050
+  pre: seeed_indicator_rp2040.pid.1=0x0150
+  pre: seeed_indicator_rp2040.vid.2=0x2886
+  post: seeed_indicator_rp2040.vid.3=0x2886
+  post: seeed_indicator_rp2040.pid.3=0x4150
+Line 28347: seeed_indicator_rp2040.vid.3=0x2886
+  pre: seeed_indicator_rp2040.vid.2=0x2886
+  pre: seeed_indicator_rp2040.pid.2=0x4050
+  post: seeed_indicator_rp2040.pid.3=0x4150
+  post: seeed_indicator_rp2040.vid.4=0x2886
+Line 28348: seeed_indicator_rp2040.pid.3=0x4150
+  pre: seeed_indicator_rp2040.pid.2=0x4050
+  pre: seeed_indicator_rp2040.vid.3=0x2886
+  post: seeed_indicator_rp2040.vid.4=0x2886
+  post: seeed_indicator_rp2040.pid.4=0x8050
+Line 28349: seeed_indicator_rp2040.vid.4=0x2886
+  pre: seeed_indicator_rp2040.vid.3=0x2886
+  pre: seeed_indicator_rp2040.pid.3=0x4150
+  post: seeed_indicator_rp2040.pid.4=0x8050
+  post: seeed_indicator_rp2040.vid.5=0x2886
+Line 28350: seeed_indicator_rp2040.pid.4=0x8050
+  pre: seeed_indicator_rp2040.pid.3=0x4150
+  pre: seeed_indicator_rp2040.vid.4=0x2886
+  post: seeed_indicator_rp2040.vid.5=0x2886
+  post: seeed_indicator_rp2040.pid.5=0x8150
+Line 28351: seeed_indicator_rp2040.vid.5=0x2886
+  pre: seeed_indicator_rp2040.vid.4=0x2886
+  pre: seeed_indicator_rp2040.pid.4=0x8050
+  post: seeed_indicator_rp2040.pid.5=0x8150
+  post: seeed_indicator_rp2040.vid.6=0x2886
+Line 28352: seeed_indicator_rp2040.pid.5=0x8150
+  pre: seeed_indicator_rp2040.pid.4=0x8050
+  pre: seeed_indicator_rp2040.vid.5=0x2886
+  post: seeed_indicator_rp2040.vid.6=0x2886
+  post: seeed_indicator_rp2040.pid.6=0xc050
+Line 28353: seeed_indicator_rp2040.vid.6=0x2886
+  pre: seeed_indicator_rp2040.vid.5=0x2886
+  pre: seeed_indicator_rp2040.pid.5=0x8150
+  post: seeed_indicator_rp2040.pid.6=0xc050
+  post: seeed_indicator_rp2040.vid.7=0x2886
+Line 28354: seeed_indicator_rp2040.pid.6=0xc050
+  pre: seeed_indicator_rp2040.pid.5=0x8150
+  pre: seeed_indicator_rp2040.vid.6=0x2886
+  post: seeed_indicator_rp2040.vid.7=0x2886
+  post: seeed_indicator_rp2040.pid.7=0xc150
+Line 28355: seeed_indicator_rp2040.vid.7=0x2886
+  pre: seeed_indicator_rp2040.vid.6=0x2886
+  pre: seeed_indicator_rp2040.pid.6=0xc050
+  post: seeed_indicator_rp2040.pid.7=0xc150
+  post: seeed_indicator_rp2040.upload_port.0.vid=0x2886
+Line 28356: seeed_indicator_rp2040.pid.7=0xc150
+  pre: seeed_indicator_rp2040.pid.6=0xc050
+  pre: seeed_indicator_rp2040.vid.7=0x2886
+  post: seeed_indicator_rp2040.upload_port.0.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.0.pid=0x0050
+Line 28357: seeed_indicator_rp2040.upload_port.0.vid=0x2886
+  pre: seeed_indicator_rp2040.vid.7=0x2886
+  pre: seeed_indicator_rp2040.pid.7=0xc150
+  post: seeed_indicator_rp2040.upload_port.0.pid=0x0050
+  post: seeed_indicator_rp2040.upload_port.1.vid=0x2886
+Line 28358: seeed_indicator_rp2040.upload_port.0.pid=0x0050
+  pre: seeed_indicator_rp2040.pid.7=0xc150
+  pre: seeed_indicator_rp2040.upload_port.0.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.1.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.1.pid=0x0150
+Line 28359: seeed_indicator_rp2040.upload_port.1.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.0.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.0.pid=0x0050
+  post: seeed_indicator_rp2040.upload_port.1.pid=0x0150
+  post: seeed_indicator_rp2040.upload_port.2.vid=0x2886
+Line 28360: seeed_indicator_rp2040.upload_port.1.pid=0x0150
+  pre: seeed_indicator_rp2040.upload_port.0.pid=0x0050
+  pre: seeed_indicator_rp2040.upload_port.1.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.2.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.2.pid=0x4050
+Line 28361: seeed_indicator_rp2040.upload_port.2.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.1.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.1.pid=0x0150
+  post: seeed_indicator_rp2040.upload_port.2.pid=0x4050
+  post: seeed_indicator_rp2040.upload_port.3.vid=0x2886
+Line 28362: seeed_indicator_rp2040.upload_port.2.pid=0x4050
+  pre: seeed_indicator_rp2040.upload_port.1.pid=0x0150
+  pre: seeed_indicator_rp2040.upload_port.2.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.3.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.3.pid=0x4150
+Line 28363: seeed_indicator_rp2040.upload_port.3.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.2.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.2.pid=0x4050
+  post: seeed_indicator_rp2040.upload_port.3.pid=0x4150
+  post: seeed_indicator_rp2040.upload_port.4.vid=0x2886
+Line 28364: seeed_indicator_rp2040.upload_port.3.pid=0x4150
+  pre: seeed_indicator_rp2040.upload_port.2.pid=0x4050
+  pre: seeed_indicator_rp2040.upload_port.3.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.4.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.4.pid=0x8050
+Line 28365: seeed_indicator_rp2040.upload_port.4.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.3.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.3.pid=0x4150
+  post: seeed_indicator_rp2040.upload_port.4.pid=0x8050
+  post: seeed_indicator_rp2040.upload_port.5.vid=0x2886
+Line 28366: seeed_indicator_rp2040.upload_port.4.pid=0x8050
+  pre: seeed_indicator_rp2040.upload_port.3.pid=0x4150
+  pre: seeed_indicator_rp2040.upload_port.4.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.5.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.5.pid=0x8150
+Line 28367: seeed_indicator_rp2040.upload_port.5.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.4.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.4.pid=0x8050
+  post: seeed_indicator_rp2040.upload_port.5.pid=0x8150
+  post: seeed_indicator_rp2040.upload_port.6.vid=0x2886
+Line 28368: seeed_indicator_rp2040.upload_port.5.pid=0x8150
+  pre: seeed_indicator_rp2040.upload_port.4.pid=0x8050
+  pre: seeed_indicator_rp2040.upload_port.5.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.6.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.6.pid=0xc050
+Line 28369: seeed_indicator_rp2040.upload_port.6.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.5.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.5.pid=0x8150
+  post: seeed_indicator_rp2040.upload_port.6.pid=0xc050
+  post: seeed_indicator_rp2040.upload_port.7.vid=0x2886
+Line 28370: seeed_indicator_rp2040.upload_port.6.pid=0xc050
+  pre: seeed_indicator_rp2040.upload_port.5.pid=0x8150
+  pre: seeed_indicator_rp2040.upload_port.6.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.7.vid=0x2886
+  post: seeed_indicator_rp2040.upload_port.7.pid=0xc150
+Line 28371: seeed_indicator_rp2040.upload_port.7.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.6.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.6.pid=0xc050
+  post: seeed_indicator_rp2040.upload_port.7.pid=0xc150
+  post: seeed_indicator_rp2040.build.usbvid=-DUSBD_VID=0x2886
+Line 28372: seeed_indicator_rp2040.upload_port.7.pid=0xc150
+  pre: seeed_indicator_rp2040.upload_port.6.pid=0xc050
+  pre: seeed_indicator_rp2040.upload_port.7.vid=0x2886
+  post: seeed_indicator_rp2040.build.usbvid=-DUSBD_VID=0x2886
+  post: seeed_indicator_rp2040.build.usbpid=-DUSBD_PID=0x0050
+Line 28373: seeed_indicator_rp2040.build.usbvid=-DUSBD_VID=0x2886
+  pre: seeed_indicator_rp2040.upload_port.7.vid=0x2886
+  pre: seeed_indicator_rp2040.upload_port.7.pid=0xc150
+  post: seeed_indicator_rp2040.build.usbpid=-DUSBD_PID=0x0050
+  post: seeed_indicator_rp2040.build.usbpwr=-DUSBD_MAX_POWER_MA=250
+Line 28374: seeed_indicator_rp2040.build.usbpid=-DUSBD_PID=0x0050
+  pre: seeed_indicator_rp2040.upload_port.7.pid=0xc150
+  pre: seeed_indicator_rp2040.build.usbvid=-DUSBD_VID=0x2886
+  post: seeed_indicator_rp2040.build.usbpwr=-DUSBD_MAX_POWER_MA=250
+  post: seeed_indicator_rp2040.build.board=SEEED_INDICATOR_RP2040
+Line 28375: seeed_indicator_rp2040.build.usbpwr=-DUSBD_MAX_POWER_MA=250
+  pre: seeed_indicator_rp2040.build.usbvid=-DUSBD_VID=0x2886
+  pre: seeed_indicator_rp2040.build.usbpid=-DUSBD_PID=0x0050
+  post: seeed_indicator_rp2040.build.board=SEEED_INDICATOR_RP2040
+  post: seeed_indicator_rp2040.build.mcu=cortex-m0plus
+Line 28376: seeed_indicator_rp2040.build.board=SEEED_INDICATOR_RP2040
+  pre: seeed_indicator_rp2040.build.usbpid=-DUSBD_PID=0x0050
+  pre: seeed_indicator_rp2040.build.usbpwr=-DUSBD_MAX_POWER_MA=250
+  post: seeed_indicator_rp2040.build.mcu=cortex-m0plus
+  post: seeed_indicator_rp2040.build.chip=rp2040
+Line 28377: seeed_indicator_rp2040.build.mcu=cortex-m0plus
+  pre: seeed_indicator_rp2040.build.usbpwr=-DUSBD_MAX_POWER_MA=250
+  pre: seeed_indicator_rp2040.build.board=SEEED_INDICATOR_RP2040
+  post: seeed_indicator_rp2040.build.chip=rp2040
+  post: seeed_indicator_rp2040.build.toolchain=arm-none-eabi
+Line 28378: seeed_indicator_rp2040.build.chip=rp2040
+  pre: seeed_indicator_rp2040.build.board=SEEED_INDICATOR_RP2040
+  pre: seeed_indicator_rp2040.build.mcu=cortex-m0plus
+  post: seeed_indicator_rp2040.build.toolchain=arm-none-eabi
+  post: seeed_indicator_rp2040.build.toolchainpkg=pqt-gcc
+Line 28379: seeed_indicator_rp2040.build.toolchain=arm-none-eabi
+  pre: seeed_indicator_rp2040.build.mcu=cortex-m0plus
+  pre: seeed_indicator_rp2040.build.chip=rp2040
+  post: seeed_indicator_rp2040.build.toolchainpkg=pqt-gcc
+  post: seeed_indicator_rp2040.build.toolchainopts=-march=armv6-m -mcpu=cortex-m0plus -mthumb
+Line 28380: seeed_indicator_rp2040.build.toolchainpkg=pqt-gcc
+  pre: seeed_indicator_rp2040.build.chip=rp2040
+  pre: seeed_indicator_rp2040.build.toolchain=arm-none-eabi
+  post: seeed_indicator_rp2040.build.toolchainopts=-march=armv6-m -mcpu=cortex-m0plus -mthumb
+  post: seeed_indicator_rp2040.build.uf2family=--family rp2040
+Line 28381: seeed_indicator_rp2040.build.toolchainopts=-march=armv6-m -mcpu=cortex-m0plus -mthumb
+  pre: seeed_indicator_rp2040.build.toolchain=arm-none-eabi
+  pre: seeed_indicator_rp2040.build.toolchainpkg=pqt-gcc
+  post: seeed_indicator_rp2040.build.uf2family=--family rp2040
+  post: seeed_indicator_rp2040.build.variant=seeed_indicator_rp2040
+Line 28382: seeed_indicator_rp2040.build.uf2family=--family rp2040
+  pre: seeed_indicator_rp2040.build.toolchainpkg=pqt-gcc
+  pre: seeed_indicator_rp2040.build.toolchainopts=-march=armv6-m -mcpu=cortex-m0plus -mthumb
+  post: seeed_indicator_rp2040.build.variant=seeed_indicator_rp2040
+  post: seeed_indicator_rp2040.upload.maximum_size=2097152
+Line 28383: seeed_indicator_rp2040.build.variant=seeed_indicator_rp2040
+  pre: seeed_indicator_rp2040.build.toolchainopts=-march=armv6-m -mcpu=cortex-m0plus -mthumb
+  pre: seeed_indicator_rp2040.build.uf2family=--family rp2040
+  post: seeed_indicator_rp2040.upload.maximum_size=2097152
+  post: seeed_indicator_rp2040.upload.wait_for_upload_port=true
+Line 28384: seeed_indicator_rp2040.upload.maximum_size=2097152
+  pre: seeed_indicator_rp2040.build.uf2family=--family rp2040
+  pre: seeed_indicator_rp2040.build.variant=seeed_indicator_rp2040
+  post: seeed_indicator_rp2040.upload.wait_for_upload_port=true
+  post: seeed_indicator_rp2040.upload.erase_cmd=
+Line 28385: seeed_indicator_rp2040.upload.wait_for_upload_port=true
+  pre: seeed_indicator_rp2040.build.variant=seeed_indicator_rp2040
+  pre: seeed_indicator_rp2040.upload.maximum_size=2097152
+  post: seeed_indicator_rp2040.upload.erase_cmd=
+  post: seeed_indicator_rp2040.serial.disableDTR=false
+Line 28386: seeed_indicator_rp2040.upload.erase_cmd=
+  pre: seeed_indicator_rp2040.upload.maximum_size=2097152
+  pre: seeed_indicator_rp2040.upload.wait_for_upload_port=true
+  post: seeed_indicator_rp2040.serial.disableDTR=false
+  post: seeed_indicator_rp2040.serial.disableRTS=false
+Line 28387: seeed_indicator_rp2040.serial.disableDTR=false
+  pre: seeed_indicator_rp2040.upload.wait_for_upload_port=true
+  pre: seeed_indicator_rp2040.upload.erase_cmd=
+  post: seeed_indicator_rp2040.serial.disableRTS=false
+  post: seeed_indicator_rp2040.build.f_cpu=125000000
+Line 28388: seeed_indicator_rp2040.serial.disableRTS=false
+  pre: seeed_indicator_rp2040.upload.erase_cmd=
+  pre: seeed_indicator_rp2040.serial.disableDTR=false
+  post: seeed_indicator_rp2040.build.f_cpu=125000000
+  post: seeed_indicator_rp2040.build.led=
+
+--- matches: esp32c3
+
+--- matches: ESP32C3
+
+--- matches: esp32.name
+
+--- matches: esp32.upload
+
+--- matches: esp32.build
+

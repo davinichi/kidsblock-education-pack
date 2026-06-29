@@ -1,0 +1,18 @@
+﻿FILE=C:\Users\user\AppData\Local\Arduino15\packages\STM32\tools\STM32Tools\1.4.0\tools\boards.txt
+HAS_XIAO_ESP32C3=
+HAS_ESP32_BOARD=
+
+--- matches: XIAO_ESP32C3
+
+--- matches: Seeed
+
+--- matches: esp32c3
+
+--- matches: ESP32C3
+
+--- matches: esp32.name
+
+--- matches: esp32.upload
+
+--- matches: esp32.build
+

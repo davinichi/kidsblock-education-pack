@@ -1,35 +1,28 @@
-# KidsBlock Education Pack SDK v0.3
+# KidsBlock SDK v0.4
 
-This repository contains tools and draft Education Packs for extending KidsBlock.
+This version adds an experimental upload patch for EP001 Seeed Studio XIAO ESP32C3.
 
-## v0.3 focus
+## Main change
 
-- Confirmed KidsBlock device loader structure.
-- Added Analyzer v5 for nested device-folder checks.
-- Added EP001 XIAO ESP32C3 display-only installer draft v0.7.
-
-## Important discovery
-
-KidsBlock loads devices with this structure:
+KidsBlock 2.0.5 uses the built-in `arduinoEsp32` VM device extension for ESP32 boards. That extension currently uses this FQBN:
 
 ```text
-external-resources/
-  devices/
-    device.js
-    <catalog>/
-      <device>/
-        index.js
+esp32:esp32:esp32
 ```
 
-Therefore a device folder must not be installed directly as:
+For XIAO ESP32C3, this causes upload to fail with:
 
 ```text
-devices/XIAOESP32C3/index.js
+This chip is ESP32-C3, not ESP32. Wrong --chip argument?
 ```
 
-It must be installed as:
+EP001 v0.8 therefore adds a temporary boards.txt alias so that KidsBlock's existing `esp32:esp32:esp32` upload route behaves like `XIAO_ESP32C3`.
 
-```text
-devices/XIAOESP32C3/XIAOESP32C3/index.js
-```
+This is a controlled test patch, not the final architecture.
 
+## Test target
+
+- Device list display: already confirmed OK in v0.7
+- Block editor: already confirmed OK in v0.7
+- Compile: already confirmed OK in v0.7
+- Upload: test in v0.8

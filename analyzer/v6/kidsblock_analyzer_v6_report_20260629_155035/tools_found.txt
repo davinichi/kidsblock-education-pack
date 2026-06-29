@@ -1,0 +1,12 @@
+﻿C:\KidsBlock Desktop\resources\tools\Arduino\arduino-cli.exe
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\tools\esptool_py\4.9.dev3\esptool.exe
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\tools\python3\3.7.2-post1\python.exe
+C:\KidsBlock Desktop\resources\tools\Python\python.exe
+C:\KidsBlock Desktop\resources\tools\Python\Lib\venv\scripts\nt\python.exe
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\tools\python3\3.7.2-post1\python3.exe
+C:\Users\user\AppData\Local\Arduino15\packages\esp32\tools\esptool_py\4.5.1\esptool.exe
+C:\Users\user\AppData\Local\Arduino15\packages\esp32\tools\esptool_py\5.3.0\esptool.exe
+C:\Users\user\AppData\Local\Arduino15\packages\rp2040\tools\pqt-python3\1.0.1-base-3a57aed-1\python.exe
+C:\Users\user\AppData\Local\Arduino15\packages\rp2040\tools\pqt-python3\1.0.1-base-3a57aed-1\python3.exe
+C:\Users\user\AppData\Local\Programs\Python\Python37\python.exe
+C:\Users\user\AppData\Local\Programs\Python\Python37\Lib\venv\scripts\nt\python.exe

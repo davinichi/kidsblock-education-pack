@@ -1,0 +1,1318 @@
+﻿FILE=C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\boards.txt
+HAS_XIAO_ESP32C3=True
+HAS_ESP32_BOARD=True
+
+--- matches: XIAO_ESP32C3
+Line 34870: XIAO_ESP32C3.name=XIAO_ESP32C3
+  pre: 
+  pre: 
+  post: XIAO_ESP32C3.vid.0=0x2886
+  post: XIAO_ESP32C3.pid.0=0x0046
+Line 34871: XIAO_ESP32C3.vid.0=0x2886
+  pre: 
+  pre: XIAO_ESP32C3.name=XIAO_ESP32C3
+  post: XIAO_ESP32C3.pid.0=0x0046
+  post: 
+Line 34872: XIAO_ESP32C3.pid.0=0x0046
+  pre: XIAO_ESP32C3.name=XIAO_ESP32C3
+  pre: XIAO_ESP32C3.vid.0=0x2886
+  post: 
+  post: XIAO_ESP32C3.bootloader.tool=esptool_py
+Line 34874: XIAO_ESP32C3.bootloader.tool=esptool_py
+  pre: XIAO_ESP32C3.pid.0=0x0046
+  pre: 
+  post: XIAO_ESP32C3.bootloader.tool.default=esptool_py
+  post: 
+Line 34875: XIAO_ESP32C3.bootloader.tool.default=esptool_py
+  pre: 
+  pre: XIAO_ESP32C3.bootloader.tool=esptool_py
+  post: 
+  post: XIAO_ESP32C3.upload.tool=esptool_py
+Line 34877: XIAO_ESP32C3.upload.tool=esptool_py
+  pre: XIAO_ESP32C3.bootloader.tool.default=esptool_py
+  pre: 
+  post: XIAO_ESP32C3.upload.tool.default=esptool_py
+  post: XIAO_ESP32C3.upload.tool.network=esp_ota
+Line 34878: XIAO_ESP32C3.upload.tool.default=esptool_py
+  pre: 
+  pre: XIAO_ESP32C3.upload.tool=esptool_py
+  post: XIAO_ESP32C3.upload.tool.network=esp_ota
+  post: 
+Line 34879: XIAO_ESP32C3.upload.tool.network=esp_ota
+  pre: XIAO_ESP32C3.upload.tool=esptool_py
+  pre: XIAO_ESP32C3.upload.tool.default=esptool_py
+  post: 
+  post: XIAO_ESP32C3.upload.maximum_size=1310720
+Line 34881: XIAO_ESP32C3.upload.maximum_size=1310720
+  pre: XIAO_ESP32C3.upload.tool.network=esp_ota
+  pre: 
+  post: XIAO_ESP32C3.upload.maximum_data_size=327680
+  post: XIAO_ESP32C3.upload.flags=
+Line 34882: XIAO_ESP32C3.upload.maximum_data_size=327680
+  pre: 
+  pre: XIAO_ESP32C3.upload.maximum_size=1310720
+  post: XIAO_ESP32C3.upload.flags=
+  post: XIAO_ESP32C3.upload.extra_flags=
+Line 34883: XIAO_ESP32C3.upload.flags=
+  pre: XIAO_ESP32C3.upload.maximum_size=1310720
+  pre: XIAO_ESP32C3.upload.maximum_data_size=327680
+  post: XIAO_ESP32C3.upload.extra_flags=
+  post: XIAO_ESP32C3.upload.use_1200bps_touch=false
+Line 34884: XIAO_ESP32C3.upload.extra_flags=
+  pre: XIAO_ESP32C3.upload.maximum_data_size=327680
+  pre: XIAO_ESP32C3.upload.flags=
+  post: XIAO_ESP32C3.upload.use_1200bps_touch=false
+  post: XIAO_ESP32C3.upload.wait_for_upload_port=false
+Line 34885: XIAO_ESP32C3.upload.use_1200bps_touch=false
+  pre: XIAO_ESP32C3.upload.flags=
+  pre: XIAO_ESP32C3.upload.extra_flags=
+  post: XIAO_ESP32C3.upload.wait_for_upload_port=false
+  post: 
+Line 34886: XIAO_ESP32C3.upload.wait_for_upload_port=false
+  pre: XIAO_ESP32C3.upload.extra_flags=
+  pre: XIAO_ESP32C3.upload.use_1200bps_touch=false
+  post: 
+  post: XIAO_ESP32C3.serial.disableDTR=false
+Line 34888: XIAO_ESP32C3.serial.disableDTR=false
+  pre: XIAO_ESP32C3.upload.wait_for_upload_port=false
+  pre: 
+  post: XIAO_ESP32C3.serial.disableRTS=false
+  post: 
+Line 34889: XIAO_ESP32C3.serial.disableRTS=false
+  pre: 
+  pre: XIAO_ESP32C3.serial.disableDTR=false
+  post: 
+  post: XIAO_ESP32C3.build.tarch=riscv32
+Line 34891: XIAO_ESP32C3.build.tarch=riscv32
+  pre: XIAO_ESP32C3.serial.disableRTS=false
+  pre: 
+  post: XIAO_ESP32C3.build.target=esp
+  post: XIAO_ESP32C3.build.mcu=esp32c3
+Line 34892: XIAO_ESP32C3.build.target=esp
+  pre: 
+  pre: XIAO_ESP32C3.build.tarch=riscv32
+  post: XIAO_ESP32C3.build.mcu=esp32c3
+  post: XIAO_ESP32C3.build.core=esp32
+Line 34893: XIAO_ESP32C3.build.mcu=esp32c3
+  pre: XIAO_ESP32C3.build.tarch=riscv32
+  pre: XIAO_ESP32C3.build.target=esp
+  post: XIAO_ESP32C3.build.core=esp32
+  post: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+Line 34894: XIAO_ESP32C3.build.core=esp32
+  pre: XIAO_ESP32C3.build.target=esp
+  pre: XIAO_ESP32C3.build.mcu=esp32c3
+  post: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+  post: XIAO_ESP32C3.build.board=XIAO_ESP32C3
+Line 34895: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+  pre: XIAO_ESP32C3.build.mcu=esp32c3
+  pre: XIAO_ESP32C3.build.core=esp32
+  post: XIAO_ESP32C3.build.board=XIAO_ESP32C3
+  post: XIAO_ESP32C3.build.bootloader_addr=0x0
+Line 34896: XIAO_ESP32C3.build.board=XIAO_ESP32C3
+  pre: XIAO_ESP32C3.build.core=esp32
+  pre: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+  post: XIAO_ESP32C3.build.bootloader_addr=0x0
+  post: 
+Line 34897: XIAO_ESP32C3.build.bootloader_addr=0x0
+  pre: XIAO_ESP32C3.build.variant=XIAO_ESP32C3
+  pre: XIAO_ESP32C3.build.board=XIAO_ESP32C3
+  post: 
+  post: XIAO_ESP32C3.build.cdc_on_boot=1
+Line 34899: XIAO_ESP32C3.build.cdc_on_boot=1
+  pre: XIAO_ESP32C3.build.bootloader_addr=0x0
+  pre: 
+  post: XIAO_ESP32C3.build.f_cpu=160000000L
+  post: XIAO_ESP32C3.build.flash_size=4MB
+Line 34900: XIAO_ESP32C3.build.f_cpu=160000000L
+  pre: 
+  pre: XIAO_ESP32C3.build.cdc_on_boot=1
+  post: XIAO_ESP32C3.build.flash_size=4MB
+  post: XIAO_ESP32C3.build.flash_freq=80m
+Line 34901: XIAO_ESP32C3.build.flash_size=4MB
+  pre: XIAO_ESP32C3.build.cdc_on_boot=1
+  pre: XIAO_ESP32C3.build.f_cpu=160000000L
+  post: XIAO_ESP32C3.build.flash_freq=80m
+  post: XIAO_ESP32C3.build.flash_mode=qio
+Line 34902: XIAO_ESP32C3.build.flash_freq=80m
+  pre: XIAO_ESP32C3.build.f_cpu=160000000L
+  pre: XIAO_ESP32C3.build.flash_size=4MB
+  post: XIAO_ESP32C3.build.flash_mode=qio
+  post: XIAO_ESP32C3.build.boot=qio
+Line 34903: XIAO_ESP32C3.build.flash_mode=qio
+  pre: XIAO_ESP32C3.build.flash_size=4MB
+  pre: XIAO_ESP32C3.build.flash_freq=80m
+  post: XIAO_ESP32C3.build.boot=qio
+  post: XIAO_ESP32C3.build.partitions=default
+Line 34904: XIAO_ESP32C3.build.boot=qio
+  pre: XIAO_ESP32C3.build.flash_freq=80m
+  pre: XIAO_ESP32C3.build.flash_mode=qio
+  post: XIAO_ESP32C3.build.partitions=default
+  post: XIAO_ESP32C3.build.defines=
+Line 34905: XIAO_ESP32C3.build.partitions=default
+  pre: XIAO_ESP32C3.build.flash_mode=qio
+  pre: XIAO_ESP32C3.build.boot=qio
+  post: XIAO_ESP32C3.build.defines=
+  post: 
+Line 34906: XIAO_ESP32C3.build.defines=
+  pre: XIAO_ESP32C3.build.boot=qio
+  pre: XIAO_ESP32C3.build.partitions=default
+  post: 
+  post: XIAO_ESP32C3.menu.CDCOnBoot.default=Enabled
+Line 34908: XIAO_ESP32C3.menu.CDCOnBoot.default=Enabled
+  pre: XIAO_ESP32C3.build.defines=
+  pre: 
+  post: XIAO_ESP32C3.menu.CDCOnBoot.default.build.cdc_on_boot=1
+  post: XIAO_ESP32C3.menu.CDCOnBoot.cdc=Disabled
+Line 34909: XIAO_ESP32C3.menu.CDCOnBoot.default.build.cdc_on_boot=1
+  pre: 
+  pre: XIAO_ESP32C3.menu.CDCOnBoot.default=Enabled
+  post: XIAO_ESP32C3.menu.CDCOnBoot.cdc=Disabled
+  post: XIAO_ESP32C3.menu.CDCOnBoot.cdc.build.cdc_on_boot=0
+Line 34910: XIAO_ESP32C3.menu.CDCOnBoot.cdc=Disabled
+  pre: XIAO_ESP32C3.menu.CDCOnBoot.default=Enabled
+  pre: XIAO_ESP32C3.menu.CDCOnBoot.default.build.cdc_on_boot=1
+  post: XIAO_ESP32C3.menu.CDCOnBoot.cdc.build.cdc_on_boot=0
+  post: 
+Line 34911: XIAO_ESP32C3.menu.CDCOnBoot.cdc.build.cdc_on_boot=0
+  pre: XIAO_ESP32C3.menu.CDCOnBoot.default.build.cdc_on_boot=1
+  pre: XIAO_ESP32C3.menu.CDCOnBoot.cdc=Disabled
+  post: 
+  post: XIAO_ESP32C3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+Line 34913: XIAO_ESP32C3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  pre: XIAO_ESP32C3.menu.CDCOnBoot.cdc.build.cdc_on_boot=0
+  pre: 
+  post: XIAO_ESP32C3.menu.PartitionScheme.default.build.partitions=default
+  post: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+Line 34914: XIAO_ESP32C3.menu.PartitionScheme.default.build.partitions=default
+  pre: 
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+Line 34915: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default.build.partitions=default
+  post: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  post: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+Line 34916: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default.build.partitions=default
+  pre: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+Line 34917: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  post: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+  post: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+Line 34918: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+  pre: XIAO_ESP32C3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+  post: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+Line 34919: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+  post: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+Line 34920: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+  post: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+  post: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+Line 34921: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+  pre: XIAO_ESP32C3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+  pre: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+Line 34922: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+  post: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+  post: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+Line 34923: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+  pre: XIAO_ESP32C3.menu.PartitionScheme.minimal.build.partitions=minimal
+  pre: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+Line 34924: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+  pre: XIAO_ESP32C3.menu.PartitionScheme.no_ota=No OTA (2MB APP/2MB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+Line 34925: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.no_ota.build.partitions=no_ota
+  pre: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+Line 34926: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+  pre: XIAO_ESP32C3.menu.PartitionScheme.no_ota.upload.maximum_size=2097152
+  pre: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+Line 34927: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.upload.maximum_size=1048576
+  pre: XIAO_ESP32C3.menu.PartitionScheme.noota_3g=No OTA (1MB APP/3MB SPIFFS)
+  pre: XIAO_ESP32C3.menu.PartitionScheme.noota_3g.build.partitions=noota_3g
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat=No OTA (2MB APP/2MB FATFS)
+  post: XIAO_ESP32C3.menu.PartitionScheme.noota_ffat.build.partitions=noota_ffat
+
+--- matches: Seeed
+
+--- matches: esp32c3
+Line 1015: esp32c3.name=ESP32C3 Dev Module
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: esp32c3.bootloader.tool=esptool_py
+Line 1017: esp32c3.bootloader.tool=esptool_py
+  pre: esp32c3.name=ESP32C3 Dev Module
+  pre: 
+  post: esp32c3.bootloader.tool.default=esptool_py
+  post: 
+Line 1018: esp32c3.bootloader.tool.default=esptool_py
+  pre: 
+  pre: esp32c3.bootloader.tool=esptool_py
+  post: 
+  post: esp32c3.upload.tool=esptool_py
+Line 1020: esp32c3.upload.tool=esptool_py
+  pre: esp32c3.bootloader.tool.default=esptool_py
+  pre: 
+  post: esp32c3.upload.tool.default=esptool_py
+  post: esp32c3.upload.tool.network=esp_ota
+Line 1021: esp32c3.upload.tool.default=esptool_py
+  pre: 
+  pre: esp32c3.upload.tool=esptool_py
+  post: esp32c3.upload.tool.network=esp_ota
+  post: 
+Line 1022: esp32c3.upload.tool.network=esp_ota
+  pre: esp32c3.upload.tool=esptool_py
+  pre: esp32c3.upload.tool.default=esptool_py
+  post: 
+  post: esp32c3.upload.maximum_size=1310720
+Line 1024: esp32c3.upload.maximum_size=1310720
+  pre: esp32c3.upload.tool.network=esp_ota
+  pre: 
+  post: esp32c3.upload.maximum_data_size=327680
+  post: esp32c3.upload.flags=
+Line 1025: esp32c3.upload.maximum_data_size=327680
+  pre: 
+  pre: esp32c3.upload.maximum_size=1310720
+  post: esp32c3.upload.flags=
+  post: esp32c3.upload.extra_flags=
+Line 1026: esp32c3.upload.flags=
+  pre: esp32c3.upload.maximum_size=1310720
+  pre: esp32c3.upload.maximum_data_size=327680
+  post: esp32c3.upload.extra_flags=
+  post: esp32c3.upload.use_1200bps_touch=false
+Line 1027: esp32c3.upload.extra_flags=
+  pre: esp32c3.upload.maximum_data_size=327680
+  pre: esp32c3.upload.flags=
+  post: esp32c3.upload.use_1200bps_touch=false
+  post: esp32c3.upload.wait_for_upload_port=false
+Line 1028: esp32c3.upload.use_1200bps_touch=false
+  pre: esp32c3.upload.flags=
+  pre: esp32c3.upload.extra_flags=
+  post: esp32c3.upload.wait_for_upload_port=false
+  post: 
+Line 1029: esp32c3.upload.wait_for_upload_port=false
+  pre: esp32c3.upload.extra_flags=
+  pre: esp32c3.upload.use_1200bps_touch=false
+  post: 
+  post: esp32c3.serial.disableDTR=false
+Line 1031: esp32c3.serial.disableDTR=false
+  pre: esp32c3.upload.wait_for_upload_port=false
+  pre: 
+  post: esp32c3.serial.disableRTS=false
+  post: 
+Line 1032: esp32c3.serial.disableRTS=false
+  pre: 
+  pre: esp32c3.serial.disableDTR=false
+  post: 
+  post: esp32c3.build.tarch=riscv32
+Line 1034: esp32c3.build.tarch=riscv32
+  pre: esp32c3.serial.disableRTS=false
+  pre: 
+  post: esp32c3.build.target=esp
+  post: esp32c3.build.mcu=esp32c3
+Line 1035: esp32c3.build.target=esp
+  pre: 
+  pre: esp32c3.build.tarch=riscv32
+  post: esp32c3.build.mcu=esp32c3
+  post: esp32c3.build.core=esp32
+Line 1036: esp32c3.build.mcu=esp32c3
+  pre: esp32c3.build.tarch=riscv32
+  pre: esp32c3.build.target=esp
+  post: esp32c3.build.core=esp32
+  post: esp32c3.build.variant=esp32c3
+Line 1037: esp32c3.build.core=esp32
+  pre: esp32c3.build.target=esp
+  pre: esp32c3.build.mcu=esp32c3
+  post: esp32c3.build.variant=esp32c3
+  post: esp32c3.build.board=ESP32C3_DEV
+Line 1038: esp32c3.build.variant=esp32c3
+  pre: esp32c3.build.mcu=esp32c3
+  pre: esp32c3.build.core=esp32
+  post: esp32c3.build.board=ESP32C3_DEV
+  post: esp32c3.build.bootloader_addr=0x0
+Line 1039: esp32c3.build.board=ESP32C3_DEV
+  pre: esp32c3.build.core=esp32
+  pre: esp32c3.build.variant=esp32c3
+  post: esp32c3.build.bootloader_addr=0x0
+  post: 
+Line 1040: esp32c3.build.bootloader_addr=0x0
+  pre: esp32c3.build.variant=esp32c3
+  pre: esp32c3.build.board=ESP32C3_DEV
+  post: 
+  post: esp32c3.build.cdc_on_boot=0
+Line 1042: esp32c3.build.cdc_on_boot=0
+  pre: esp32c3.build.bootloader_addr=0x0
+  pre: 
+  post: esp32c3.build.f_cpu=160000000L
+  post: esp32c3.build.flash_size=4MB
+Line 1043: esp32c3.build.f_cpu=160000000L
+  pre: 
+  pre: esp32c3.build.cdc_on_boot=0
+  post: esp32c3.build.flash_size=4MB
+  post: esp32c3.build.flash_freq=80m
+Line 1044: esp32c3.build.flash_size=4MB
+  pre: esp32c3.build.cdc_on_boot=0
+  pre: esp32c3.build.f_cpu=160000000L
+  post: esp32c3.build.flash_freq=80m
+  post: esp32c3.build.flash_mode=qio
+Line 1045: esp32c3.build.flash_freq=80m
+  pre: esp32c3.build.f_cpu=160000000L
+  pre: esp32c3.build.flash_size=4MB
+  post: esp32c3.build.flash_mode=qio
+  post: esp32c3.build.boot=qio
+Line 1046: esp32c3.build.flash_mode=qio
+  pre: esp32c3.build.flash_size=4MB
+  pre: esp32c3.build.flash_freq=80m
+  post: esp32c3.build.boot=qio
+  post: esp32c3.build.partitions=default
+Line 1047: esp32c3.build.boot=qio
+  pre: esp32c3.build.flash_freq=80m
+  pre: esp32c3.build.flash_mode=qio
+  post: esp32c3.build.partitions=default
+  post: esp32c3.build.defines=
+Line 1048: esp32c3.build.partitions=default
+  pre: esp32c3.build.flash_mode=qio
+  pre: esp32c3.build.boot=qio
+  post: esp32c3.build.defines=
+  post: 
+Line 1049: esp32c3.build.defines=
+  pre: esp32c3.build.boot=qio
+  pre: esp32c3.build.partitions=default
+  post: 
+  post: ## IDE 2.0 Seems to not update the value
+Line 1052: esp32c3.menu.JTAGAdapter.default=Disabled
+  pre: 
+  pre: ## IDE 2.0 Seems to not update the value
+  post: esp32c3.menu.JTAGAdapter.default.build.copy_jtag_files=0
+  post: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+Line 1053: esp32c3.menu.JTAGAdapter.default.build.copy_jtag_files=0
+  pre: ## IDE 2.0 Seems to not update the value
+  pre: esp32c3.menu.JTAGAdapter.default=Disabled
+  post: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+  post: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+Line 1054: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+  pre: esp32c3.menu.JTAGAdapter.default=Disabled
+  pre: esp32c3.menu.JTAGAdapter.default.build.copy_jtag_files=0
+  post: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+  post: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+Line 1055: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+  pre: esp32c3.menu.JTAGAdapter.default.build.copy_jtag_files=0
+  pre: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+  post: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+  post: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+Line 1056: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+  pre: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+  post: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+  post: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+Line 1057: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+  pre: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+  pre: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+  post: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+  post: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+Line 1058: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+  pre: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+  post: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+  post: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+Line 1059: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+  pre: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+  post: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+  post: esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
+Line 1060: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+  pre: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+  pre: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+  post: esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
+  post: esp32c3.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+Line 1061: esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
+  pre: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+  post: esp32c3.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+  post: 
+Line 1062: esp32c3.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+  pre: esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
+  post: 
+  post: esp32c3.menu.CDCOnBoot.default=Disabled
+Line 1064: esp32c3.menu.CDCOnBoot.default=Disabled
+  pre: esp32c3.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+  pre: 
+  post: esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
+  post: esp32c3.menu.CDCOnBoot.cdc=Enabled
+Line 1065: esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
+  pre: 
+  pre: esp32c3.menu.CDCOnBoot.default=Disabled
+  post: esp32c3.menu.CDCOnBoot.cdc=Enabled
+  post: esp32c3.menu.CDCOnBoot.cdc.build.cdc_on_boot=1
+Line 1066: esp32c3.menu.CDCOnBoot.cdc=Enabled
+  pre: esp32c3.menu.CDCOnBoot.default=Disabled
+  pre: esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
+  post: esp32c3.menu.CDCOnBoot.cdc.build.cdc_on_boot=1
+  post: 
+Line 1067: esp32c3.menu.CDCOnBoot.cdc.build.cdc_on_boot=1
+  pre: esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
+  pre: esp32c3.menu.CDCOnBoot.cdc=Enabled
+  post: 
+  post: esp32c3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+Line 1069: esp32c3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  pre: esp32c3.menu.CDCOnBoot.cdc.build.cdc_on_boot=1
+  pre: 
+  post: esp32c3.menu.PartitionScheme.default.build.partitions=default
+  post: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+Line 1070: esp32c3.menu.PartitionScheme.default.build.partitions=default
+  pre: 
+  pre: esp32c3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  post: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  post: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+Line 1071: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  pre: esp32c3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  pre: esp32c3.menu.PartitionScheme.default.build.partitions=default
+  post: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  post: esp32c3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+Line 1072: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  pre: esp32c3.menu.PartitionScheme.default.build.partitions=default
+  pre: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  post: esp32c3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  post: esp32c3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+Line 1073: esp32c3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  pre: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  pre: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  post: esp32c3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+  post: esp32c3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+Line 1074: esp32c3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+  pre: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  pre: esp32c3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  post: esp32c3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+  post: esp32c3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+
+--- matches: ESP32C3
+Line 1015: esp32c3.name=ESP32C3 Dev Module
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: esp32c3.bootloader.tool=esptool_py
+Line 1017: esp32c3.bootloader.tool=esptool_py
+  pre: esp32c3.name=ESP32C3 Dev Module
+  pre: 
+  post: esp32c3.bootloader.tool.default=esptool_py
+  post: 
+Line 1018: esp32c3.bootloader.tool.default=esptool_py
+  pre: 
+  pre: esp32c3.bootloader.tool=esptool_py
+  post: 
+  post: esp32c3.upload.tool=esptool_py
+Line 1020: esp32c3.upload.tool=esptool_py
+  pre: esp32c3.bootloader.tool.default=esptool_py
+  pre: 
+  post: esp32c3.upload.tool.default=esptool_py
+  post: esp32c3.upload.tool.network=esp_ota
+Line 1021: esp32c3.upload.tool.default=esptool_py
+  pre: 
+  pre: esp32c3.upload.tool=esptool_py
+  post: esp32c3.upload.tool.network=esp_ota
+  post: 
+Line 1022: esp32c3.upload.tool.network=esp_ota
+  pre: esp32c3.upload.tool=esptool_py
+  pre: esp32c3.upload.tool.default=esptool_py
+  post: 
+  post: esp32c3.upload.maximum_size=1310720
+Line 1024: esp32c3.upload.maximum_size=1310720
+  pre: esp32c3.upload.tool.network=esp_ota
+  pre: 
+  post: esp32c3.upload.maximum_data_size=327680
+  post: esp32c3.upload.flags=
+Line 1025: esp32c3.upload.maximum_data_size=327680
+  pre: 
+  pre: esp32c3.upload.maximum_size=1310720
+  post: esp32c3.upload.flags=
+  post: esp32c3.upload.extra_flags=
+Line 1026: esp32c3.upload.flags=
+  pre: esp32c3.upload.maximum_size=1310720
+  pre: esp32c3.upload.maximum_data_size=327680
+  post: esp32c3.upload.extra_flags=
+  post: esp32c3.upload.use_1200bps_touch=false
+Line 1027: esp32c3.upload.extra_flags=
+  pre: esp32c3.upload.maximum_data_size=327680
+  pre: esp32c3.upload.flags=
+  post: esp32c3.upload.use_1200bps_touch=false
+  post: esp32c3.upload.wait_for_upload_port=false
+Line 1028: esp32c3.upload.use_1200bps_touch=false
+  pre: esp32c3.upload.flags=
+  pre: esp32c3.upload.extra_flags=
+  post: esp32c3.upload.wait_for_upload_port=false
+  post: 
+Line 1029: esp32c3.upload.wait_for_upload_port=false
+  pre: esp32c3.upload.extra_flags=
+  pre: esp32c3.upload.use_1200bps_touch=false
+  post: 
+  post: esp32c3.serial.disableDTR=false
+Line 1031: esp32c3.serial.disableDTR=false
+  pre: esp32c3.upload.wait_for_upload_port=false
+  pre: 
+  post: esp32c3.serial.disableRTS=false
+  post: 
+Line 1032: esp32c3.serial.disableRTS=false
+  pre: 
+  pre: esp32c3.serial.disableDTR=false
+  post: 
+  post: esp32c3.build.tarch=riscv32
+Line 1034: esp32c3.build.tarch=riscv32
+  pre: esp32c3.serial.disableRTS=false
+  pre: 
+  post: esp32c3.build.target=esp
+  post: esp32c3.build.mcu=esp32c3
+Line 1035: esp32c3.build.target=esp
+  pre: 
+  pre: esp32c3.build.tarch=riscv32
+  post: esp32c3.build.mcu=esp32c3
+  post: esp32c3.build.core=esp32
+Line 1036: esp32c3.build.mcu=esp32c3
+  pre: esp32c3.build.tarch=riscv32
+  pre: esp32c3.build.target=esp
+  post: esp32c3.build.core=esp32
+  post: esp32c3.build.variant=esp32c3
+Line 1037: esp32c3.build.core=esp32
+  pre: esp32c3.build.target=esp
+  pre: esp32c3.build.mcu=esp32c3
+  post: esp32c3.build.variant=esp32c3
+  post: esp32c3.build.board=ESP32C3_DEV
+Line 1038: esp32c3.build.variant=esp32c3
+  pre: esp32c3.build.mcu=esp32c3
+  pre: esp32c3.build.core=esp32
+  post: esp32c3.build.board=ESP32C3_DEV
+  post: esp32c3.build.bootloader_addr=0x0
+Line 1039: esp32c3.build.board=ESP32C3_DEV
+  pre: esp32c3.build.core=esp32
+  pre: esp32c3.build.variant=esp32c3
+  post: esp32c3.build.bootloader_addr=0x0
+  post: 
+Line 1040: esp32c3.build.bootloader_addr=0x0
+  pre: esp32c3.build.variant=esp32c3
+  pre: esp32c3.build.board=ESP32C3_DEV
+  post: 
+  post: esp32c3.build.cdc_on_boot=0
+Line 1042: esp32c3.build.cdc_on_boot=0
+  pre: esp32c3.build.bootloader_addr=0x0
+  pre: 
+  post: esp32c3.build.f_cpu=160000000L
+  post: esp32c3.build.flash_size=4MB
+Line 1043: esp32c3.build.f_cpu=160000000L
+  pre: 
+  pre: esp32c3.build.cdc_on_boot=0
+  post: esp32c3.build.flash_size=4MB
+  post: esp32c3.build.flash_freq=80m
+Line 1044: esp32c3.build.flash_size=4MB
+  pre: esp32c3.build.cdc_on_boot=0
+  pre: esp32c3.build.f_cpu=160000000L
+  post: esp32c3.build.flash_freq=80m
+  post: esp32c3.build.flash_mode=qio
+Line 1045: esp32c3.build.flash_freq=80m
+  pre: esp32c3.build.f_cpu=160000000L
+  pre: esp32c3.build.flash_size=4MB
+  post: esp32c3.build.flash_mode=qio
+  post: esp32c3.build.boot=qio
+Line 1046: esp32c3.build.flash_mode=qio
+  pre: esp32c3.build.flash_size=4MB
+  pre: esp32c3.build.flash_freq=80m
+  post: esp32c3.build.boot=qio
+  post: esp32c3.build.partitions=default
+Line 1047: esp32c3.build.boot=qio
+  pre: esp32c3.build.flash_freq=80m
+  pre: esp32c3.build.flash_mode=qio
+  post: esp32c3.build.partitions=default
+  post: esp32c3.build.defines=
+Line 1048: esp32c3.build.partitions=default
+  pre: esp32c3.build.flash_mode=qio
+  pre: esp32c3.build.boot=qio
+  post: esp32c3.build.defines=
+  post: 
+Line 1049: esp32c3.build.defines=
+  pre: esp32c3.build.boot=qio
+  pre: esp32c3.build.partitions=default
+  post: 
+  post: ## IDE 2.0 Seems to not update the value
+Line 1052: esp32c3.menu.JTAGAdapter.default=Disabled
+  pre: 
+  pre: ## IDE 2.0 Seems to not update the value
+  post: esp32c3.menu.JTAGAdapter.default.build.copy_jtag_files=0
+  post: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+Line 1053: esp32c3.menu.JTAGAdapter.default.build.copy_jtag_files=0
+  pre: ## IDE 2.0 Seems to not update the value
+  pre: esp32c3.menu.JTAGAdapter.default=Disabled
+  post: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+  post: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+Line 1054: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+  pre: esp32c3.menu.JTAGAdapter.default=Disabled
+  pre: esp32c3.menu.JTAGAdapter.default.build.copy_jtag_files=0
+  post: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+  post: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+Line 1055: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+  pre: esp32c3.menu.JTAGAdapter.default.build.copy_jtag_files=0
+  pre: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+  post: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+  post: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+Line 1056: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.builtin=Integrated USB JTAG
+  pre: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+  post: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+  post: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+Line 1057: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+  pre: esp32c3.menu.JTAGAdapter.builtin.build.openocdscript=esp32c3-builtin.cfg
+  pre: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+  post: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+  post: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+Line 1058: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+  pre: esp32c3.menu.JTAGAdapter.builtin.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+  post: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+  post: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+Line 1059: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.external=FTDI Adapter
+  pre: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+  post: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+  post: esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
+Line 1060: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+  pre: esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
+  pre: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+  post: esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
+  post: esp32c3.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+Line 1061: esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
+  pre: esp32c3.menu.JTAGAdapter.external.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+  post: esp32c3.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+  post: 
+Line 1062: esp32c3.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+  pre: esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
+  pre: esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
+  post: 
+  post: esp32c3.menu.CDCOnBoot.default=Disabled
+Line 1064: esp32c3.menu.CDCOnBoot.default=Disabled
+  pre: esp32c3.menu.JTAGAdapter.bridge.build.copy_jtag_files=1
+  pre: 
+  post: esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
+  post: esp32c3.menu.CDCOnBoot.cdc=Enabled
+Line 1065: esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
+  pre: 
+  pre: esp32c3.menu.CDCOnBoot.default=Disabled
+  post: esp32c3.menu.CDCOnBoot.cdc=Enabled
+  post: esp32c3.menu.CDCOnBoot.cdc.build.cdc_on_boot=1
+Line 1066: esp32c3.menu.CDCOnBoot.cdc=Enabled
+  pre: esp32c3.menu.CDCOnBoot.default=Disabled
+  pre: esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
+  post: esp32c3.menu.CDCOnBoot.cdc.build.cdc_on_boot=1
+  post: 
+Line 1067: esp32c3.menu.CDCOnBoot.cdc.build.cdc_on_boot=1
+  pre: esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
+  pre: esp32c3.menu.CDCOnBoot.cdc=Enabled
+  post: 
+  post: esp32c3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+Line 1069: esp32c3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  pre: esp32c3.menu.CDCOnBoot.cdc.build.cdc_on_boot=1
+  pre: 
+  post: esp32c3.menu.PartitionScheme.default.build.partitions=default
+  post: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+Line 1070: esp32c3.menu.PartitionScheme.default.build.partitions=default
+  pre: 
+  pre: esp32c3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  post: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  post: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+Line 1071: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  pre: esp32c3.menu.PartitionScheme.default=Default 4MB with spiffs (1.2MB APP/1.5MB SPIFFS)
+  pre: esp32c3.menu.PartitionScheme.default.build.partitions=default
+  post: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  post: esp32c3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+Line 1072: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  pre: esp32c3.menu.PartitionScheme.default.build.partitions=default
+  pre: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  post: esp32c3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  post: esp32c3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+Line 1073: esp32c3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  pre: esp32c3.menu.PartitionScheme.defaultffat=Default 4MB with ffat (1.2MB APP/1.5MB FATFS)
+  pre: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  post: esp32c3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+  post: esp32c3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+Line 1074: esp32c3.menu.PartitionScheme.default_8MB.build.partitions=default_8MB
+  pre: esp32c3.menu.PartitionScheme.defaultffat.build.partitions=default_ffat
+  pre: esp32c3.menu.PartitionScheme.default_8MB=8M with spiffs (3MB APP/1.5MB SPIFFS)
+  post: esp32c3.menu.PartitionScheme.default_8MB.upload.maximum_size=3342336
+  post: esp32c3.menu.PartitionScheme.minimal=Minimal (1.3MB APP/700KB SPIFFS)
+
+--- matches: esp32.name
+Line 1408: esp32.name=ESP32 Dev Module
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: esp32.bootloader.tool=esptool_py
+Line 13680: featheresp32.name=Adafruit ESP32 Feather
+  pre: # Adafruit ESP32 Feather
+  pre: 
+  post: 
+  post: featheresp32.bootloader.tool=esptool_py
+Line 16344: adafruit_itsybitsy_esp32.name=Adafruit ItsyBitsy ESP32
+  pre: # Adafruit ItsyBitsy ESP32
+  pre: 
+  post: 
+  post: adafruit_itsybitsy_esp32.bootloader.tool=esptool_py
+Line 24782: odroid_esp32.name=ODROID ESP32
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: odroid_esp32.bootloader.tool=esptool_py
+Line 27598: CoreESP32.name=Microduino-CoreESP32
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: CoreESP32.bootloader.tool=esptool_py
+Line 27690: alksesp32.name=ALKS ESP32
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: alksesp32.bootloader.tool=esptool_py
+Line 28443: wesp32.name=Silicognition wESP32
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: wesp32.bootloader.tool=esptool_py
+Line 31778: uPesy_edu_esp32.name=uPesy EDU ESP32
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: uPesy_edu_esp32.bootloader.tool=esptool_py
+Line 34306: dpu_esp32.name=DPU ESP32
+  pre: ##############################################################
+  pre: 
+  post: 
+  post: dpu_esp32.bootloader.tool=esptool_py
+Line 39327: ioxesp32.name=IOXESP32
+  pre: # IOXESP32, IOXESP32U
+  pre: 
+  post: 
+  post: ioxesp32.bootloader.tool=esptool_py
+
+--- matches: esp32.upload
+Line 1413: esp32.upload.tool=esptool_py
+  pre: esp32.bootloader.tool.default=esptool_py
+  pre: 
+  post: esp32.upload.tool.default=esptool_py
+  post: esp32.upload.tool.network=esp_ota
+Line 1414: esp32.upload.tool.default=esptool_py
+  pre: 
+  pre: esp32.upload.tool=esptool_py
+  post: esp32.upload.tool.network=esp_ota
+  post: 
+Line 1415: esp32.upload.tool.network=esp_ota
+  pre: esp32.upload.tool=esptool_py
+  pre: esp32.upload.tool.default=esptool_py
+  post: 
+  post: esp32.upload.maximum_size=1310720
+Line 1417: esp32.upload.maximum_size=1310720
+  pre: esp32.upload.tool.network=esp_ota
+  pre: 
+  post: esp32.upload.maximum_data_size=327680
+  post: esp32.upload.flags=
+Line 1418: esp32.upload.maximum_data_size=327680
+  pre: 
+  pre: esp32.upload.maximum_size=1310720
+  post: esp32.upload.flags=
+  post: esp32.upload.extra_flags=
+Line 1419: esp32.upload.flags=
+  pre: esp32.upload.maximum_size=1310720
+  pre: esp32.upload.maximum_data_size=327680
+  post: esp32.upload.extra_flags=
+  post: 
+Line 1420: esp32.upload.extra_flags=
+  pre: esp32.upload.maximum_data_size=327680
+  pre: esp32.upload.flags=
+  post: 
+  post: esp32.serial.disableDTR=true
+Line 13685: featheresp32.upload.tool=esptool_py
+  pre: featheresp32.bootloader.tool.default=esptool_py
+  pre: 
+  post: featheresp32.upload.tool.default=esptool_py
+  post: featheresp32.upload.tool.network=esp_ota
+Line 13686: featheresp32.upload.tool.default=esptool_py
+  pre: 
+  pre: featheresp32.upload.tool=esptool_py
+  post: featheresp32.upload.tool.network=esp_ota
+  post: 
+Line 13687: featheresp32.upload.tool.network=esp_ota
+  pre: featheresp32.upload.tool=esptool_py
+  pre: featheresp32.upload.tool.default=esptool_py
+  post: 
+  post: featheresp32.upload.maximum_size=1310720
+Line 13689: featheresp32.upload.maximum_size=1310720
+  pre: featheresp32.upload.tool.network=esp_ota
+  pre: 
+  post: featheresp32.upload.maximum_data_size=327680
+  post: featheresp32.upload.flags=
+Line 13690: featheresp32.upload.maximum_data_size=327680
+  pre: 
+  pre: featheresp32.upload.maximum_size=1310720
+  post: featheresp32.upload.flags=
+  post: featheresp32.upload.extra_flags=
+Line 13691: featheresp32.upload.flags=
+  pre: featheresp32.upload.maximum_size=1310720
+  pre: featheresp32.upload.maximum_data_size=327680
+  post: featheresp32.upload.extra_flags=
+  post: 
+Line 13692: featheresp32.upload.extra_flags=
+  pre: featheresp32.upload.maximum_data_size=327680
+  pre: featheresp32.upload.flags=
+  post: 
+  post: featheresp32.serial.disableDTR=true
+Line 16349: adafruit_itsybitsy_esp32.upload.tool=esptool_py
+  pre: adafruit_itsybitsy_esp32.bootloader.tool.default=esptool_py
+  pre: 
+  post: adafruit_itsybitsy_esp32.upload.tool.default=esptool_py
+  post: adafruit_itsybitsy_esp32.upload.tool.network=esp_ota
+Line 16350: adafruit_itsybitsy_esp32.upload.tool.default=esptool_py
+  pre: 
+  pre: adafruit_itsybitsy_esp32.upload.tool=esptool_py
+  post: adafruit_itsybitsy_esp32.upload.tool.network=esp_ota
+  post: 
+Line 16351: adafruit_itsybitsy_esp32.upload.tool.network=esp_ota
+  pre: adafruit_itsybitsy_esp32.upload.tool=esptool_py
+  pre: adafruit_itsybitsy_esp32.upload.tool.default=esptool_py
+  post: 
+  post: adafruit_itsybitsy_esp32.upload.maximum_size=1310720
+Line 16353: adafruit_itsybitsy_esp32.upload.maximum_size=1310720
+  pre: adafruit_itsybitsy_esp32.upload.tool.network=esp_ota
+  pre: 
+  post: adafruit_itsybitsy_esp32.upload.maximum_data_size=327680
+  post: adafruit_itsybitsy_esp32.upload.flags=
+Line 16354: adafruit_itsybitsy_esp32.upload.maximum_data_size=327680
+  pre: 
+  pre: adafruit_itsybitsy_esp32.upload.maximum_size=1310720
+  post: adafruit_itsybitsy_esp32.upload.flags=
+  post: adafruit_itsybitsy_esp32.upload.extra_flags=
+Line 16355: adafruit_itsybitsy_esp32.upload.flags=
+  pre: adafruit_itsybitsy_esp32.upload.maximum_size=1310720
+  pre: adafruit_itsybitsy_esp32.upload.maximum_data_size=327680
+  post: adafruit_itsybitsy_esp32.upload.extra_flags=
+  post: 
+Line 16356: adafruit_itsybitsy_esp32.upload.extra_flags=
+  pre: adafruit_itsybitsy_esp32.upload.maximum_data_size=327680
+  pre: adafruit_itsybitsy_esp32.upload.flags=
+  post: 
+  post: adafruit_itsybitsy_esp32.serial.disableDTR=true
+Line 24787: odroid_esp32.upload.tool=esptool_py
+  pre: odroid_esp32.bootloader.tool.default=esptool_py
+  pre: 
+  post: odroid_esp32.upload.tool.default=esptool_py
+  post: odroid_esp32.upload.tool.network=esp_ota
+Line 24788: odroid_esp32.upload.tool.default=esptool_py
+  pre: 
+  pre: odroid_esp32.upload.tool=esptool_py
+  post: odroid_esp32.upload.tool.network=esp_ota
+  post: 
+Line 24789: odroid_esp32.upload.tool.network=esp_ota
+  pre: odroid_esp32.upload.tool=esptool_py
+  pre: odroid_esp32.upload.tool.default=esptool_py
+  post: 
+  post: odroid_esp32.upload.maximum_size=1310720
+Line 24791: odroid_esp32.upload.maximum_size=1310720
+  pre: odroid_esp32.upload.tool.network=esp_ota
+  pre: 
+  post: odroid_esp32.upload.maximum_data_size=327680
+  post: odroid_esp32.upload.flags=
+Line 24792: odroid_esp32.upload.maximum_data_size=327680
+  pre: 
+  pre: odroid_esp32.upload.maximum_size=1310720
+  post: odroid_esp32.upload.flags=
+  post: odroid_esp32.upload.extra_flags=
+Line 24793: odroid_esp32.upload.flags=
+  pre: odroid_esp32.upload.maximum_size=1310720
+  pre: odroid_esp32.upload.maximum_data_size=327680
+  post: odroid_esp32.upload.extra_flags=
+  post: 
+Line 24794: odroid_esp32.upload.extra_flags=
+  pre: odroid_esp32.upload.maximum_data_size=327680
+  pre: odroid_esp32.upload.flags=
+  post: 
+  post: odroid_esp32.serial.disableDTR=true
+Line 27603: CoreESP32.upload.tool=esptool_py
+  pre: CoreESP32.bootloader.tool.default=esptool_py
+  pre: 
+  post: CoreESP32.upload.tool.default=esptool_py
+  post: CoreESP32.upload.tool.network=esp_ota
+Line 27604: CoreESP32.upload.tool.default=esptool_py
+  pre: 
+  pre: CoreESP32.upload.tool=esptool_py
+  post: CoreESP32.upload.tool.network=esp_ota
+  post: 
+Line 27605: CoreESP32.upload.tool.network=esp_ota
+  pre: CoreESP32.upload.tool=esptool_py
+  pre: CoreESP32.upload.tool.default=esptool_py
+  post: 
+  post: CoreESP32.upload.maximum_size=1310720
+Line 27607: CoreESP32.upload.maximum_size=1310720
+  pre: CoreESP32.upload.tool.network=esp_ota
+  pre: 
+  post: CoreESP32.upload.maximum_data_size=327680
+  post: CoreESP32.upload.flags=
+Line 27608: CoreESP32.upload.maximum_data_size=327680
+  pre: 
+  pre: CoreESP32.upload.maximum_size=1310720
+  post: CoreESP32.upload.flags=
+  post: CoreESP32.upload.extra_flags=
+Line 27609: CoreESP32.upload.flags=
+  pre: CoreESP32.upload.maximum_size=1310720
+  pre: CoreESP32.upload.maximum_data_size=327680
+  post: CoreESP32.upload.extra_flags=
+  post: 
+Line 27610: CoreESP32.upload.extra_flags=
+  pre: CoreESP32.upload.maximum_data_size=327680
+  pre: CoreESP32.upload.flags=
+  post: 
+  post: CoreESP32.serial.disableDTR=false
+Line 27695: alksesp32.upload.tool=esptool_py
+  pre: alksesp32.bootloader.tool.default=esptool_py
+  pre: 
+  post: alksesp32.upload.tool.default=esptool_py
+  post: alksesp32.upload.tool.network=esp_ota
+Line 27696: alksesp32.upload.tool.default=esptool_py
+  pre: 
+  pre: alksesp32.upload.tool=esptool_py
+  post: alksesp32.upload.tool.network=esp_ota
+  post: 
+Line 27697: alksesp32.upload.tool.network=esp_ota
+  pre: alksesp32.upload.tool=esptool_py
+  pre: alksesp32.upload.tool.default=esptool_py
+  post: 
+  post: alksesp32.upload.maximum_size=1310720
+Line 27699: alksesp32.upload.maximum_size=1310720
+  pre: alksesp32.upload.tool.network=esp_ota
+  pre: 
+  post: alksesp32.upload.maximum_data_size=327680
+  post: alksesp32.upload.flags=
+Line 27700: alksesp32.upload.maximum_data_size=327680
+  pre: 
+  pre: alksesp32.upload.maximum_size=1310720
+  post: alksesp32.upload.flags=
+  post: alksesp32.upload.extra_flags=
+Line 27701: alksesp32.upload.flags=
+  pre: alksesp32.upload.maximum_size=1310720
+  pre: alksesp32.upload.maximum_data_size=327680
+  post: alksesp32.upload.extra_flags=
+  post: 
+Line 27702: alksesp32.upload.extra_flags=
+  pre: alksesp32.upload.maximum_data_size=327680
+  pre: alksesp32.upload.flags=
+  post: 
+  post: alksesp32.serial.disableDTR=true
+Line 28448: wesp32.upload.tool=esptool_py
+  pre: wesp32.bootloader.tool.default=esptool_py
+  pre: 
+  post: wesp32.upload.tool.default=esptool_py
+  post: wesp32.upload.tool.network=esp_ota
+Line 28449: wesp32.upload.tool.default=esptool_py
+  pre: 
+  pre: wesp32.upload.tool=esptool_py
+  post: wesp32.upload.tool.network=esp_ota
+  post: 
+Line 28450: wesp32.upload.tool.network=esp_ota
+  pre: wesp32.upload.tool=esptool_py
+  pre: wesp32.upload.tool.default=esptool_py
+  post: 
+  post: wesp32.upload.maximum_size=1310720
+Line 28452: wesp32.upload.maximum_size=1310720
+  pre: wesp32.upload.tool.network=esp_ota
+  pre: 
+  post: wesp32.upload.maximum_data_size=327680
+  post: wesp32.upload.flags=
+Line 28453: wesp32.upload.maximum_data_size=327680
+  pre: 
+  pre: wesp32.upload.maximum_size=1310720
+  post: wesp32.upload.flags=
+  post: wesp32.upload.extra_flags=
+Line 28454: wesp32.upload.flags=
+  pre: wesp32.upload.maximum_size=1310720
+  pre: wesp32.upload.maximum_data_size=327680
+  post: wesp32.upload.extra_flags=
+  post: 
+Line 28455: wesp32.upload.extra_flags=
+  pre: wesp32.upload.maximum_data_size=327680
+  pre: wesp32.upload.flags=
+  post: 
+  post: wesp32.serial.disableDTR=true
+Line 31783: uPesy_edu_esp32.upload.tool=esptool_py
+  pre: uPesy_edu_esp32.bootloader.tool.default=esptool_py
+  pre: 
+  post: uPesy_edu_esp32.upload.tool.default=esptool_py
+  post: uPesy_edu_esp32.upload.tool.network=esp_ota
+
+--- matches: esp32.build
+Line 1425: esp32.build.tarch=xtensa
+  pre: esp32.serial.disableRTS=true
+  pre: 
+  post: esp32.build.bootloader_addr=0x1000
+  post: esp32.build.target=esp32
+Line 1426: esp32.build.bootloader_addr=0x1000
+  pre: 
+  pre: esp32.build.tarch=xtensa
+  post: esp32.build.target=esp32
+  post: esp32.build.mcu=esp32
+Line 1427: esp32.build.target=esp32
+  pre: esp32.build.tarch=xtensa
+  pre: esp32.build.bootloader_addr=0x1000
+  post: esp32.build.mcu=esp32
+  post: esp32.build.core=esp32
+Line 1428: esp32.build.mcu=esp32
+  pre: esp32.build.bootloader_addr=0x1000
+  pre: esp32.build.target=esp32
+  post: esp32.build.core=esp32
+  post: esp32.build.variant=esp32
+Line 1429: esp32.build.core=esp32
+  pre: esp32.build.target=esp32
+  pre: esp32.build.mcu=esp32
+  post: esp32.build.variant=esp32
+  post: esp32.build.board=ESP32_DEV
+Line 1430: esp32.build.variant=esp32
+  pre: esp32.build.mcu=esp32
+  pre: esp32.build.core=esp32
+  post: esp32.build.board=ESP32_DEV
+  post: 
+Line 1431: esp32.build.board=ESP32_DEV
+  pre: esp32.build.core=esp32
+  pre: esp32.build.variant=esp32
+  post: 
+  post: esp32.build.f_cpu=240000000L
+Line 1433: esp32.build.f_cpu=240000000L
+  pre: esp32.build.board=ESP32_DEV
+  pre: 
+  post: esp32.build.flash_size=4MB
+  post: esp32.build.flash_freq=40m
+Line 1434: esp32.build.flash_size=4MB
+  pre: 
+  pre: esp32.build.f_cpu=240000000L
+  post: esp32.build.flash_freq=40m
+  post: esp32.build.flash_mode=dio
+Line 1435: esp32.build.flash_freq=40m
+  pre: esp32.build.f_cpu=240000000L
+  pre: esp32.build.flash_size=4MB
+  post: esp32.build.flash_mode=dio
+  post: esp32.build.boot=dio
+Line 1436: esp32.build.flash_mode=dio
+  pre: esp32.build.flash_size=4MB
+  pre: esp32.build.flash_freq=40m
+  post: esp32.build.boot=dio
+  post: esp32.build.partitions=default
+Line 1437: esp32.build.boot=dio
+  pre: esp32.build.flash_freq=40m
+  pre: esp32.build.flash_mode=dio
+  post: esp32.build.partitions=default
+  post: esp32.build.defines=
+Line 1438: esp32.build.partitions=default
+  pre: esp32.build.flash_mode=dio
+  pre: esp32.build.boot=dio
+  post: esp32.build.defines=
+  post: esp32.build.loop_core=
+Line 1439: esp32.build.defines=
+  pre: esp32.build.boot=dio
+  pre: esp32.build.partitions=default
+  post: esp32.build.loop_core=
+  post: esp32.build.event_core=
+Line 1440: esp32.build.loop_core=
+  pre: esp32.build.partitions=default
+  pre: esp32.build.defines=
+  post: esp32.build.event_core=
+  post: 
+Line 1441: esp32.build.event_core=
+  pre: esp32.build.defines=
+  pre: esp32.build.loop_core=
+  post: 
+  post: ## IDE 2.0 Seems to not update the value
+Line 13697: featheresp32.build.tarch=xtensa
+  pre: featheresp32.serial.disableRTS=true
+  pre: 
+  post: featheresp32.build.bootloader_addr=0x1000
+  post: featheresp32.build.target=esp32
+Line 13698: featheresp32.build.bootloader_addr=0x1000
+  pre: 
+  pre: featheresp32.build.tarch=xtensa
+  post: featheresp32.build.target=esp32
+  post: featheresp32.build.mcu=esp32
+Line 13699: featheresp32.build.target=esp32
+  pre: featheresp32.build.tarch=xtensa
+  pre: featheresp32.build.bootloader_addr=0x1000
+  post: featheresp32.build.mcu=esp32
+  post: featheresp32.build.core=esp32
+Line 13700: featheresp32.build.mcu=esp32
+  pre: featheresp32.build.bootloader_addr=0x1000
+  pre: featheresp32.build.target=esp32
+  post: featheresp32.build.core=esp32
+  post: featheresp32.build.variant=feather_esp32
+Line 13701: featheresp32.build.core=esp32
+  pre: featheresp32.build.target=esp32
+  pre: featheresp32.build.mcu=esp32
+  post: featheresp32.build.variant=feather_esp32
+  post: featheresp32.build.board=FEATHER_ESP32
+Line 13702: featheresp32.build.variant=feather_esp32
+  pre: featheresp32.build.mcu=esp32
+  pre: featheresp32.build.core=esp32
+  post: featheresp32.build.board=FEATHER_ESP32
+  post: 
+Line 13703: featheresp32.build.board=FEATHER_ESP32
+  pre: featheresp32.build.core=esp32
+  pre: featheresp32.build.variant=feather_esp32
+  post: 
+  post: featheresp32.build.f_cpu=240000000L
+Line 13705: featheresp32.build.f_cpu=240000000L
+  pre: featheresp32.build.board=FEATHER_ESP32
+  pre: 
+  post: featheresp32.build.flash_size=4MB
+  post: featheresp32.build.flash_freq=80m
+Line 13706: featheresp32.build.flash_size=4MB
+  pre: 
+  pre: featheresp32.build.f_cpu=240000000L
+  post: featheresp32.build.flash_freq=80m
+  post: featheresp32.build.flash_mode=dio
+Line 13707: featheresp32.build.flash_freq=80m
+  pre: featheresp32.build.f_cpu=240000000L
+  pre: featheresp32.build.flash_size=4MB
+  post: featheresp32.build.flash_mode=dio
+  post: featheresp32.build.boot=dio
+Line 13708: featheresp32.build.flash_mode=dio
+  pre: featheresp32.build.flash_size=4MB
+  pre: featheresp32.build.flash_freq=80m
+  post: featheresp32.build.boot=dio
+  post: featheresp32.build.partitions=default
+Line 13709: featheresp32.build.boot=dio
+  pre: featheresp32.build.flash_freq=80m
+  pre: featheresp32.build.flash_mode=dio
+  post: featheresp32.build.partitions=default
+  post: featheresp32.build.defines=
+Line 13710: featheresp32.build.partitions=default
+  pre: featheresp32.build.flash_mode=dio
+  pre: featheresp32.build.boot=dio
+  post: featheresp32.build.defines=
+  post: featheresp32.build.loop_core=
+Line 13711: featheresp32.build.defines=
+  pre: featheresp32.build.boot=dio
+  pre: featheresp32.build.partitions=default
+  post: featheresp32.build.loop_core=
+  post: featheresp32.build.event_core=
+Line 13712: featheresp32.build.loop_core=
+  pre: featheresp32.build.partitions=default
+  pre: featheresp32.build.defines=
+  post: featheresp32.build.event_core=
+  post: 
+Line 13713: featheresp32.build.event_core=
+  pre: featheresp32.build.defines=
+  pre: featheresp32.build.loop_core=
+  post: 
+  post: featheresp32.menu.LoopCore.1=Core 1
+Line 16361: adafruit_itsybitsy_esp32.build.tarch=xtensa
+  pre: adafruit_itsybitsy_esp32.serial.disableRTS=true
+  pre: 
+  post: adafruit_itsybitsy_esp32.build.bootloader_addr=0x1000
+  post: adafruit_itsybitsy_esp32.build.target=esp32
+Line 16362: adafruit_itsybitsy_esp32.build.bootloader_addr=0x1000
+  pre: 
+  pre: adafruit_itsybitsy_esp32.build.tarch=xtensa
+  post: adafruit_itsybitsy_esp32.build.target=esp32
+  post: adafruit_itsybitsy_esp32.build.mcu=esp32
+Line 16363: adafruit_itsybitsy_esp32.build.target=esp32
+  pre: adafruit_itsybitsy_esp32.build.tarch=xtensa
+  pre: adafruit_itsybitsy_esp32.build.bootloader_addr=0x1000
+  post: adafruit_itsybitsy_esp32.build.mcu=esp32
+  post: adafruit_itsybitsy_esp32.build.core=esp32
+Line 16364: adafruit_itsybitsy_esp32.build.mcu=esp32
+  pre: adafruit_itsybitsy_esp32.build.bootloader_addr=0x1000
+  pre: adafruit_itsybitsy_esp32.build.target=esp32
+  post: adafruit_itsybitsy_esp32.build.core=esp32
+  post: adafruit_itsybitsy_esp32.build.variant=adafruit_itsybitsy_esp32
+Line 16365: adafruit_itsybitsy_esp32.build.core=esp32
+  pre: adafruit_itsybitsy_esp32.build.target=esp32
+  pre: adafruit_itsybitsy_esp32.build.mcu=esp32
+  post: adafruit_itsybitsy_esp32.build.variant=adafruit_itsybitsy_esp32
+  post: adafruit_itsybitsy_esp32.build.board=ADAFRUIT_ITSYBITSY_ESP32
+Line 16366: adafruit_itsybitsy_esp32.build.variant=adafruit_itsybitsy_esp32
+  pre: adafruit_itsybitsy_esp32.build.mcu=esp32
+  pre: adafruit_itsybitsy_esp32.build.core=esp32
+  post: adafruit_itsybitsy_esp32.build.board=ADAFRUIT_ITSYBITSY_ESP32
+  post: 
+Line 16367: adafruit_itsybitsy_esp32.build.board=ADAFRUIT_ITSYBITSY_ESP32
+  pre: adafruit_itsybitsy_esp32.build.core=esp32
+  pre: adafruit_itsybitsy_esp32.build.variant=adafruit_itsybitsy_esp32
+  post: 
+  post: adafruit_itsybitsy_esp32.build.f_cpu=240000000L
+Line 16369: adafruit_itsybitsy_esp32.build.f_cpu=240000000L
+  pre: adafruit_itsybitsy_esp32.build.board=ADAFRUIT_ITSYBITSY_ESP32
+  pre: 
+  post: adafruit_itsybitsy_esp32.build.flash_size=8MB
+  post: adafruit_itsybitsy_esp32.build.flash_freq=80m
+Line 16370: adafruit_itsybitsy_esp32.build.flash_size=8MB
+  pre: 
+  pre: adafruit_itsybitsy_esp32.build.f_cpu=240000000L
+  post: adafruit_itsybitsy_esp32.build.flash_freq=80m
+  post: adafruit_itsybitsy_esp32.build.flash_mode=dio
+Line 16371: adafruit_itsybitsy_esp32.build.flash_freq=80m
+  pre: adafruit_itsybitsy_esp32.build.f_cpu=240000000L
+  pre: adafruit_itsybitsy_esp32.build.flash_size=8MB
+  post: adafruit_itsybitsy_esp32.build.flash_mode=dio
+  post: adafruit_itsybitsy_esp32.build.boot=dio
+Line 16372: adafruit_itsybitsy_esp32.build.flash_mode=dio
+  pre: adafruit_itsybitsy_esp32.build.flash_size=8MB
+  pre: adafruit_itsybitsy_esp32.build.flash_freq=80m
+  post: adafruit_itsybitsy_esp32.build.boot=dio
+  post: adafruit_itsybitsy_esp32.build.partitions=default
+Line 16373: adafruit_itsybitsy_esp32.build.boot=dio
+  pre: adafruit_itsybitsy_esp32.build.flash_freq=80m
+  pre: adafruit_itsybitsy_esp32.build.flash_mode=dio
+  post: adafruit_itsybitsy_esp32.build.partitions=default
+  post: adafruit_itsybitsy_esp32.build.defines=
+Line 16374: adafruit_itsybitsy_esp32.build.partitions=default
+  pre: adafruit_itsybitsy_esp32.build.flash_mode=dio
+  pre: adafruit_itsybitsy_esp32.build.boot=dio
+  post: adafruit_itsybitsy_esp32.build.defines=
+  post: adafruit_itsybitsy_esp32.build.loop_core=
+Line 16375: adafruit_itsybitsy_esp32.build.defines=
+  pre: adafruit_itsybitsy_esp32.build.boot=dio
+  pre: adafruit_itsybitsy_esp32.build.partitions=default
+  post: adafruit_itsybitsy_esp32.build.loop_core=
+  post: adafruit_itsybitsy_esp32.build.event_core=
+Line 16376: adafruit_itsybitsy_esp32.build.loop_core=
+  pre: adafruit_itsybitsy_esp32.build.partitions=default
+  pre: adafruit_itsybitsy_esp32.build.defines=
+  post: adafruit_itsybitsy_esp32.build.event_core=
+  post: 
+Line 16377: adafruit_itsybitsy_esp32.build.event_core=
+  pre: adafruit_itsybitsy_esp32.build.defines=
+  pre: adafruit_itsybitsy_esp32.build.loop_core=
+  post: 
+  post: adafruit_itsybitsy_esp32.menu.LoopCore.1=Core 1
+Line 24799: odroid_esp32.build.tarch=xtensa
+  pre: odroid_esp32.serial.disableRTS=true
+  pre: 
+  post: odroid_esp32.build.bootloader_addr=0x1000
+  post: odroid_esp32.build.target=esp32
+Line 24800: odroid_esp32.build.bootloader_addr=0x1000
+  pre: 
+  pre: odroid_esp32.build.tarch=xtensa
+  post: odroid_esp32.build.target=esp32
+  post: odroid_esp32.build.mcu=esp32
+

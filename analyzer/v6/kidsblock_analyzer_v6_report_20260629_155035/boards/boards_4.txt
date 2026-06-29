@@ -1,0 +1,18 @@
+﻿FILE=C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\boards.txt
+HAS_XIAO_ESP32C3=False
+HAS_ESP32_BOARD=False
+
+--- matches: XIAO_ESP32C3
+
+--- matches: Seeed
+
+--- matches: esp32c3
+
+--- matches: ESP32C3
+
+--- matches: esp32.name
+
+--- matches: esp32.upload
+
+--- matches: esp32.build
+

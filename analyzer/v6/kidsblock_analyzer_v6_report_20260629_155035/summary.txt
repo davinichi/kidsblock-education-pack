@@ -1,0 +1,58 @@
+﻿KidsBlock Analyzer v6
+Generated: 06/29/2026 15:50:35
+
+Environment
+APPDATA=C:\Users\user\AppData\Roaming
+LOCALAPPDATA=C:\Users\user\AppData\Local
+USERPROFILE=C:\Users\user
+
+Candidate paths
+True  C:\KidsBlock Desktop
+False  C:\Users\user\AppData\Local\Programs\KidsBlock Desktop
+False  C:\Users\user\AppData\Local\Programs\KidsBlock
+True  C:\Users\user\AppData\Roaming\KidsBlock
+True  C:\Users\user\AppData\Roaming\KidsBlock\Data
+
+Active external-resources candidate: C:\Users\user\AppData\Roaming\KidsBlock\Data\external-resources
+Exists: True
+
+EP001 files
+device.js: True
+XIAO device index: True
+XIAO kit index: False
+
+boards.txt files
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\boards.txt
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\boards.txt
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\esp32\2.0.18-arduino.5\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\mbed_edge\4.6.0\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\4.6.0\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\zephyr\0.56.0\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\Arrow\hardware\samd\2.1.0\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.10\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\4.4.4\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\SPRESENSE\hardware\spresense\3.4.5\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\STM32\hardware\stm32\1.9.0\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\STM32\tools\STM32Tools\1.4.0\tools\boards.txt
+C:\Users\user\AppData\Local\Arduino15\packages\UIAP\hardware\ch32v\1.0.42\boards.txt
+
+platform.txt files
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\arduino\hardware\avr\1.8.3\platform.txt
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp32\hardware\esp32\3.2.0\platform.txt
+C:\KidsBlock Desktop\resources\tools\Arduino\packages\esp8266\hardware\esp8266\3.0.0\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\esp32\2.0.18-arduino.5\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\mbed_edge\4.6.0\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\mbed_rp2040\4.6.0\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\renesas_uno\1.6.0\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\arduino\hardware\zephyr\0.56.0\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\Arrow\hardware\samd\2.1.0\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.3.10\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\rp2040\hardware\rp2040\4.4.4\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\SPRESENSE\hardware\spresense\3.4.5\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\STM32\hardware\stm32\1.9.0\platform.txt
+C:\Users\user\AppData\Local\Arduino15\packages\UIAP\hardware\ch32v\1.0.42\platform.txt
+
