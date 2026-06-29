@@ -1,25 +1,22 @@
 # Roadmap
 
-## M1: Analyzer
-- Detect active KidsBlock external-resources path
-- Inspect device.js
-- Inspect device and Arduino kit extension consistency
+## M1 Device display
 
-## M2: EP001 XIAO ESP32C3 display
-- Add device definition
-- Add kit extension definition
-- Confirm appearance in KidsBlock device selector
+- Analyzer v5 verifies nested device structure.
+- EP001 v0.7 installs XIAO ESP32C3 as a display-only device.
 
-## M3: Compile
-- Confirm Arduino code generation
-- Confirm compile target for ESP32-C3
+## M2 Compile
 
-## M4: Upload
-- Fix upload chip argument for ESP32-C3
-- Confirm upload to XIAO ESP32C3
+- Identify Arduino board profile and compile settings.
+- Add or reuse appropriate ESP32-C3 build target.
 
-## M5: Education release
-- Samples
-- Installer
-- Uninstaller
-- Documentation
+## M3 Upload
+
+- Fix esptool chip argument to ESP32-C3.
+- Verify XIAO ESP32C3 boot/upload sequence.
+
+## M4 GPIO and samples
+
+- Add pin map.
+- Add LED, serial, DHT, LCD, BMP/BME samples.
+

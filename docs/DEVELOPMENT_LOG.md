@@ -1,7 +1,9 @@
 # Development Log
 
-## 2026-06-29
-- GitHub repository created: davinichi/kidsblock-education-pack
-- Analyzer v1-v3 tested
-- Active external-resources path identified as `%APPDATA%\KidsBlock\Data\external-resources`
-- SDK v0.1 skeleton created
+## SDK v0.2
+
+- Analyzed `openblock-resource/src/device.js` from `app.asar`.
+- Confirmed device files are loaded from nested folder structure.
+- Previous installers likely failed because the device was installed too shallow.
+- Added Analyzer v5 and EP001 display-only installer v0.7.
+

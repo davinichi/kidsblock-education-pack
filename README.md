@@ -1,12 +1,35 @@
-# KidsBlock Education Pack
+# KidsBlock Education Pack SDK v0.2
 
-Education Pack project for KidsBlock.
+This repository contains tools and draft Education Packs for extending KidsBlock.
 
-## Goal
+## v0.2 focus
 
-- Add support for Seeed Studio XIAO ESP32C3
-- Build reusable SDK for future boards and sensors
+- Confirmed KidsBlock device loader structure.
+- Added Analyzer v5 for nested device-folder checks.
+- Added EP001 XIAO ESP32C3 display-only installer draft v0.7.
 
-## Current phase
+## Important discovery
 
-SDK v0.1: read-only analyzer and project structure.
+KidsBlock loads devices with this structure:
+
+```text
+external-resources/
+  devices/
+    device.js
+    <catalog>/
+      <device>/
+        index.js
+```
+
+Therefore a device folder must not be installed directly as:
+
+```text
+devices/XIAOESP32C3/index.js
+```
+
+It must be installed as:
+
+```text
+devices/XIAOESP32C3/XIAOESP32C3/index.js
+```
+
