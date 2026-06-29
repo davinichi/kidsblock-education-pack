@@ -1,16 +1,12 @@
 # KidsBlock Education Pack
 
-Education Pack for KidsBlock
+Education Pack project for KidsBlock.
 
 ## Goal
 
-Support additional boards
+- Add support for Seeed Studio XIAO ESP32C3
+- Build reusable SDK for future boards and sensors
 
-- XIAO ESP32C3
-- XIAO ESP32S3
-- Arduino UNO R4
-- Raspberry Pi Pico
+## Current phase
 
-## Status
-
-Under development
+SDK v0.1: read-only analyzer and project structure.

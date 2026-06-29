@@ -1,0 +1,15 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Large / original application files
+original/app.asar
+original/*.zip
+original/external-resources*/
+
+# Analyzer generated reports
+analyzer/**/report/
+*.tmp
