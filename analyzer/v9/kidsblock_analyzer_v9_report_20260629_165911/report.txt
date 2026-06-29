@@ -1,0 +1,5 @@
+KidsBlock Analyzer v9
+Timestamp: 20260629_165911
+Active root: C:\Users\user\AppData\Roaming\KidsBlock\Data\external-resources
+XIAO kit index: C:\Users\user\AppData\Roaming\KidsBlock\Data\external-resources\extensions\arduino\kit\XIAOESP32C3\index.js
+Kit index exists: False

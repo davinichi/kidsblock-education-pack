@@ -1,8 +1,15 @@
-# Upload Analysis
+# Upload Analysis v0.9
 
-## Finding
+## Current status
 
-The uploaded `2.bundle.js` contained ESP32 device configuration with:
+- Device list: OK
+- Block screen: OK
+- Compile: OK
+- Upload: still uses ESP32, not ESP32-C3
+
+## Key finding
+
+The uploaded `2.bundle.js` contains:
 
 ```js
 const DIVECE_OPT = {
@@ -11,26 +18,9 @@ const DIVECE_OPT = {
 };
 ```
 
-Analyzer v7 confirmed that the installed Arduino core already includes:
+This likely overrides or bypasses the kit-level FQBN settings.
 
-```text
-XIAO_ESP32C3    esp32:esp32:XIAO_ESP32C3
-```
+## Next step
 
-Therefore the remaining upload error is caused by the XIAO kit still passing the generic ESP32 FQBN.
-
-## Error
-
-```text
-A fatal error occurred: This chip is ESP32-C3, not ESP32. Wrong --chip argument?
-```
-
-## Fix target
-
-Change the kit-level `DIVECE_OPT.fqbn` to:
-
-```text
-esp32:esp32:XIAO_ESP32C3
-```
-
-This version does not edit `boards.txt`.
+Find the real active `2.bundle.js` file used by KidsBlock.  
+Do not patch the file until its full path is confirmed.
