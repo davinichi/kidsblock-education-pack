@@ -1,0 +1,16 @@
+KidsBlock Analyzer v13 - RC3 app.asar check
+Generated: 06/29/2026 18:07:26
+app.asar exists: True
+npx: 11.16.0
+asar extract exit code: 0
+------------------------------------------------------------
+path: C:\Users\user\AppData\Local\Temp\kb_analyzer_v13_20260629_180726\app\node_modules\openblock-link\src\session\serialport.js
+generic count: 0
+xiao c3 count: 1
+------------------------------------------------------------
+path: C:\Users\user\AppData\Local\Temp\kb_analyzer_v13_20260629_180726\app\2.bundle.js
+generic count: 0
+xiao c3 count: 3
+
+TOTAL generic esp32:esp32:esp32: 0
+TOTAL xiao esp32:esp32:XIAO_ESP32C3: 4
